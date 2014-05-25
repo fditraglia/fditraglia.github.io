@@ -1,0 +1,88 @@
+# Some R Notes
+
+This R document contains some notes I've made while working through material from Hadley Wickham's excellent book [Advanced R](http://adv-r.had.co.nz/). 
+The notes are written in R Markdown using the [knitr](http://yihui.name.knitr) package. Full source code is available on my Github Page.
+
+----
+
+## R Functions I'm ashamed I didn't know...
+
+----
+
+### `str`  -- *"Compactly display the structure of an arbitrary R object"*
+It does what it says: give it any R object as an argument and `str` will tell you what's inside. Let's look at some simple examples.
+#### `str` Examples: Atomic Vectors
+```{r}
+str(1:3)
+str(c(1.0, 2.0, 3.0))
+str(rnorm(3))
+str(c("Alice", "Bob", "Charlie"))
+```
+#### `str` Examples: Matrices
+```{r}
+str(matrix(1:4, 2, 2))
+str(matrix(rnorm(4), 2, 2))
+str(matrix(paste("Person", 1:4, sep = ""), 2, 2))
+```
+#### `str` Examples: Dataframes
+```{r}
+str(cars)
+str(iris)
+```
+
+#### `str` Examples: Arbitrary Lists
+```{r}
+M <- matrix(rnorm(4), 2, 2)
+friends <- c("Alice", "Bob", "Charlie")
+str(list(M, friends))
+```
+#### `str` Examples: Functions
+```{r}
+str(mean)
+add2 <- function(x, y){ x + y }
+str(add2)
+```
+----
+
+### `drop`  -- *"Drop redundant extent information"*
+
+This is both a standalone function and an option that can be used with the various subsetting commands such as `[` and `subset`. 
+
+#### `drop` Examples: Standalone Function
+The matrix `M` has only one column, so we could have stored the same information as a vector if we had wanted to. The `drop` function makes this simplification. In other words it deletes "the dimensions of an array which have only one level"
+```{r}
+M <- matrix(1:5, 5, 1)
+M
+drop(M)
+```
+
+#### `drop` Examples: Argument to Subsetting Functions
+Both `[` and `subset` take `drop` as a logical argument. While `[` defaults to `drop = TRUE`
+```{r}
+M <- matrix(1:4, 2, 2)
+M[1,]
+M[1, ,drop = FALSE]
+```
+`subset` defaults to `drop = FALSE`
+```{r}
+data <- data.frame(age = c(20, 35, 16))
+subset(data, age != 35)
+subset(data, age != 35, drop = TRUE)
+```
+Setting `drop = FALSE` with `[` can be crucial for getting the results you expect in matrix operations. The following code, for example, does not do what we'd expect: it gives the *inner* product rather than the *outer* product:
+```{r}
+M <- matrix(1:4, 2, 2)
+x <- M[,1]
+y <- M[2,]
+x %*% y
+```
+Incidentally, this presents another opportunity to demonstrate `drop` as a standalone function:
+```{r}
+drop(x %*% y)
+```
+To get the *outer* product, we use `drop` as an argument to `[` as follows
+```{r}
+x <- M[,1,drop = FALSE]
+y <-  M[2,,drop = FALSE] 
+x %*% y 
+```
