@@ -10,7 +10,8 @@ The notes are written in R Markdown using the [knitr](http://yihui.name/knitr) p
 ----
 
 ### `str`  -- *"Compactly display the structure of an arbitrary R object"*
-It does what it says: give it any R object as an argument and `str` will tell you what's inside. Let's look at some simple examples.
+It does what it says: give it any R object as an argument and `str` will tell you what's inside. 
+Let's look at some simple examples.
 #### `str` Examples: Atomic Vectors
 
 ```r
@@ -34,7 +35,7 @@ str(rnorm(3))
 ```
 
 ```
-##  num [1:3] 1.158 -0.325 -0.131
+##  num [1:3] -2.05 0.45 1.52
 ```
 
 ```r
@@ -60,7 +61,7 @@ str(matrix(rnorm(4), 2, 2))
 ```
 
 ```
-##  num [1:2, 1:2] 0.17 -0.736 -1.11 0.547
+##  num [1:2, 1:2] 0.121 -1.06 0.8 -1.102
 ```
 
 ```r
@@ -107,7 +108,7 @@ str(list(M, friends))
 
 ```
 ## List of 2
-##  $ : num [1:2, 1:2] 0.769 -1.062 -0.704 -2.277
+##  $ : num [1:2, 1:2] 0.848 0.648 -1.082 0.652
 ##  $ : chr [1:3] "Alice" "Bob" "Charlie"
 ```
 
@@ -131,7 +132,7 @@ str(add2)
 ```
 ## function (x, y)  
 ##  - attr(*, "srcref")=Class 'srcref'  atomic [1:8] 2 9 4 1 9 1 2 4
-##   .. ..- attr(*, "srcfile")=Classes 'srcfilecopy', 'srcfile' <environment: 0x104d9b600>
+##   .. ..- attr(*, "srcfile")=Classes 'srcfilecopy', 'srcfile' <environment: 0x104e52668>
 ```
 
 ----
@@ -141,7 +142,9 @@ str(add2)
 This is both a standalone function and an option that can be used with the various subsetting commands such as `[` and `subset`. 
 
 #### `drop` Examples: Standalone Function
-The matrix `M` has only one column, so we could have stored the same information as a vector if we had wanted to. The `drop` function makes this simplification. In other words it deletes "the dimensions of an array which have only one level"
+The matrix `M` has only one column, so we could have stored the same information as a vector if we had wanted to. 
+The `drop` function makes this simplification. 
+In other words it deletes "the dimensions of an array which have only one level"
 
 ```r
 M <- matrix(1:5, 5, 1)
@@ -167,7 +170,8 @@ drop(M)
 
 
 #### `drop` Examples: Argument to Subsetting Functions
-Both `[` and `subset` take `drop` as a logical argument. While `[` defaults to `drop = TRUE`
+Both `[` and `subset` take `drop` as a logical argument.
+While `[` defaults to `drop = TRUE`
 
 ```r
 M <- matrix(1:4, 2, 2)
@@ -208,7 +212,8 @@ subset(data, age != 35, drop = TRUE)
 ## [1] 20 16
 ```
 
-Setting `drop = FALSE` with `[` can be crucial for getting the results you expect in matrix operations. The following code, for example, does not do what we'd expect: it gives the *inner* product rather than the *outer* product:
+Setting `drop = FALSE` with `[` can be crucial for getting the results you expect in matrix operations. 
+The following code, for example, does not do what we'd expect: it gives the *inner* product rather than the *outer* product:
 
 ```r
 M <- matrix(1:4, 2, 2)

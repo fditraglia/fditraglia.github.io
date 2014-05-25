@@ -192,7 +192,8 @@ The notes are written in R Markdown using the <a href="http://yihui.name/knitr">
 
 <h3><code>str</code>  &ndash; <em>&ldquo;Compactly display the structure of an arbitrary R object&rdquo;</em></h3>
 
-<p>It does what it says: give it any R object as an argument and <code>str</code> will tell you what&#39;s inside. Let&#39;s look at some simple examples.</p>
+<p>It does what it says: give it any R object as an argument and <code>str</code> will tell you what&#39;s inside. 
+Let&#39;s look at some simple examples.</p>
 
 <h4><code>str</code> Examples: Atomic Vectors</h4>
 
@@ -211,7 +212,7 @@ The notes are written in R Markdown using the <a href="http://yihui.name/knitr">
 <pre><code class="r">str(rnorm(3))
 </code></pre>
 
-<pre><code>##  num [1:3] 1.158 -0.325 -0.131
+<pre><code>##  num [1:3] -2.05 0.45 1.52
 </code></pre>
 
 <pre><code class="r">str(c(&quot;Alice&quot;, &quot;Bob&quot;, &quot;Charlie&quot;))
@@ -231,7 +232,7 @@ The notes are written in R Markdown using the <a href="http://yihui.name/knitr">
 <pre><code class="r">str(matrix(rnorm(4), 2, 2))
 </code></pre>
 
-<pre><code>##  num [1:2, 1:2] 0.17 -0.736 -1.11 0.547
+<pre><code>##  num [1:2, 1:2] 0.121 -1.06 0.8 -1.102
 </code></pre>
 
 <pre><code class="r">str(matrix(paste(&quot;Person&quot;, 1:4, sep = &quot;&quot;), 2, 2))
@@ -269,7 +270,7 @@ str(list(M, friends))
 </code></pre>
 
 <pre><code>## List of 2
-##  $ : num [1:2, 1:2] 0.769 -1.062 -0.704 -2.277
+##  $ : num [1:2, 1:2] 0.848 0.648 -1.082 0.652
 ##  $ : chr [1:3] &quot;Alice&quot; &quot;Bob&quot; &quot;Charlie&quot;
 </code></pre>
 
@@ -289,7 +290,7 @@ str(add2)
 
 <pre><code>## function (x, y)  
 ##  - attr(*, &quot;srcref&quot;)=Class &#39;srcref&#39;  atomic [1:8] 2 9 4 1 9 1 2 4
-##   .. ..- attr(*, &quot;srcfile&quot;)=Classes &#39;srcfilecopy&#39;, &#39;srcfile&#39; &lt;environment: 0x104d9b600&gt;
+##   .. ..- attr(*, &quot;srcfile&quot;)=Classes &#39;srcfilecopy&#39;, &#39;srcfile&#39; &lt;environment: 0x104e52668&gt;
 </code></pre>
 
 <hr/>
@@ -300,7 +301,9 @@ str(add2)
 
 <h4><code>drop</code> Examples: Standalone Function</h4>
 
-<p>The matrix <code>M</code> has only one column, so we could have stored the same information as a vector if we had wanted to. The <code>drop</code> function makes this simplification. In other words it deletes &ldquo;the dimensions of an array which have only one level&rdquo;</p>
+<p>The matrix <code>M</code> has only one column, so we could have stored the same information as a vector if we had wanted to. 
+The <code>drop</code> function makes this simplification. 
+In other words it deletes &ldquo;the dimensions of an array which have only one level&rdquo;</p>
 
 <pre><code class="r">M &lt;- matrix(1:5, 5, 1)
 M
@@ -322,7 +325,8 @@ M
 
 <h4><code>drop</code> Examples: Argument to Subsetting Functions</h4>
 
-<p>Both <code>[</code> and <code>subset</code> take <code>drop</code> as a logical argument. While <code>[</code> defaults to <code>drop = TRUE</code></p>
+<p>Both <code>[</code> and <code>subset</code> take <code>drop</code> as a logical argument.
+While <code>[</code> defaults to <code>drop = TRUE</code></p>
 
 <pre><code class="r">M &lt;- matrix(1:4, 2, 2)
 M[1, ]
@@ -355,7 +359,8 @@ subset(data, age != 35)
 <pre><code>## [1] 20 16
 </code></pre>
 
-<p>Setting <code>drop = FALSE</code> with <code>[</code> can be crucial for getting the results you expect in matrix operations. The following code, for example, does not do what we&#39;d expect: it gives the <em>inner</em> product rather than the <em>outer</em> product:</p>
+<p>Setting <code>drop = FALSE</code> with <code>[</code> can be crucial for getting the results you expect in matrix operations. 
+The following code, for example, does not do what we&#39;d expect: it gives the <em>inner</em> product rather than the <em>outer</em> product:</p>
 
 <pre><code class="r">M &lt;- matrix(1:4, 2, 2)
 x &lt;- M[, 1]
