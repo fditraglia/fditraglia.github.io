@@ -35,7 +35,7 @@ str(rnorm(3))
 ```
 
 ```
-##  num [1:3] -2.05 0.45 1.52
+##  num [1:3] 0.1016 -0.0227 1.0219
 ```
 
 ```r
@@ -61,7 +61,7 @@ str(matrix(rnorm(4), 2, 2))
 ```
 
 ```
-##  num [1:2, 1:2] 0.121 -1.06 0.8 -1.102
+##  num [1:2, 1:2] -0.568 -1.459 -0.407 -0.912
 ```
 
 ```r
@@ -108,7 +108,7 @@ str(list(M, friends))
 
 ```
 ## List of 2
-##  $ : num [1:2, 1:2] 0.848 0.648 -1.082 0.652
+##  $ : num [1:2, 1:2] -1.797 -0.55 -1.029 -0.257
 ##  $ : chr [1:3] "Alice" "Bob" "Charlie"
 ```
 
@@ -132,7 +132,7 @@ str(add2)
 ```
 ## function (x, y)  
 ##  - attr(*, "srcref")=Class 'srcref'  atomic [1:8] 2 9 4 1 9 1 2 4
-##   .. ..- attr(*, "srcfile")=Classes 'srcfilecopy', 'srcfile' <environment: 0x104e52668>
+##   .. ..- attr(*, "srcfile")=Classes 'srcfilecopy', 'srcfile' <environment: 0x105895918>
 ```
 
 ----
