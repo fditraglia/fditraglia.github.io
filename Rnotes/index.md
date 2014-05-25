@@ -1,7 +1,7 @@
 # Some R Notes
 
 This R document contains some notes I've made while working through material from Hadley Wickham's excellent book [Advanced R](http://adv-r.had.co.nz/). 
-The notes are written in R Markdown using the [knitr](http://yihui.name.knitr) package. 
+The notes are written in R Markdown using the [knitr](http://yihui.name/knitr) package. 
 
 ----
 
@@ -34,7 +34,7 @@ str(rnorm(3))
 ```
 
 ```
-##  num [1:3] -2.257 1.671 0.041
+##  num [1:3] 1.158 -0.325 -0.131
 ```
 
 ```r
@@ -60,7 +60,7 @@ str(matrix(rnorm(4), 2, 2))
 ```
 
 ```
-##  num [1:2, 1:2] 1.089 -0.835 -0.673 1.512
+##  num [1:2, 1:2] 0.17 -0.736 -1.11 0.547
 ```
 
 ```r
@@ -107,7 +107,7 @@ str(list(M, friends))
 
 ```
 ## List of 2
-##  $ : num [1:2, 1:2] -0.266 -0.486 -0.46 -1.142
+##  $ : num [1:2, 1:2] 0.769 -1.062 -0.704 -2.277
 ##  $ : chr [1:3] "Alice" "Bob" "Charlie"
 ```
 
@@ -131,7 +131,7 @@ str(add2)
 ```
 ## function (x, y)  
 ##  - attr(*, "srcref")=Class 'srcref'  atomic [1:8] 2 9 4 1 9 1 2 4
-##   .. ..- attr(*, "srcfile")=Classes 'srcfilecopy', 'srcfile' <environment: 0x104a2faa8>
+##   .. ..- attr(*, "srcfile")=Classes 'srcfilecopy', 'srcfile' <environment: 0x104d9b600>
 ```
 
 ----

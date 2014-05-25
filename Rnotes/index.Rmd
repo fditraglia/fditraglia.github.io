@@ -1,7 +1,7 @@
 # Some R Notes
 
 This R document contains some notes I've made while working through material from Hadley Wickham's excellent book [Advanced R](http://adv-r.had.co.nz/). 
-The notes are written in R Markdown using the [knitr](http://yihui.name.knitr) package. 
+The notes are written in R Markdown using the [knitr](http://yihui.name/knitr) package. 
 
 ----
 
