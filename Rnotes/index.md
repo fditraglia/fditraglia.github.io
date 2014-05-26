@@ -15,7 +15,16 @@ Let's look at some simple examples.
 #### `str` Examples: Atomic Vectors
 
 ```r
-str(1:3)
+x <- 1:3
+x
+```
+
+```
+## [1] 1 2 3
+```
+
+```r
+str(x)
 ```
 
 ```
@@ -23,7 +32,16 @@ str(1:3)
 ```
 
 ```r
-str(c(1, 2, 3))
+y <- c(1, 2, 3)
+y
+```
+
+```
+## [1] 1 2 3
+```
+
+```r
+str(y)
 ```
 
 ```
@@ -31,15 +49,33 @@ str(c(1, 2, 3))
 ```
 
 ```r
-str(rnorm(3))
+z <- rnorm(3)
+z
 ```
 
 ```
-##  num [1:3] 0.1016 -0.0227 1.0219
+## [1] -0.08882 -0.98754  0.27008
 ```
 
 ```r
-str(c("Alice", "Bob", "Charlie"))
+str(z)
+```
+
+```
+##  num [1:3] -0.0888 -0.9875 0.2701
+```
+
+```r
+people <- c("Alice", "Bob", "Charlie")
+people
+```
+
+```
+## [1] "Alice"   "Bob"     "Charlie"
+```
+
+```r
+str(people)
 ```
 
 ```
@@ -49,7 +85,18 @@ str(c("Alice", "Bob", "Charlie"))
 #### `str` Examples: Matrices
 
 ```r
-str(matrix(1:4, 2, 2))
+M <- matrix(1:4, 2, 2)
+M
+```
+
+```
+##      [,1] [,2]
+## [1,]    1    3
+## [2,]    2    4
+```
+
+```r
+str(M)
 ```
 
 ```
@@ -57,15 +104,27 @@ str(matrix(1:4, 2, 2))
 ```
 
 ```r
-str(matrix(rnorm(4), 2, 2))
+N <- matrix(rnorm(4), 2, 2)
+str(N)
 ```
 
 ```
-##  num [1:2, 1:2] -0.568 -1.459 -0.407 -0.912
+##  num [1:2, 1:2] -1.331 0.739 -1.529 0.805
 ```
 
 ```r
-str(matrix(paste("Person", 1:4, sep = ""), 2, 2))
+P <- matrix(paste("Person", 1:4, sep = ""), 2, 2)
+P
+```
+
+```
+##      [,1]      [,2]     
+## [1,] "Person1" "Person3"
+## [2,] "Person2" "Person4"
+```
+
+```r
+str(P)
 ```
 
 ```
@@ -103,12 +162,27 @@ str(iris)
 ```r
 M <- matrix(rnorm(4), 2, 2)
 friends <- c("Alice", "Bob", "Charlie")
-str(list(M, friends))
+mylist <- list(M, friends)
+mylist
+```
+
+```
+## [[1]]
+##         [,1]    [,2]
+## [1,]  0.8332 -0.2208
+## [2,] -1.8612 -0.8967
+## 
+## [[2]]
+## [1] "Alice"   "Bob"     "Charlie"
+```
+
+```r
+str(mylist)
 ```
 
 ```
 ## List of 2
-##  $ : num [1:2, 1:2] -1.797 -0.55 -1.029 -0.257
+##  $ : num [1:2, 1:2] 0.833 -1.861 -0.221 -0.897
 ##  $ : chr [1:3] "Alice" "Bob" "Charlie"
 ```
 
@@ -132,7 +206,7 @@ str(add2)
 ```
 ## function (x, y)  
 ##  - attr(*, "srcref")=Class 'srcref'  atomic [1:8] 2 9 4 1 9 1 2 4
-##   .. ..- attr(*, "srcfile")=Classes 'srcfilecopy', 'srcfile' <environment: 0x105895918>
+##   .. ..- attr(*, "srcfile")=Classes 'srcfilecopy', 'srcfile' <environment: 0x104a8d4d0>
 ```
 
 ----
@@ -250,4 +324,161 @@ x %*% y
 ## [1,]    2    4
 ## [2,]    4    8
 ```
+
+
+### `match`  -- *"Value matching"*
+This function has a binary operator counterpart `%in%`. 
+Whereas `match` returns a vector of *positions*, possibly including `NA`s, `%in%` returns a logical vector *without* `NA`s. 
+Both `match` and `%in%` try to match the elements of their *first* argument with elements of their *second* argument.
+This means that each returns a result of the same dimension of the *first* argument.
+
+#### `match` Examples: Atomic Vectors
+
+```r
+friends <- c("Alice", "Bob", "Charlie")
+coworkers <- c("Bob", "Charlie", "Diana", "Elise")
+match(friends, coworkers)
+```
+
+```
+## [1] NA  1  2
+```
+
+```r
+friends %in% coworkers
+```
+
+```
+## [1] FALSE  TRUE  TRUE
+```
+
+Because Alice is not an element of `coworkers`, `match` cannot return a position, so it returns `NA` instead.
+Now try reversing the order of the arguments:
+
+```r
+match(coworkers, friends)
+```
+
+```
+## [1]  2  3 NA NA
+```
+
+```r
+coworkers %in% friends
+```
+
+```
+## [1]  TRUE  TRUE FALSE FALSE
+```
+
+What about multiple matches?
+
+```r
+x <- 1:5
+y <- c(2, 3, 4, 4)
+```
+
+The function `match` handles multiple matches by returning the position of the *first* match
+
+```r
+match(x, y)
+```
+
+```
+## [1] NA  1  2  3 NA
+```
+
+In contrast, `%in%` simply returns TRUE, indicating that there is at least one match
+
+```r
+x %in% y
+```
+
+```
+## [1] FALSE  TRUE  TRUE  TRUE FALSE
+```
+
+Both `match` and `%in%` take *vector* arguments. So what happens, for example, if we try to pass them a matrix?
+
+```r
+m <- c(11, 13, 19)
+M <- matrix(11:19, 3, 3)
+m
+```
+
+```
+## [1] 11 13 19
+```
+
+```r
+M
+```
+
+```
+##      [,1] [,2] [,3]
+## [1,]   11   14   17
+## [2,]   12   15   18
+## [3,]   13   16   19
+```
+
+To understand the following, remember that we *can* access R matrices with a single index, where the convention is to treat the whole matrix as a vector in which the *columns* are pasted together 
+
+```r
+M[1]
+```
+
+```
+## [1] 11
+```
+
+```r
+M[1:4]
+```
+
+```
+## [1] 11 12 13 14
+```
+
+Thus,
+
+```r
+match(m, M)
+```
+
+```
+## [1] 1 3 9
+```
+
+```r
+m %in% M
+```
+
+```
+## [1] TRUE TRUE TRUE
+```
+
+```r
+match(M, m)
+```
+
+```
+## [1]  1 NA  2 NA NA NA NA NA  3
+```
+
+```r
+M %in% m
+```
+
+```
+## [1]  TRUE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE  TRUE
+```
+
+```r
+M %in% M
+```
+
+```
+## [1] TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE
+```
+
 

@@ -197,25 +197,53 @@ Let&#39;s look at some simple examples.</p>
 
 <h4><code>str</code> Examples: Atomic Vectors</h4>
 
-<pre><code class="r">str(1:3)
+<pre><code class="r">x &lt;- 1:3
+x
+</code></pre>
+
+<pre><code>## [1] 1 2 3
+</code></pre>
+
+<pre><code class="r">str(x)
 </code></pre>
 
 <pre><code>##  int [1:3] 1 2 3
 </code></pre>
 
-<pre><code class="r">str(c(1, 2, 3))
+<pre><code class="r">y &lt;- c(1, 2, 3)
+y
+</code></pre>
+
+<pre><code>## [1] 1 2 3
+</code></pre>
+
+<pre><code class="r">str(y)
 </code></pre>
 
 <pre><code>##  num [1:3] 1 2 3
 </code></pre>
 
-<pre><code class="r">str(rnorm(3))
+<pre><code class="r">z &lt;- rnorm(3)
+z
 </code></pre>
 
-<pre><code>##  num [1:3] 0.1016 -0.0227 1.0219
+<pre><code>## [1] -0.08882 -0.98754  0.27008
 </code></pre>
 
-<pre><code class="r">str(c(&quot;Alice&quot;, &quot;Bob&quot;, &quot;Charlie&quot;))
+<pre><code class="r">str(z)
+</code></pre>
+
+<pre><code>##  num [1:3] -0.0888 -0.9875 0.2701
+</code></pre>
+
+<pre><code class="r">people &lt;- c(&quot;Alice&quot;, &quot;Bob&quot;, &quot;Charlie&quot;)
+people
+</code></pre>
+
+<pre><code>## [1] &quot;Alice&quot;   &quot;Bob&quot;     &quot;Charlie&quot;
+</code></pre>
+
+<pre><code class="r">str(people)
 </code></pre>
 
 <pre><code>##  chr [1:3] &quot;Alice&quot; &quot;Bob&quot; &quot;Charlie&quot;
@@ -223,19 +251,38 @@ Let&#39;s look at some simple examples.</p>
 
 <h4><code>str</code> Examples: Matrices</h4>
 
-<pre><code class="r">str(matrix(1:4, 2, 2))
+<pre><code class="r">M &lt;- matrix(1:4, 2, 2)
+M
+</code></pre>
+
+<pre><code>##      [,1] [,2]
+## [1,]    1    3
+## [2,]    2    4
+</code></pre>
+
+<pre><code class="r">str(M)
 </code></pre>
 
 <pre><code>##  int [1:2, 1:2] 1 2 3 4
 </code></pre>
 
-<pre><code class="r">str(matrix(rnorm(4), 2, 2))
+<pre><code class="r">N &lt;- matrix(rnorm(4), 2, 2)
+str(N)
 </code></pre>
 
-<pre><code>##  num [1:2, 1:2] -0.568 -1.459 -0.407 -0.912
+<pre><code>##  num [1:2, 1:2] -1.331 0.739 -1.529 0.805
 </code></pre>
 
-<pre><code class="r">str(matrix(paste(&quot;Person&quot;, 1:4, sep = &quot;&quot;), 2, 2))
+<pre><code class="r">P &lt;- matrix(paste(&quot;Person&quot;, 1:4, sep = &quot;&quot;), 2, 2)
+P
+</code></pre>
+
+<pre><code>##      [,1]      [,2]     
+## [1,] &quot;Person1&quot; &quot;Person3&quot;
+## [2,] &quot;Person2&quot; &quot;Person4&quot;
+</code></pre>
+
+<pre><code class="r">str(P)
 </code></pre>
 
 <pre><code>##  chr [1:2, 1:2] &quot;Person1&quot; &quot;Person2&quot; &quot;Person3&quot; &quot;Person4&quot;
@@ -266,11 +313,24 @@ Let&#39;s look at some simple examples.</p>
 
 <pre><code class="r">M &lt;- matrix(rnorm(4), 2, 2)
 friends &lt;- c(&quot;Alice&quot;, &quot;Bob&quot;, &quot;Charlie&quot;)
-str(list(M, friends))
+mylist &lt;- list(M, friends)
+mylist
+</code></pre>
+
+<pre><code>## [[1]]
+##         [,1]    [,2]
+## [1,]  0.8332 -0.2208
+## [2,] -1.8612 -0.8967
+## 
+## [[2]]
+## [1] &quot;Alice&quot;   &quot;Bob&quot;     &quot;Charlie&quot;
+</code></pre>
+
+<pre><code class="r">str(mylist)
 </code></pre>
 
 <pre><code>## List of 2
-##  $ : num [1:2, 1:2] -1.797 -0.55 -1.029 -0.257
+##  $ : num [1:2, 1:2] 0.833 -1.861 -0.221 -0.897
 ##  $ : chr [1:3] &quot;Alice&quot; &quot;Bob&quot; &quot;Charlie&quot;
 </code></pre>
 
@@ -290,7 +350,7 @@ str(add2)
 
 <pre><code>## function (x, y)  
 ##  - attr(*, &quot;srcref&quot;)=Class &#39;srcref&#39;  atomic [1:8] 2 9 4 1 9 1 2 4
-##   .. ..- attr(*, &quot;srcfile&quot;)=Classes &#39;srcfilecopy&#39;, &#39;srcfile&#39; &lt;environment: 0x105895918&gt;
+##   .. ..- attr(*, &quot;srcfile&quot;)=Classes &#39;srcfilecopy&#39;, &#39;srcfile&#39; &lt;environment: 0x104a8d4d0&gt;
 </code></pre>
 
 <hr/>
@@ -390,6 +450,131 @@ x %*% y
 <pre><code>##      [,1] [,2]
 ## [1,]    2    4
 ## [2,]    4    8
+</code></pre>
+
+<h3><code>match</code>  &ndash; <em>&ldquo;Value matching&rdquo;</em></h3>
+
+<p>This function has a binary operator counterpart <code>%in%</code>. 
+Whereas <code>match</code> returns a vector of <em>positions</em>, possibly including <code>NA</code>s, <code>%in%</code> returns a logical vector <em>without</em> <code>NA</code>s. 
+Both <code>match</code> and <code>%in%</code> try to match the elements of their <em>first</em> argument with elements of their <em>second</em> argument.
+This means that each returns a result of the same dimension of the <em>first</em> argument.</p>
+
+<h4><code>match</code> Examples: Atomic Vectors</h4>
+
+<pre><code class="r">friends &lt;- c(&quot;Alice&quot;, &quot;Bob&quot;, &quot;Charlie&quot;)
+coworkers &lt;- c(&quot;Bob&quot;, &quot;Charlie&quot;, &quot;Diana&quot;, &quot;Elise&quot;)
+match(friends, coworkers)
+</code></pre>
+
+<pre><code>## [1] NA  1  2
+</code></pre>
+
+<pre><code class="r">friends %in% coworkers
+</code></pre>
+
+<pre><code>## [1] FALSE  TRUE  TRUE
+</code></pre>
+
+<p>Because Alice is not an element of <code>coworkers</code>, <code>match</code> cannot return a position, so it returns <code>NA</code> instead.
+Now try reversing the order of the arguments:</p>
+
+<pre><code class="r">match(coworkers, friends)
+</code></pre>
+
+<pre><code>## [1]  2  3 NA NA
+</code></pre>
+
+<pre><code class="r">coworkers %in% friends
+</code></pre>
+
+<pre><code>## [1]  TRUE  TRUE FALSE FALSE
+</code></pre>
+
+<p>What about multiple matches?</p>
+
+<pre><code class="r">x &lt;- 1:5
+y &lt;- c(2, 3, 4, 4)
+</code></pre>
+
+<p>The function <code>match</code> handles multiple matches by returning the position of the <em>first</em> match</p>
+
+<pre><code class="r">match(x, y)
+</code></pre>
+
+<pre><code>## [1] NA  1  2  3 NA
+</code></pre>
+
+<p>In contrast, <code>%in%</code> simply returns TRUE, indicating that there is at least one match</p>
+
+<pre><code class="r">x %in% y
+</code></pre>
+
+<pre><code>## [1] FALSE  TRUE  TRUE  TRUE FALSE
+</code></pre>
+
+<p>Both <code>match</code> and <code>%in%</code> take <em>vector</em> arguments. So what happens, for example, if we try to pass them a matrix?</p>
+
+<pre><code class="r">m &lt;- c(11, 13, 19)
+M &lt;- matrix(11:19, 3, 3)
+m
+</code></pre>
+
+<pre><code>## [1] 11 13 19
+</code></pre>
+
+<pre><code class="r">M
+</code></pre>
+
+<pre><code>##      [,1] [,2] [,3]
+## [1,]   11   14   17
+## [2,]   12   15   18
+## [3,]   13   16   19
+</code></pre>
+
+<p>To understand the following, remember that we <em>can</em> access R matrices with a single index, where the convention is to treat the whole matrix as a vector in which the <em>columns</em> are pasted together </p>
+
+<pre><code class="r">M[1]
+</code></pre>
+
+<pre><code>## [1] 11
+</code></pre>
+
+<pre><code class="r">M[1:4]
+</code></pre>
+
+<pre><code>## [1] 11 12 13 14
+</code></pre>
+
+<p>Thus,</p>
+
+<pre><code class="r">match(m, M)
+</code></pre>
+
+<pre><code>## [1] 1 3 9
+</code></pre>
+
+<pre><code class="r">m %in% M
+</code></pre>
+
+<pre><code>## [1] TRUE TRUE TRUE
+</code></pre>
+
+<pre><code class="r">match(M, m)
+</code></pre>
+
+<pre><code>## [1]  1 NA  2 NA NA NA NA NA  3
+</code></pre>
+
+<pre><code class="r">M %in% m
+</code></pre>
+
+<pre><code>## [1]  TRUE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE  TRUE
+</code></pre>
+
+<pre><code class="r">M %in% M
+</code></pre>
+
+<pre><code>## [1] TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE
 </code></pre>
 
 </body>

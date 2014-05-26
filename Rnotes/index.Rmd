@@ -14,16 +14,29 @@ It does what it says: give it any R object as an argument and `str` will tell yo
 Let's look at some simple examples.
 #### `str` Examples: Atomic Vectors
 ```{r}
-str(1:3)
-str(c(1.0, 2.0, 3.0))
-str(rnorm(3))
-str(c("Alice", "Bob", "Charlie"))
+x <- 1:3
+x
+str(x)
+y <- c(1.0, 2.0, 3.0)
+y
+str(y)
+z <- rnorm(3)
+z
+str(z)
+people <- c("Alice", "Bob", "Charlie")
+people
+str(people)
 ```
 #### `str` Examples: Matrices
 ```{r}
-str(matrix(1:4, 2, 2))
-str(matrix(rnorm(4), 2, 2))
-str(matrix(paste("Person", 1:4, sep = ""), 2, 2))
+M <- matrix(1:4, 2, 2)
+M
+str(M)
+N <- matrix(rnorm(4), 2, 2)
+str(N)
+P <- matrix(paste("Person", 1:4, sep = ""), 2, 2)
+P
+str(P)
 ```
 #### `str` Examples: Dataframes
 ```{r}
@@ -35,7 +48,9 @@ str(iris)
 ```{r}
 M <- matrix(rnorm(4), 2, 2)
 friends <- c("Alice", "Bob", "Charlie")
-str(list(M, friends))
+mylist <- list(M, friends)
+mylist
+str(mylist)
 ```
 #### `str` Examples: Functions
 ```{r}
@@ -91,3 +106,57 @@ x <- M[,1,drop = FALSE]
 y <-  M[2,,drop = FALSE] 
 x %*% y 
 ```
+
+### `match`  -- *"Value matching"*
+This function has a binary operator counterpart `%in%`. 
+Whereas `match` returns a vector of *positions*, possibly including `NA`s, `%in%` returns a logical vector *without* `NA`s. 
+Both `match` and `%in%` try to match the elements of their *first* argument with elements of their *second* argument.
+This means that each returns a result of the same dimension of the *first* argument.
+
+#### `match` Examples: Atomic Vectors
+```{r}
+friends <- c("Alice", "Bob", "Charlie")
+coworkers <- c("Bob", "Charlie", "Diana", "Elise")
+match(friends, coworkers)
+friends %in% coworkers
+```
+Because Alice is not an element of `coworkers`, `match` cannot return a position, so it returns `NA` instead.
+Now try reversing the order of the arguments:
+```{r}
+match(coworkers, friends)
+coworkers %in% friends
+```
+What about multiple matches?
+```{r}
+x <- 1:5
+y <- c(2, 3, 4, 4)
+```
+The function `match` handles multiple matches by returning the position of the *first* match
+```{r}
+match(x, y)
+```
+In contrast, `%in%` simply returns TRUE, indicating that there is at least one match
+```{r}
+x %in% y
+```
+Both `match` and `%in%` take *vector* arguments. So what happens, for example, if we try to pass them a matrix?
+```{r}
+m <- c(11, 13, 19)
+M <- matrix(11:19, 3, 3)
+m
+M
+```
+To understand the following, remember that we *can* access R matrices with a single index, where the convention is to treat the whole matrix as a vector in which the *columns* are pasted together 
+```{r}
+M[1]
+M[1:4]
+```
+Thus,
+```{r}
+match(m, M)
+m %in% M
+match(M, m)
+M %in% m
+M %in% M
+```
+
