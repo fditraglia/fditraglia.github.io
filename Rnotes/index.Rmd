@@ -21,6 +21,7 @@ The notes are written in R Markdown using the [knitr](http://yihui.name/knitr) p
 ### `str`  -- *"Compactly display the structure of an arbitrary R object"*
 It does what it says: give it any R object as an argument and `str` will tell you what's inside. 
 Let's look at some simple examples.
+
 #### `str` Examples: Atomic Vectors
 ```{r}
 x <- 1:3
