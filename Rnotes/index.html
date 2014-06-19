@@ -58,18 +58,21 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 
 <div id="TOC">
 <ul>
-<li><a href="#r-functions-im-ashamed-i-didnt-know">R Functions I’m ashamed I didn’t know…</a><ul>
+<li><a href="#important-r-functions">Important R Functions</a><ul>
 <li><a href="#str-compactly-display-the-structure-of-an-arbitrary-r-object"><code>str</code> – <em>“Compactly display the structure of an arbitrary R object”</em></a></li>
 <li><a href="#drop-drop-redundant-extent-information"><code>drop</code> – <em>“Drop redundant extent information”</em></a></li>
 <li><a href="#match-value-matching"><code>match</code> – <em>“Value matching”</em></a></li>
 </ul></li>
+<li><a href="#tips-and-tricks">Tips and Tricks</a><ul>
+<li><a href="#pre-allocating-an-array">Pre-allocating an Array</a></li>
+</ul></li>
 </ul>
 </div>
 
-<p>This R document contains some notes I’ve made while working through material from Hadley Wickham’s excellent book <a href="http://adv-r.had.co.nz/">Advanced R</a>. The notes are written in R Markdown using the <a href="http://yihui.name/knitr">knitr</a> package.</p>
+<p>This R document contains some R notes I’ve collected from various sources. One of the main sources is Hadley Wickham’s excellent book <a href="http://adv-r.had.co.nz/">Advanced R</a>. The notes are written in R Markdown using the <a href="http://yihui.name/knitr">knitr</a> package.</p>
 <hr />
-<div id="r-functions-im-ashamed-i-didnt-know" class="section level2">
-<h2>R Functions I’m ashamed I didn’t know…</h2>
+<div id="important-r-functions" class="section level2">
+<h2>Important R Functions</h2>
 <hr />
 <div id="str-compactly-display-the-structure-of-an-arbitrary-r-object" class="section level3">
 <h3><code>str</code> – <em>“Compactly display the structure of an arbitrary R object”</em></h3>
@@ -86,9 +89,9 @@ y</code></pre>
 <pre><code>##  num [1:3] 1 2 3</code></pre>
 <pre class="r"><code>z &lt;- rnorm(3)
 z</code></pre>
-<pre><code>## [1]  0.5212  0.3299 -1.0578</code></pre>
+<pre><code>## [1] -1.0898 -0.7046  1.4967</code></pre>
 <pre class="r"><code>str(z)</code></pre>
-<pre><code>##  num [1:3] 0.521 0.33 -1.058</code></pre>
+<pre><code>##  num [1:3] -1.09 -0.705 1.497</code></pre>
 <pre class="r"><code>people &lt;- c(&quot;Alice&quot;, &quot;Bob&quot;, &quot;Charlie&quot;)
 people</code></pre>
 <pre><code>## [1] &quot;Alice&quot;   &quot;Bob&quot;     &quot;Charlie&quot;</code></pre>
@@ -105,7 +108,7 @@ M</code></pre>
 <pre><code>##  int [1:2, 1:2] 1 2 3 4</code></pre>
 <pre class="r"><code>N &lt;- matrix(rnorm(4), 2, 2)
 str(N)</code></pre>
-<pre><code>##  num [1:2, 1:2] -1.001 0.507 -0.767 0.357</code></pre>
+<pre><code>##  num [1:2, 1:2] 1.35 1.239 0.041 -1.274</code></pre>
 <pre class="r"><code>P &lt;- matrix(paste(&quot;Person&quot;, 1:4, sep = &quot;&quot;), 2, 2)
 P</code></pre>
 <pre><code>##      [,1]      [,2]     
@@ -136,14 +139,14 @@ mylist &lt;- list(M, friends)
 mylist</code></pre>
 <pre><code>## [[1]]
 ##         [,1]    [,2]
-## [1,] -0.2695 0.03698
-## [2,]  0.3577 0.13128
+## [1,] -0.1154 -0.5259
+## [2,] -1.3144 -0.5607
 ## 
 ## [[2]]
 ## [1] &quot;Alice&quot;   &quot;Bob&quot;     &quot;Charlie&quot;</code></pre>
 <pre class="r"><code>str(mylist)</code></pre>
 <pre><code>## List of 2
-##  $ : num [1:2, 1:2] -0.269 0.358 0.037 0.131
+##  $ : num [1:2, 1:2] -0.115 -1.314 -0.526 -0.561
 ##  $ : chr [1:3] &quot;Alice&quot; &quot;Bob&quot; &quot;Charlie&quot;</code></pre>
 </div>
 <div id="str-examples-functions" class="section level4">
@@ -154,7 +157,7 @@ mylist</code></pre>
 str(add2)</code></pre>
 <pre><code>## function (x, y)  
 ##  - attr(*, &quot;srcref&quot;)=Class 'srcref'  atomic [1:8] 2 9 2 31 9 31 2 2
-##   .. ..- attr(*, &quot;srcfile&quot;)=Classes 'srcfilecopy', 'srcfile' &lt;environment: 0x1038b9630&gt;</code></pre>
+##   .. ..- attr(*, &quot;srcfile&quot;)=Classes 'srcfilecopy', 'srcfile' &lt;environment: 0x1039d85c8&gt;</code></pre>
 <hr />
 </div>
 </div>
@@ -262,7 +265,20 @@ m</code></pre>
 <pre><code>## [1]  TRUE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE  TRUE</code></pre>
 <pre class="r"><code>M %in% M</code></pre>
 <pre><code>## [1] TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE</code></pre>
+<hr />
 </div>
+</div>
+</div>
+<div id="tips-and-tricks" class="section level2">
+<h2>Tips and Tricks</h2>
+<div id="pre-allocating-an-array" class="section level3">
+<h3>Pre-allocating an Array</h3>
+<p>I’ve known for years that it’s much faster to pre-allocate arrays rather than asking R to allocate memory on the fly. Say I wanted to allocate memory for a 100 by 5 array. Here’s how I’ve always done this in the past:</p>
+<pre class="r"><code>my.array &lt;- matrix(NA, nrow = 100, ncol = 5)</code></pre>
+<p>Imagine my surprise when I learned from <a href="http://www.r-bloggers.com/pitfall-did-you-really-mean-to-use-matrixnrow-ncol/">Henrik Bengtsson</a> that this is a a <em>terrible way of doing things!</em> The problem is that the preceding code chunk allocates memory for a <em>logical matrix</em>. If you don’t believe me, here’s the evidence:</p>
+<pre class="r"><code>mode(my.array)</code></pre>
+<pre><code>## [1] &quot;logical&quot;</code></pre>
+<p>I can’t even think of one example in which I actually wanted to pre-allocate a logical array: my intention had always been to allocate memory for an array of <em>real numbers</em>. Pre-allocating for the wrong data type is clearly self-defeating: the code still works but it’s a waste of memory and doesn’t actually speed anything up. The correct way to do this is to use <code>NA_real_</code> in place of <code>NA</code> to pre-allocate for numeric data and <code>NA_integer_</code> to pre-allocate for integer data.</p>
 </div>
 </div>
 

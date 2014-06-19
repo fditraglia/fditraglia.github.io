@@ -9,12 +9,12 @@ output:
     toc: true
     highlight: zenburn
 ---
-This R document contains some notes I've made while working through material from Hadley Wickham's excellent book [Advanced R](http://adv-r.had.co.nz/). 
+This R document contains some R notes I've collected from various sources. One of the main sources is Hadley Wickham's excellent book [Advanced R](http://adv-r.had.co.nz/). 
 The notes are written in R Markdown using the [knitr](http://yihui.name/knitr) package. 
 
 ----
 
-## R Functions I'm ashamed I didn't know...
+## Important R Functions
 
 ----
 
@@ -169,3 +169,23 @@ M %in% m
 M %in% M
 ```
 
+
+-------------
+
+## Tips and Tricks
+
+### Pre-allocating an Array
+I've known for years that it's much faster to pre-allocate arrays rather than asking R to allocate memory on the fly.
+Say I wanted to allocate memory for a 100 by 5 array.
+Here's how I've always done this in the past:
+```{r}
+my.array <- matrix(NA, nrow = 100, ncol = 5)
+```
+Imagine my surprise when I learned from [Henrik Bengtsson](http://www.r-bloggers.com/pitfall-did-you-really-mean-to-use-matrixnrow-ncol/) that this is a a *terrible way of doing things!*
+The problem is that the preceding code chunk allocates memory for a *logical matrix*. If you don't believe me, here's the evidence:
+```{r}
+mode(my.array)
+```
+I can't even think of one example in which I actually wanted to pre-allocate a logical array: my intention had always been to allocate memory for an array of *real numbers*. 
+Pre-allocating for the wrong data type is clearly self-defeating: the code still works but it's a waste of memory and doesn't actually speed anything up.
+The correct way to do this is to use `NA_real_` in place of `NA` to pre-allocate for numeric data and `NA_integer_` to pre-allocate for integer data. 
