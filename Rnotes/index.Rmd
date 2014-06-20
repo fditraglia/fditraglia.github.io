@@ -189,4 +189,44 @@ mode(my.array)
 ```
 I can't even think of one example in which I actually wanted to pre-allocate a logical array: my intention had always been to allocate memory for an array of *real numbers*. 
 Pre-allocating for the wrong data type is clearly self-defeating: the code still works but it's a waste of memory and doesn't actually speed anything up.
-The correct way to do this is to use `NA_real_` in place of `NA` to pre-allocate for numeric data and `NA_integer_` to pre-allocate for integer data. 
+The correct way to do this is to use `NA_real_` in place of `NA` to pre-allocate for numeric data and `NA_integer_` to pre-allocate for integer data.
+
+### Excluding Columns by Name
+Here's a simple dataframe:
+```{r}
+x <- rnorm(5)
+y <- rnorm(5)
+foo <- data.frame(id = 1:5, height = x, weight = y)
+```
+We can select columns "by name"
+```{r}
+foo[,c("id", "weight")]
+```
+or "by position""
+```{r}
+foo[,c(1:3)]
+```
+When selecting by position, a neat trick is using negative subscripts to *exclude* columns, for example
+```{r}
+foo[,-2]
+foo[,-c(1:3), drop = FALSE]
+```
+But this doesn't work when selecting by name. The following command throws an error:
+```{r,error=TRUE}
+foo[,-c("weight")]
+```
+Since selecting by name is safer and more convenient than selecting by position, I wanted to find a simple way to *exclude* named columns that mimics the behavior of negative indices when selecting by position.
+After giving this a bit of thought, I came up with  a simple solution using `setdiff` and `names`
+```{r}
+foo[,setdiff(names(foo), "weight")]
+foo[,setdiff(names(foo), c("weight", "id")), drop = FALSE]
+```
+This may seem like overkill.
+After all, isn't it much easier to write `foo[,c("id", "weight")]`? 
+In this example, absolutely.
+But there have been many times when I've had a dataframe with dozens of columns and I only wanted to exclude one or two *by name*.
+In situations like this, explicitly listing all the columns you want to keep would be a real pain. 
+My usual expedient in situations like these has been to use `names(my.data.frame)`, read off the positions of the columns I want to exclude and then use negative indexing, an error-prone and tedious solution.
+It's nice to have a good alternative at last!
+
+### Simulation Studies Using `expand.grid` and `mapply`

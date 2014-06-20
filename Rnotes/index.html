@@ -65,6 +65,8 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 </ul></li>
 <li><a href="#tips-and-tricks">Tips and Tricks</a><ul>
 <li><a href="#pre-allocating-an-array">Pre-allocating an Array</a></li>
+<li><a href="#excluding-columns-by-name">Excluding Columns by Name</a></li>
+<li><a href="#simulation-studies-using-expand.grid-and-mapply">Simulation Studies Using <code>expand.grid</code> and <code>mapply</code></a></li>
 </ul></li>
 </ul>
 </div>
@@ -91,9 +93,9 @@ y</code></pre>
 <pre><code>##  num [1:3] 1 2 3</code></pre>
 <pre class="r"><code>z &lt;- rnorm(3)
 z</code></pre>
-<pre><code>## [1]  0.4473 -0.7184  0.1876</code></pre>
+<pre><code>## [1]  0.3282 -0.8151 -1.8596</code></pre>
 <pre class="r"><code>str(z)</code></pre>
-<pre><code>##  num [1:3] 0.447 -0.718 0.188</code></pre>
+<pre><code>##  num [1:3] 0.328 -0.815 -1.86</code></pre>
 <pre class="r"><code>people &lt;- c(&quot;Alice&quot;, &quot;Bob&quot;, &quot;Charlie&quot;)
 people</code></pre>
 <pre><code>## [1] &quot;Alice&quot;   &quot;Bob&quot;     &quot;Charlie&quot;</code></pre>
@@ -111,7 +113,7 @@ M</code></pre>
 <pre><code>##  int [1:2, 1:2] 1 2 3 4</code></pre>
 <pre class="r"><code>N &lt;- matrix(rnorm(4), 2, 2)
 str(N)</code></pre>
-<pre><code>##  num [1:2, 1:2] 0.407 -0.751 -0.379 -0.319</code></pre>
+<pre><code>##  num [1:2, 1:2] -0.201 0.53 0.889 1.159</code></pre>
 <pre class="r"><code>P &lt;- matrix(paste(&quot;Person&quot;, 1:4, sep = &quot;&quot;), 2, 2)
 P</code></pre>
 <pre><code>##      [,1]      [,2]     
@@ -141,15 +143,15 @@ friends &lt;- c(&quot;Alice&quot;, &quot;Bob&quot;, &quot;Charlie&quot;)
 mylist &lt;- list(M, friends)
 mylist</code></pre>
 <pre><code>## [[1]]
-##          [,1]    [,2]
-## [1,] -0.07206  0.5311
-## [2,] -1.07838 -0.6901
+##         [,1]   [,2]
+## [1,] -0.2809 -1.418
+## [2,] -0.1796  0.800
 ## 
 ## [[2]]
 ## [1] &quot;Alice&quot;   &quot;Bob&quot;     &quot;Charlie&quot;</code></pre>
 <pre class="r"><code>str(mylist)</code></pre>
 <pre><code>## List of 2
-##  $ : num [1:2, 1:2] -0.0721 -1.0784 0.5311 -0.6901
+##  $ : num [1:2, 1:2] -0.281 -0.18 -1.418 0.8
 ##  $ : chr [1:3] &quot;Alice&quot; &quot;Bob&quot; &quot;Charlie&quot;</code></pre>
 </div>
 <div id="str-examples-functions" class="section level4">
@@ -160,7 +162,7 @@ mylist</code></pre>
 str(add2)</code></pre>
 <pre><code>## function (x, y)  
 ##  - attr(*, &quot;srcref&quot;)=Class 'srcref'  atomic [1:8] 2 9 2 31 9 31 2 2
-##   .. ..- attr(*, &quot;srcfile&quot;)=Classes 'srcfilecopy', 'srcfile' &lt;environment: 0x1039d90d8&gt;</code></pre>
+##   .. ..- attr(*, &quot;srcfile&quot;)=Classes 'srcfilecopy', 'srcfile' &lt;environment: 0x103b30748&gt;</code></pre>
 <hr />
 </div>
 </div>
@@ -282,6 +284,61 @@ m</code></pre>
 <pre class="r"><code>mode(my.array)</code></pre>
 <pre><code>## [1] &quot;logical&quot;</code></pre>
 <p>I can’t even think of one example in which I actually wanted to pre-allocate a logical array: my intention had always been to allocate memory for an array of <em>real numbers</em>. Pre-allocating for the wrong data type is clearly self-defeating: the code still works but it’s a waste of memory and doesn’t actually speed anything up. The correct way to do this is to use <code>NA_real_</code> in place of <code>NA</code> to pre-allocate for numeric data and <code>NA_integer_</code> to pre-allocate for integer data.</p>
+</div>
+<div id="excluding-columns-by-name" class="section level3">
+<h3>Excluding Columns by Name</h3>
+<p>Here’s a simple dataframe:</p>
+<pre class="r"><code>x &lt;- rnorm(5)
+y &lt;- rnorm(5)
+foo &lt;- data.frame(id = 1:5, height = x, weight = y)</code></pre>
+<p>We can select columns “by name”</p>
+<pre class="r"><code>foo[,c(&quot;id&quot;, &quot;weight&quot;)]</code></pre>
+<pre><code>##   id  weight
+## 1  1  1.7025
+## 2  2 -0.4254
+## 3  3  0.9304
+## 4  4  1.2788
+## 5  5  0.3233</code></pre>
+<p>or “by position”&quot;</p>
+<pre class="r"><code>foo[,c(1:3)]</code></pre>
+<pre><code>##   id  height  weight
+## 1  1 -0.8503  1.7025
+## 2  2  2.2221 -0.4254
+## 3  3  0.2734  0.9304
+## 4  4 -0.1051  1.2788
+## 5  5  1.0498  0.3233</code></pre>
+<p>When selecting by position, a neat trick is using negative subscripts to <em>exclude</em> columns, for example</p>
+<pre class="r"><code>foo[,-2]</code></pre>
+<pre><code>##   id  weight
+## 1  1  1.7025
+## 2  2 -0.4254
+## 3  3  0.9304
+## 4  4  1.2788
+## 5  5  0.3233</code></pre>
+<pre class="r"><code>foo[,-c(1:3), drop = FALSE]</code></pre>
+<pre><code>## data frame with 0 columns and 5 rows</code></pre>
+<p>But this doesn’t work when selecting by name. The following command throws an error:</p>
+<pre class="r"><code>foo[,-c(&quot;weight&quot;)]</code></pre>
+<pre><code>## Error: invalid argument to unary operator</code></pre>
+<p>Since selecting by name is safer and more convenient than selecting by position, I wanted to find a simple way to <em>exclude</em> named columns that mimics the behavior of negative indices when selecting by position. After giving this a bit of thought, I came up with a simple solution using <code>setdiff</code> and <code>names</code></p>
+<pre class="r"><code>foo[,setdiff(names(foo), &quot;weight&quot;)]</code></pre>
+<pre><code>##   id  height
+## 1  1 -0.8503
+## 2  2  2.2221
+## 3  3  0.2734
+## 4  4 -0.1051
+## 5  5  1.0498</code></pre>
+<pre class="r"><code>foo[,setdiff(names(foo), c(&quot;weight&quot;, &quot;id&quot;)), drop = FALSE]</code></pre>
+<pre><code>##    height
+## 1 -0.8503
+## 2  2.2221
+## 3  0.2734
+## 4 -0.1051
+## 5  1.0498</code></pre>
+<p>This may seem like overkill. After all, isn’t it much easier to write <code>foo[,c(&quot;id&quot;, &quot;weight&quot;)]</code>? In this example, absolutely. But there have been many times when I’ve had a dataframe with dozens of columns and I only wanted to exclude one or two <em>by name</em>. In situations like this, explicitly listing all the columns you want to keep would be a real pain. My usual expedient in situations like these has been to use <code>names(my.data.frame)</code>, read off the positions of the columns I want to exclude and then use negative indexing, an error-prone and tedious solution. It’s nice to have a good alternative at last!</p>
+</div>
+<div id="simulation-studies-using-expand.grid-and-mapply" class="section level3">
+<h3>Simulation Studies Using <code>expand.grid</code> and <code>mapply</code></h3>
 </div>
 </div>
 
