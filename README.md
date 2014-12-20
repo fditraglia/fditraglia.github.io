@@ -18,6 +18,8 @@ By browsing through the directories created by Jekyll and Googling for various b
 
 Getting Set Up for GitHub Pages
 --------------------------------
+Although I already had a minimal working example of Jekyll to play around with on my machine, I wanted to eventually host my website on GitHub pages, so I neede to install a few more pre-requisites. 
+For details, and a description of the build process, see [GitHub Help: Using Jekyll with Pages](https://help.github.com/articles/using-jekyll-with-pages/).
 
 Using a Custom Domain with GitHub Pages
 ----------------------------------------
