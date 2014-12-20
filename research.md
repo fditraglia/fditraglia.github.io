@@ -15,6 +15,6 @@ permalink: /research/
 - A Generalized Focused Information Criterion for GMM Model and Moment Selection ([paper]())
 
 ## In Progress
-- Model Selection for Treatment Allocation (with Debopam Battacharya)
+- Model Selection for Treatment Allocation (with Debopam Bhattacharya)
 - A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models (with Camilo Garcia-Jimeno)
 - Ultra-High Dimensional Sparse Bayesian Model Selection (with Sid Chib)
