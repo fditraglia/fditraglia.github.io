@@ -30,6 +30,10 @@ Eventually provide step-by-step instructions.
 - [GitHub Help: Configuring a custom apex domain](https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/)
 - [Haikus in C: Foolproof Guide to Github Pages with a Custom Domain](http://haikus-in-c.com/posts/github-pages-custom-domain/)
 
+The way to build with Jekyll locally to match what happens on GitHub Pages is
+```
+bundle exec jekyll serve
+```
 
 LaTeX Math in Jekyll
 --------------------
