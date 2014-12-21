@@ -38,3 +38,21 @@ bundle exec jekyll serve
 LaTeX Math in Jekyll
 --------------------
 See this post on [stackoverflow](http://stackoverflow.com/questions/10987992/using-mathjax-with-jekyll)
+
+A Simple Rakefile
+-----------------
+Rake is like GNU make, only imnplemented in Ruby.
+I wanted a simple way to generate "blank" blog posts that would automatically generate the appropriate yaml frontmatter and add a datestamp to the filename.
+From a quick Google search it seemed that most people use rake for this, so I searched for the simplest possible rakefile I could find.
+I found [this one]() on StackOverflow, pasted it into an empty text document and saved it as ``Rakefile.rb`` in the root directory of ``fditraglia.github.io``.
+Then I ran
+```
+rake post TITLE="Test Post"
+```
+but it didn't work!
+It turned out that there were two problems.
+First I hadn't set up my default editor in my ``.bashrc`` file so the rakefile didn't know to open vim.
+Second, and more insidiously, something must have gone wrong with my copy-and-paste since the yaml frontmatter was *indented* in the post, which broke the parsing.
+The solution was simply to re-type the rakefile by hand.
+(I think there was a stray tab or weird spacing issue somewhere).
+Now everything works perfectly!
