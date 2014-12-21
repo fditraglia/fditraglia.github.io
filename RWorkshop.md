@@ -4,7 +4,7 @@ title: R Workshop
 permalink: /RWorkshop/
 ---
 
-On November 21-22, 2014, I organized a hands-on R Workshop through the [Warren Center](http://warrencenter.upenn.edu) featuring [Yihui Xie]() and [Dirk EddelBuettel]().
+On November 21-22, 2014, I organized a hands-on R Workshop through the [Warren Center](http://warrencenter.upenn.edu) featuring [Yihui Xie](http://yihui.name) and [Dirk Eddelbuettel](http://dirk.eddelbuettel.com).
 This page contains an archive of the material covered in the workshop, along with setup instructions.
 
 ## Yihui's Material
@@ -15,7 +15,7 @@ This page contains an archive of the material covered in the workshop, along wit
 
 ## Dirk's Material
 
-- [R Package Development](http://dirk.eddelbuettel.com/papers/r_package_development.pdf)
+- [R Package Development](http://dirk.eddelbuettel.com/papers/r_package_development_nov2014.pdf)
 - [High-Performance Computing with Rcpp](http://dirk.eddelbuettel.com/papers/rcpp_rcpparmadillo_nov2014.pdf)
 
 ## Laptop Setup Instructions
