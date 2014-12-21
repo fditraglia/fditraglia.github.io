@@ -1,8 +1,8 @@
 # Site settings
 title: Francis J. DiTraglia
 email: fditra@sas.upenn.edu
-description: > # this means to ignore newlines until "baseurl:"
-  Should put my contact details here.
+office: 535 McNeil Building, University of Pennsylvania
+address: 3718 Locust Walk, Philadelphia PA 19104
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: fjditr
