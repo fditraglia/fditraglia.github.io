@@ -56,3 +56,8 @@ Second, and more insidiously, something must have gone wrong with my copy-and-pa
 The solution was simply to re-type the rakefile by hand.
 (I think there was a stray tab or weird spacing issue somewhere).
 Now everything works perfectly!
+
+Customization
+-------------
+Add details about how I customized the default Jekyll header, footer and homepage.
+Link to [Adrian Sampson](https://github.com/sampsyo/home) whose github repo was really helpful for figuring some of this out.
