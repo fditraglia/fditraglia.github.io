@@ -6,9 +6,9 @@ categories:
 ---
 
 In a grand holiday tradition, dating back at least to my Freshman year of college, I spent the past three days completely re-designing my website.
-As of this afternoon ``ditraglia.com`` is now powered by [Jekyll](http://jekyllrb) and served up by [GitHub Pages](https://pages.github.com).
+As of this afternoon ``ditraglia.com`` is now powered by [Jekyll](http://jekyllrb.com) and served up by [GitHub Pages](https://pages.github.com).
 I'm running something very close to the baseline Jekyll install with a few small tweaks here and there.
-If you're interestd in seeing how I got everything set up, take a look at the README in the [git repo](https://github.com/fditraglia/fditraglia.github.io) for this site, and feel free to fork if anything looks interesting.
+If you're interested in seeing how I got everything set up, take a look at the README in the [git repo](https://github.com/fditraglia/fditraglia.github.io) for this site, and feel free to fork if anything looks interesting.
 
 Now that I'm running Jekyll, I never have to edit another html file again: everything is done in markdown.
 I have full MathJax support:
