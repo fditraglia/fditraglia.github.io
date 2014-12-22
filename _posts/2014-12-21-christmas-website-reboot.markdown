@@ -13,7 +13,7 @@ If you're interestd in seeing how I got everything set up, take a look at the RE
 Now that I'm running Jekyll, I never have to edit another html file again: everything is done in markdown.
 I have full MathJax support:
 
-$$ \int_{-\infty}^{\infty} \frac{1}{\sqrt{2\pi} e^{-x^2/2} \; dx = 1 $$
+$$ \int_{-\infty}^{\infty} \frac{1}{\sqrt{2\pi}} e^{-x^2/2} \; dx = 1 $$
 
 And the next step will be to set things up so I can use RMarkdown as well.
 [This](https://github.com/atbradley/jekyll-rmarkdown) looks like one promising possibility.
