@@ -56,8 +56,8 @@ Inside the ``evince`` directory in the [GitHub Repo](https://github.com/SublimeT
 After downloading both sets of file, I diffed each pair.
 By doing this I learned that the ``evince_backward_search`` and ``evince_forward_search`` python scripts from LaTeX tools are slightly altered versions of the files from the Ubuntu forum that incorporate some of the more helpful suggestions from later in the thread.
 The ``evince_sync`` file, on the other hand, is a modified version of the ``evince`` script from the Ubuntu forum that has been changed to call Sublime rather than gvim for reverse search and to source both python scripts without assuming that they have been set to be executable.
-
 Since I knew they already worked on my system, I decided to use the ``evince_forward_search`` and ``evince_backward_search`` scripts from LaTeXTools and combine them with the ``evince`` script from the Ubuntu forum.
+
 Here are the steps I followed.
 I first created a ``~/bin`` directory since I didn't already have one on my machine and restarted.
 (On Ubuntu ``~/bin`` is automatically in the search path provided that this directory exists at startup. On other Linux distributions or Mac OSX you may need to add it to your path.)
