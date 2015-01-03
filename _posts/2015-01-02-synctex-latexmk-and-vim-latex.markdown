@@ -76,8 +76,8 @@ If this file doesn't exist on your machine, create it.
 And you're done!
 Everything works!
 Well, almost everything works.
-As intended, ``\ls`` does a forward search and ```<control>``-click inside of evince does a reverse search.
-The weird thing is that the **first** time I do a reverse search within a given pdf, evince launches **two** duplicate copies of gvim.
+As intended, ``\ls`` does a forward search and control-click inside of evince does a reverse search.
+The weird thing is that the *first* time I do a reverse search within a given pdf, evince launches *two* duplicate copies of gvim.
 All subsequent reverse searches work exactly as expected.
 I have absolutely no idea why this is, so if you have any thoughts, send me a tweet or email.
 In the meantime, my new LaTeX setup is good enough for me to get down to work!
