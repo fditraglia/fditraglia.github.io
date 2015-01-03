@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SyncTeX, latexmk and Vim-LaTeX
-published: false
+published: true
 categories:
 ---
 One of my projects this winter break has been to finally take the leap and switch to [vim](http://www.vim.org) for all my text editing needs.
