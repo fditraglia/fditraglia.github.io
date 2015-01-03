@@ -20,7 +20,7 @@ Up until today, however, there were two deal-breakers:
 
 After a whole day of Googling and tinkering, I'm 99% satisfied with my solution, so here it is.
 You can view and fork all of the relevant configuration files in my [dotfiles](https://github.com/fditraglia/dotfiles) repository on GitHub.
-I keep a copy of the scripts from Step 2 in my [bin](https://github.com/fditraglia/frank-bin) repository.
+I keep a copy of the scripts from Step 2 in my [bin](https://github.com/fditraglia/bin) repository.
 
 Step 1: Compilation Commands
 -----------------------------
@@ -51,21 +51,21 @@ We'll need this in the second step.
 
 Step 2: Evince and SyncTeX
 --------------------------
-This is much more involved so brace yourselves.
-I knew that forward and reverse search were possible using the (default) evince pdf viewer on Ubuntu 14.04 because both worked with LaTeXTools and Sublime.
-Inside the ``evince`` directory in the [GitHub Repo](https://github.com/SublimeText/LaTeXTools) for LaTeXTools, I found three files that seemed to match those linked to on [this article](http://ubuntuforums.org/showthread.php?t=1716268).
+I knew that forward and reverse search were possible using the (default) evince pdf viewer on Ubuntu 14.04 because both worked perfectly on my system with LaTeXTools and Sublime.
+Inside the ``evince`` directory in the [GitHub Repo](https://github.com/SublimeText/LaTeXTools) for LaTeXTools, I found three files that seemed to match those linked to on [this thread](http://ubuntuforums.org/showthread.php?t=1716268) on the Ubuntu forums.
 After downloading both sets of file, I diffed each pair.
-By doing this I learned that the ``evince_backward_search`` and ``evince_forward_search`` python scripts from LaTeX tools are slightly altered versions of the files from the Ubuntu forums that incorporate the many suggestions that appear later in the thread.
-The ``evince_sync`` file, on the other hand, is a modified version of the ``evince`` from the Ubuntu forum that has been changed to call Sublime rather than gvim for reverse search and to source both python scripts without assuming that they have been set to be executable.
+By doing this I learned that the ``evince_backward_search`` and ``evince_forward_search`` python scripts from LaTeX tools are slightly altered versions of the files from the Ubuntu forum that incorporate some of the more helpful suggestions from later in the thread.
+The ``evince_sync`` file, on the other hand, is a modified version of the ``evince`` script from the Ubuntu forum that has been changed to call Sublime rather than gvim for reverse search and to source both python scripts without assuming that they have been set to be executable.
 
-So here's what I did.
-I first created a ``~/bin`` directory and restarted my computer.
-Ubuntu checks to see if this directory exists on startup: if it exists it is added to the path.
-(On other Linux distributions you may need to manually add this directory to your path if you haven't already.)
-I then copied the ``evince`` file from the Ubuntu forums, which was set up for gvim, and the ``evince_backward_search`` and ``evince_forward_search``
+Since I knew they already worked on my system, I decided to use the ``evince_forward_search`` and ``evince_backward_search`` scripts from LaTeXTools and combine them with the ``evince`` script from the Ubuntu forum.
+Here are the steps I followed.
+I first created a ``~/bin`` directory since I didn't already have one on my machine and restarted.
+(On Ubuntu ``~/bin`` is automatically in the search path provided that this directory exists at startup. On other Linux distributions or Mac OSX you may need to add it to your path.)
+I then copied the ``evince`` file from the [Ubuntu forum thread](http://ubuntuforums.org/showthread.php?t=1716268) and the ``evince_backward_search`` and ``evince_forward_search``
 files from LaTeX tools into ``~/bin`` and made each of them executable with ``chmod +x [filename]``.
-All three of these files are in my [frank-bin](https://github.com/fditraglia/frank-bin) repository.
-Finally, I created the file `` ~/.vim/after/ftplugin/tex.vim`` and added the lines
+(I needed to do this for the two latter files since the ``evince`` script assumes that they're executable, unlike the ``evince_sync`` script in LaTeXTools that runs them using the ``python`` command.)
+I keep my ``~/bin`` directory a [GitHub repo](https://github.com/fditraglia/bin) if you'd like to take a look.
+Finally, I created the file `` ~/.vim/after/ftplugin/tex.vim`` (this file is for TeX-specific vim configuration settings) and added the lines
 
 {% highlight vim %}
 function! Tex_ForwardSearchLaTeX()
@@ -74,11 +74,11 @@ function! Tex_ForwardSearchLaTeX()
 endfunction
 {% endhighlight %}
 
-as suggested on the Ubuntu forums.
+following the suggestion from the [Ubuntu forums thread](http://ubuntuforums.org/showthread.php?t=1716268) 
 It worked! 
 Well, it pretty much worked.
-Now ``\ls`` does forward search and I can control click inside evince to do a reverse search.
+Now ``\ls`` does a forward search and I can control click inside evince to do a reverse search.
 The only unresolved issue is that the **first** time I do a reverse search, evince launches **two** duplicate copies of gvim.
 All subsequent reverse searches work exactly as expected.
 If you have any idea what's going on here, send me a tweet or email.
-In the meantime, I've decided that my new LaTeX setup is good enough, so farewell Sublime Text!
+In the meantime, I've decided that my new LaTeX setup is good enough to get down to work, so farewell Sublime Text!
