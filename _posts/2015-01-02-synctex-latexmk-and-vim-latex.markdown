@@ -59,21 +59,20 @@ The ``evince_sync`` file, on the other hand, is a modified version of the ``evin
 Since I knew they already worked on my system, I decided to use the ``evince_forward_search`` and ``evince_backward_search`` scripts from LaTeXTools and combine them with the ``evince`` script from the Ubuntu forum.
 
 Here are the steps I followed.
-I first created a ``~/bin`` directory since I didn't already have one on my machine and restarted.
-(On Ubuntu ``~/bin`` is automatically in the search path provided that this directory exists at startup. On other Linux distributions or Mac OSX you may need to add it to your path.)
-I then copied the ``evince`` file from the [Ubuntu forum thread](http://ubuntuforums.org/showthread.php?t=1716268) and the ``evince_backward_search`` and ``evince_forward_search``
-files from LaTeX tools into ``~/bin`` and made each of them executable with ``chmod +x [filename]``.
-(I needed to do this for the two latter files since the ``evince`` script assumes that they're executable, unlike the ``evince_sync`` script.)
-Finally, I created the file `` ~/.vim/after/ftplugin/tex.vim`` and added the lines
-
+1. Copy the ``evince`` file from the [Ubuntu forum thread](http://ubuntuforums.org/showthread.php?t=1716268) and the ``evince_backward_search`` and ``evince_forward_search`` into ``~/bin``.
+If you're on Ubuntu, you may need to create ``~/bin`` first. 
+If you find yourself in this situation, restart your machine before proceeding and ``~/bin`` will automatically be added to your search path.
+2. Make each of the three scripts executable with ``chmod +x [filename]``
+3. Add the following lines to `` ~/.vim/after/ftplugin/tex.vim``
 {% highlight vim %}
 function! Tex_ForwardSearchLaTeX()
   let cmd = 'evince_forward_search ' . fnamemodify(Tex_GetMainFileName(), ":p:r") .  '.pdf ' . line(".") . ' ' . expand("%:p")
   let output = system(cmd)
 endfunction
 {% endhighlight %}
+If this file doesn't exist on your machine, create it. 
+(This last step is lifted straight from the [Ubuntu forums thread](http://ubuntuforums.org/showthread.php?t=1716268))
 
-following the suggestion from the [Ubuntu forums thread](http://ubuntuforums.org/showthread.php?t=1716268) 
 It worked! 
 Well, it pretty much worked.
 Now ``\ls`` does a forward search and I can control click inside evince to do a reverse search.
