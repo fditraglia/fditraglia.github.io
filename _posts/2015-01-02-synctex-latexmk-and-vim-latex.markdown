@@ -71,7 +71,6 @@ function! Tex_ForwardSearchLaTeX()
   let output = system(cmd)
 endfunction
 {% endhighlight %}
-If this file doesn't exist on your machine, create it. 
 
 And you're done!
 Everything works!
