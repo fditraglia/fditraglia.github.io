@@ -9,22 +9,22 @@ The full story behind this momentous decision will have to wait for another day,
 My goal in learning vim is to spend as much time as possible with my fingers on the home row.
 The learning curve has been steep indeed, but I'm finally at the point where I'm more productive in vim than I used to be in [Sublime Text](http://www.sublimetext.com).
 As of earlier today, however, one problem remained: I didn't have a good setup for LaTeX and vim.
-Back in 2013 I learned about the fantastic [LaTeXTools](https://github.com/SublimeText/LaTeXTools) for Sublime which I've been using ever since.
+Back in 2013 I learned about the fantastic [LaTeXTools](https://github.com/SublimeText/LaTeXTools) plugin for Sublime which I've been using ever since.
 My main precondition for switching to vim has been to find a setup with comparable functionality.
 
 After considering several alternatives, including [LaTeX-Box](https://github.com/LaTeX-Box-Team/LaTeX-Box) and [ATP](http://atp-vim.sourceforge.net), I finally decided to go with the venerable [Vim-LaTeX](http://vim-latex.sourceforge.net) plugin.
 Up until today, however, there were two deal-breakers:
 
-1. I couldn't figure out how to set things up so that Vim-LaTeX uses ``latexmk`` to compile a pdf by running ``pdflatex`` the appropriate number of times (this is the default compliation command in LaTeXTools) and,
+1. I couldn't figure out how to set things up so that Vim-LaTeX would use ``latexmk`` to compile a pdf by running ``pdflatex`` the appropriate number of times (as is done by default in LaTeXTools) and,
 2. I couldn't get forward or reverse search working with SyncTeX.
 
-After a whole day of Googling and tinkering, I'm 99% satisfied with my solution, so here it is.
+After a whole day of Googling and tinkering, I'm 95% satisfied with my solution, so here it is.
 You can view and fork all of the relevant configuration files in my [dotfiles](https://github.com/fditraglia/dotfiles) repository on GitHub.
 I keep a copy of the scripts from Step 2 in my [bin](https://github.com/fditraglia/bin) repository.
 
 Step 1: Compilation Commands
 -----------------------------
-First, make sure that you have all of the lines that a required for using vim-latex in your ``.vimrc`` file, namely:
+First, make sure that you have all of the lines that a required for using vim-latex in your ``.vimrc`` file:
 
 {% highlight vim %}
 filetype plugin 
@@ -38,7 +38,7 @@ filetype indent on
 let g:tex_flavor='latex'
 {% endhighlight %}
 
-Now **here's the important part** - add the following to your ``.vimrc``
+Now add these lines to your  **here's the important part** - add the following to your ``.vimrc`` file
 
 {% highlight vim %}
 let g:Tex_MultipleCompileFormats = 'pdf'
@@ -63,9 +63,8 @@ I first created a ``~/bin`` directory since I didn't already have one on my mach
 (On Ubuntu ``~/bin`` is automatically in the search path provided that this directory exists at startup. On other Linux distributions or Mac OSX you may need to add it to your path.)
 I then copied the ``evince`` file from the [Ubuntu forum thread](http://ubuntuforums.org/showthread.php?t=1716268) and the ``evince_backward_search`` and ``evince_forward_search``
 files from LaTeX tools into ``~/bin`` and made each of them executable with ``chmod +x [filename]``.
-(I needed to do this for the two latter files since the ``evince`` script assumes that they're executable, unlike the ``evince_sync`` script in LaTeXTools that runs them using the ``python`` command.)
-I keep my ``~/bin`` directory a [GitHub repo](https://github.com/fditraglia/bin) if you'd like to take a look.
-Finally, I created the file `` ~/.vim/after/ftplugin/tex.vim`` (this file is for TeX-specific vim configuration settings) and added the lines
+(I needed to do this for the two latter files since the ``evince`` script assumes that they're executable, unlike the ``evince_sync`` script.)
+Finally, I created the file `` ~/.vim/after/ftplugin/tex.vim`` and added the lines
 
 {% highlight vim %}
 function! Tex_ForwardSearchLaTeX()
