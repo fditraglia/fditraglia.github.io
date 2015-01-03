@@ -64,7 +64,7 @@ Here are the steps I followed:
 If you're on Ubuntu, you may need to create ``~/bin`` first. 
 If you find yourself in this situation, restart your machine before proceeding and ``~/bin`` will automatically be added to your search path.
 2. Make each of the three scripts executable with ``chmod +x [filename]``
-3. Add the following lines to `` ~/.vim/after/ftplugin/tex.vim``
+3. Add the following lines to `` ~/.vim/after/ftplugin/tex.vim`` (if this file doesn't exist on your machine, create it first)
 {% highlight vim %}
 function! Tex_ForwardSearchLaTeX()
   let cmd = 'evince_forward_search ' . fnamemodify(Tex_GetMainFileName(), ":p:r") .  '.pdf ' . line(".") . ' ' . expand("%:p")
@@ -72,12 +72,12 @@ function! Tex_ForwardSearchLaTeX()
 endfunction
 {% endhighlight %}
 If this file doesn't exist on your machine, create it. 
-(This last step is lifted straight from the [Ubuntu forums thread](http://ubuntuforums.org/showthread.php?t=1716268))
 
-It worked! 
-Well, it pretty much worked.
-Now ``\ls`` does a forward search and I can control click inside evince to do a reverse search.
-The only unresolved issue is that the **first** time I do a reverse search, evince launches **two** duplicate copies of gvim.
+And you're done!
+Everything works!
+Well, almost everything works.
+As intended, ``\ls`` does a forward search and ```<control>``-click inside of evince does a reverse search.
+The weird thing is that the **first** time I do a reverse search within a given pdf, evince launches **two** duplicate copies of gvim.
 All subsequent reverse searches work exactly as expected.
-If you have any idea what's going on here, send me a tweet or email.
-In the meantime, I've decided that my new LaTeX setup is good enough to get down to work, so farewell Sublime Text!
+I have absolutely no idea why this is, so if you have any thoughts, send me a tweet or email.
+In the meantime, my new LaTeX setup is good enough for me to get down to work!
