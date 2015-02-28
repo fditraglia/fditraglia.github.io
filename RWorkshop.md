@@ -56,5 +56,6 @@ If you're running Linux, setting up ``RcppArmadillo`` is easy: you already have 
 On Windows, things are more complicated. 
 Before installing ``RcppArmadillo`` from within RStudio, you'll need to download and install [Rtools](http://cran.r-project.org/bin/windows/Rtools).
 If you're running Mac OSX, you'll need to sign up for a free developer account with Apple [here](https://developer.apple.com/register/).
-Then you'll need to log in and install the Command Line Tools for Xcode. 
-*Add in details of how to install on Mavericks...*
+Then you'll need to log in and install the Command Line Tools for Xcode.
+At this point, Rcpp should be working properly.
+To get RcppArmadillo working (at least on Mavericks), you'll need to follow the instructions [here](http://www.thecoatlessprofessor.com/programming/rcpp-rcpparmadillo-and-os-x-mavericks-lgfortran-and-lquadmath-error) to make sure you have the correct version of Fortran installed.
