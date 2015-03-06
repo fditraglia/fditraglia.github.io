@@ -16,9 +16,8 @@ permalink: /research/
 
 ## In Progress
 
--  A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models with (Camilo Garcia-Jimeno)
+-  A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models (with Camilo Garcia-Jimeno)
 -  Estimating the Effects of Online Discussions on Student Performance (with Aislinn Bohren and Petra Todd)
 -  High-Dimensional Sparse Bayesian Variable Selection (with Sid Chib)
 -  A Frequentist Approach to Covariate Choice in Treatment Assignment Problems (with Debopam Bhattacharya)
--  Ultra-High Dimensional Sparse Bayesian Model Selection (with Sid Chib)
 
