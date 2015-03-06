@@ -11,12 +11,11 @@ permalink: /research/
 
 ## Working Papers
 
-- Using Invalid Instruments on Purpose: Focused Moment Selection and Averaging for GMM ([paper](http://arxiv.org/pdf/1408.0705v2.pdf), [code](https://github.com/fditraglia/fmsc))
-- A Generalized Focused Information Criterion for GMM Model and Moment Selection ([paper]({{ site.base }}/pdf/GFIC_paper.pdf))
+- Using Invalid Instruments on Purpose: Focused Moment Selection and Averaging for GMM [paper](http://arxiv.org/pdf/1408.0705v2.pdf), [code](https://github.com/fditraglia/fmsc)
+- A Generalized Focused Information Criterion for GMM Model and Moment Selection [paper]({{ site.base }}/pdf/GFIC_paper.pdf)
 
 ## In Progress
-
-	-  A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models (with Camilo Garcia-Jimeno)
+	-  A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models with Camilo Garcia-Jimeno 
   -  Estimating the Effects of Online Discussions on Student Performance (with Aislinn Bohren and Petra Todd)
   -  High-Dimensional Sparse Bayesian Variable Selection (with Sid Chib)
   -  A Frequentist Approach to Covariate Choice in Treatment Assignment Problems (with Debopam Bhattacharya)
