@@ -11,7 +11,7 @@ permalink: /research/
 
 ## Working Papers
 
-- Using Invalid Instruments on Purpose: Focused Moment Selection and Averaging for GMM [[paper](http://arxiv.org/pdf/1408.0705v2.pdf), [code](https://github.com/fditraglia/fmsc)]
+- Using Invalid Instruments on Purpose: Focused Moment Selection and Averaging for GMM (Revise and Resubmit, *Journal of Econometrics*) [[paper](http://arxiv.org/pdf/1408.0705v2.pdf), [code](https://github.com/fditraglia/fmsc)]
 - A Generalized Focused Information Criterion for GMM Model and Moment Selection [[paper]({{ site.base }}/pdf/GFIC_paper.pdf)]
 
 ## In Progress
