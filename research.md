@@ -15,7 +15,7 @@ permalink: /research/
 - A Generalized Focused Information Criterion for GMM Model and Moment Selection [[paper]({{ site.base }}/pdf/GFIC_paper.pdf)]
 
 ## In Progress
-
+- On Mis-measured Binary Regressors: An Identification Result and some Comments on the Literature (with Camilo Garcia-Jimeno) 
 -  A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models (with Camilo Garcia-Jimeno)
 -  Estimating the Effects of Online Discussions on Student Performance (with Aislinn Bohren and Petra Todd)
 -  High-Dimensional Sparse Bayesian Variable Selection (with Sid Chib)
