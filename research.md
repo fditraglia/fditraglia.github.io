@@ -11,9 +11,9 @@ permalink: /research/
 
 ## Working Papers
 
-- A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models (with Camilo Garcia-Jimeno) [[paper]({{ site.base }}/pdf/DiTraglia_Garcia-Jimeno.pdf)]
+- A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models (with Camilo Garcia-Jimeno) [[paper](http://ditraglia.com/pdf/DiTraglia_Garcia-Jimeno.pdf)]
 - Using Invalid Instruments on Purpose: Focused Moment Selection and Averaging for GMM (Revised and Resubmitted, *Journal of Econometrics*) [[paper](http://ditraglia.com/pdf/DiTraglia_FMSC_2015_08_10.pdf), [code](https://github.com/fditraglia/fmsc)]
-- A Generalized Focused Information Criterion for GMM Model and Moment Selection [[paper]({{ site.base }}/pdf/GFIC_paper.pdf)]
+- A Generalized Focused Information Criterion for GMM Model and Moment Selection [[paper](http://ditraglia.com/pdf/GFIC_paper.pdf)]
 
 ## In Progress
 - On Mis-measured Binary Regressors: An Identification Result and some Comments on the Literature (with Camilo Garcia-Jimeno) 
