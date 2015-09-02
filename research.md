@@ -18,5 +18,5 @@ permalink: /research/
 ## In Progress
 - On Mis-measured Binary Regressors: An Identification Result and some Comments on the Literature (with Camilo Garcia-Jimeno) 
 -  Estimating the Effects of Online Discussions on Student Performance (with Aislinn Bohren and Petra Todd)
--  High-Dimensional Sparse Bayesian Variable Selection (with Sid Chib)
+- A Bayesian Search for Asset Pricing Factors: A Sparse, Sequential Perspective (with Sid Chib)
 
