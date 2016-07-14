@@ -13,7 +13,7 @@ permalink: /research/
 
 - On Mis-measured Binary Regressors: New Results and Some Comments on the Literature (with Camilo Garcia-Jimeno, Submitted) [[paper](http://ditraglia.com//pdf/DiTraglia_Garcia-Jimeno_2015b.pdf)] 
 - A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models (with Camilo Garcia-Jimeno) [[paper](http://ditraglia.com/pdf/DiTraglia_Garcia-Jimeno.pdf)]
-- Using Invalid Instruments on Purpose: Focused Moment Selection and Averaging for GMM (Revised and Resubmitted, *Journal of Econometrics*) [[paper](http://ditraglia.com/pdf/DiTraglia_FMSC_2015_08_10.pdf), [code](https://github.com/fditraglia/fmsc)]
+- Using Invalid Instruments on Purpose: Focused Moment Selection and Averaging for GMM (Conditionally Accepted, *Journal of Econometrics*) [[paper](http://ditraglia.com/pdf/DiTraglia_FMSC_2015_08_10.pdf), [code](https://github.com/fditraglia/fmsc)]
 - A Generalized Focused Information Criterion for GMM with Applications to Panel Data Models (with Minsu Chang) [[paper](http://ditraglia.com/pdf/GFIC_paper.pdf)]
 
 ## In Progress
