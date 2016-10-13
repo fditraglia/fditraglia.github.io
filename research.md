@@ -12,11 +12,12 @@ permalink: /research/
 
 ## Working Papers
 
+- A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models (with Camilo Garcia-Jimeno, Submitted) [[paper](http://ditraglia.com/pdf/DiTraglia_Garcia-Jimeno_2016.pdf), [slides](http://ditraglia.com/pdf/sick_instruments_slides.pdf]
 - On Mis-measured Binary Regressors: New Results and Some Comments on the Literature (with Camilo Garcia-Jimeno) [[paper](http://ditraglia.com//pdf/DiTraglia_Garcia-Jimeno_2015b.pdf)] 
-- A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models (with Camilo Garcia-Jimeno, Submitted) [[paper](http://ditraglia.com/pdf/DiTraglia_Garcia-Jimeno_2016.pdf)]
 - A Generalized Focused Information Criterion for GMM with Applications to Panel Data Models (with Minsu Chang) [[paper](http://ditraglia.com/pdf/GFIC_paper.pdf)]
 
 ## In Progress
+- The Political Economy of Forced Migration (with Camilo Garcia-Jimeno \& Juan Fernando Vargas)
 - Estimating the Effects of Online Discussions on Student Performance (with Aislinn Bohren and Petra Todd)
 - A Bayesian Search for Asset Pricing Factors: A Sparse, Sequential Perspective (with Sid Chib)
 
