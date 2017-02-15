@@ -18,5 +18,4 @@ permalink: /research/
 
 ## In Progress
 - A History of Violence: Forced Displacement and De Facto Land Reform in Rural Colombia (with Camilo Garcia-Jimeno) 
-- A Bayesian Approach to Selecting Asset Pricing Factors (with Irina Pimenova)
 - Estimating the Effects of Online Discussions on Student Performance (with Aislinn Bohren and Petra Todd)
