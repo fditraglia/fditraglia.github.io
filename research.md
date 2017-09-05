@@ -12,7 +12,7 @@ permalink: /research/
 
 ## Working Papers
 
-- Mis-classified, Binary, Endogenous Regressors: Identification and Inference (with Camilo Garcia-Jimeno) [[paper](http://ditraglia.com//pdf/DiTraglia_Garcia-Jimeno_2017b.pdf)] 
+- Mis-classified, Binary, Endogenous Regressors: Identification and Inference (with Camilo Garcia-Jimeno, Submitted) [[paper](http://ditraglia.com//pdf/DiTraglia_Garcia-Jimeno_2017b.pdf)] 
 - A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models (with Camilo Garcia-Jimeno, Submitted) [[paper](http://ditraglia.com/pdf/DiTraglia_Garcia-Jimeno_2017.pdf), [slides](http://ditraglia.com/pdf/sick_instruments_slides.pdf)]
 - A Generalized Focused Information Criterion for GMM with Applications to Panel Data Models (with Minsu Chang, R&R *Journal of Applied Econometrics*) [[paper](http://ditraglia.com/pdf/GFIC_paper.pdf)]
 
