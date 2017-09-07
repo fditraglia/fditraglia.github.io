@@ -3,7 +3,8 @@ layout: page
 title: Teaching
 permalink: /Teaching/
 ---
-My office hours for the Spring Semester of 2017 will take place on Mondays from 1-3pm in McNeil 535.
+I am on leave in the Fall of 2017 and will not be holding regular office hours.
+If you wish to schedule a meeting, please contact me via email.
 
 
 - [Econ 722](http://ditraglia.com/econ722) - Advanced Econometrics (Grad)
