@@ -13,8 +13,8 @@ permalink: /research/
 
 ## Working Papers
 
+- A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models (with Camilo Garcia-Jimeno, R&R *Journal of Econometrics*) [[paper](http://ditraglia.com/pdf/DiTraglia_Garcia-Jimeno_2017.pdf), [slides](http://ditraglia.com/pdf/sick_instruments_slides.pdf)]
 - Mis-classified, Binary, Endogenous Regressors: Identification and Inference (with Camilo Garcia-Jimeno, Submitted) [[paper](http://ditraglia.com//pdf/DiTraglia_Garcia-Jimeno_2017b.pdf)] 
-- A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models (with Camilo Garcia-Jimeno, Submitted) [[paper](http://ditraglia.com/pdf/DiTraglia_Garcia-Jimeno_2017.pdf), [slides](http://ditraglia.com/pdf/sick_instruments_slides.pdf)]
 
 ## In Progress
 - A History of Violence: Forced Displacement and De Facto Land Reform in Rural Colombia (with Camilo Garcia-Jimeno) 
