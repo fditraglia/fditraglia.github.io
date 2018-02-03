@@ -17,6 +17,7 @@ permalink: /research/
 - A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models (with Camilo Garcia-Jimeno, Submitted) [[paper](http://ditraglia.com/pdf/DiTraglia_Garcia-Jimeno_2017.pdf), [slides](http://ditraglia.com/pdf/sick_instruments_slides.pdf)]
 
 ## In Progress
-- Adaptive Inference for Regular Parametric Models with a Constrained Parameter Space (with Adam McCloskey)
+- Program Evaluation in the Presence of Strategic Interactions (with Daron Acemoglu, Camilo Garcia-Jimeno, and Rossa O'Keeffe-O'Donovan)
 - A History of Violence: Forced Displacement and De Facto Land Reform in Rural Colombia (with Camilo Garcia-Jimeno) 
-- Estimating the Effects of Online Discussions on Student Performance (with Aislinn Bohren and Petra Todd)
+- Estimating the Returns to Lying (with Arthur Lewbel)
+- Adaptive Inference for Regular Parametric Models with a Constrained Parameter Space (with Adam McCloskey)
