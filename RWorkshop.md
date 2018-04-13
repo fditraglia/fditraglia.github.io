@@ -9,9 +9,8 @@ This page contains an archive of the material covered in the workshop, along wit
 
 ## Yihui's Material
 
-- [Intro to R Slides](http://bit.ly/upenn-r-yihui-1) [[pdf]](http://ditraglia.com/pdf/yihui1.pdf)
-- [knitr and RMarkdown Slides](http://bit.ly/upenn-r-yihui-2) [[pdf]](http://ditraglia.com/pdf/yihui2.pdf)
-- [Code for knitr and RMarkdown](http://bit.ly/upenn-r-yihui-3)
+- [Intro to R Slides](http://ditraglia.com/pdf/yihui1.pdf)
+- [knitr and RMarkdown Slides](http://ditraglia.com/pdf/yihui2.pdf)
 
 ## Dirk's Material
 
