@@ -12,9 +12,8 @@ permalink: /research/
 - [Yes, Wall Street, There is a January Effect: Evidence from Laboratory Auctions](http://www.tandfonline.com/doi/abs/10.1080/15427560709337012) (with Lisa Anderson and Jeffrey Gerlach), *Journal of Behavioral Finance*, 2007, 8 (1), pp. 1-8
 
 ## Working Papers
-
-- A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models (with Camilo Garcia-Jimeno, R&R *Journal of Econometrics*) [[paper](http://ditraglia.com/pdf/DiTraglia_Garcia-Jimeno_2017.pdf), [slides](http://ditraglia.com/pdf/sick_instruments_slides.pdf)]
-- Mis-classified, Binary, Endogenous Regressors: Identification and Inference (with Camilo Garcia-Jimeno, R&R *Journal of Econometrics*) [[paper](http://ditraglia.com//pdf/DiTraglia_Garcia-Jimeno_2017b.pdf)] 
+- Mis-classified, Binary, Endogenous Regressors: Identification and Inference (with Camilo Garcia-Jimeno, Revised and Resubmitted to *Journal of Econometrics*) [[paper](http://ditraglia.com//pdf/DiTraglia_Garcia-Jimeno_2017b.pdf)] 
+- A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models (with Camilo Garcia-Jimeno, Revision Requested by *Journal of Econometrics*) [[paper](http://ditraglia.com/pdf/DiTraglia_Garcia-Jimeno_2017.pdf), [slides](http://ditraglia.com/pdf/sick_instruments_slides.pdf)]
 
 ## In Progress
 - Program Evaluation in the Presence of Strategic Interactions (with Daron Acemoglu, Camilo Garcia-Jimeno, and Rossa O'Keeffe-O'Donovan)
