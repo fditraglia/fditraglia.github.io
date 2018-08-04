@@ -13,7 +13,7 @@ permalink: /research/
 
 ## Working Papers
 - Mis-classified, Binary, Endogenous Regressors: Identification and Inference (with Camilo Garcia-Jimeno, Revised and Resubmitted to *Journal of Econometrics*) [[paper](http://ditraglia.com//pdf/DiTraglia_Garcia-Jimeno_2017b.pdf)] 
-- A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models (with Camilo Garcia-Jimeno, Revision Requested by *Journal of Econometrics*) [[paper](http://ditraglia.com/pdf/DiTraglia_Garcia-Jimeno_2017.pdf), [slides](http://ditraglia.com/pdf/sick_instruments_slides.pdf)]
+- A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models (with Camilo Garcia-Jimeno, Revision Requested by *Journal of Econometrics*) [[paper](http://ditraglia.com/pdf/DiTraglia_Garcia-Jimeno_2017.pdf)]
 
 ## In Progress
 - Identifying Causal Effects in Network Experiments with Non-compliance (with Camilo Garcia-Jimeno, Rossa O'Keeffe-O'Donovan, and Alejandro Sanchez)
