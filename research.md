@@ -16,6 +16,6 @@ permalink: /research/
 - A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models (with Camilo Garcia-Jimeno, Revision Requested by *Journal of Econometrics*) [[paper](http://ditraglia.com/pdf/DiTraglia_Garcia-Jimeno_2017.pdf), [slides](http://ditraglia.com/pdf/sick_instruments_slides.pdf)]
 
 ## In Progress
-- Identifying Causal Effects in Network Experiments with Non-compliance (with Camilo Garcia-Jimeno, and Rossa O'Keeffe-O'Donovan, and Alejandro Sanchez)
+- Identifying Causal Effects in Network Experiments with Non-compliance (with Camilo Garcia-Jimeno, Rossa O'Keeffe-O'Donovan, and Alejandro Sanchez)
 - Estimating the Returns to Lying (with Arthur Lewbel)
 - A History of Violence: Forced Displacement and De Facto Land Reform in Rural Colombia (with Camilo Garcia-Jimeno) 
