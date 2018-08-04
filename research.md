@@ -12,7 +12,7 @@ permalink: /research/
 - [Yes, Wall Street, There is a January Effect: Evidence from Laboratory Auctions](http://www.tandfonline.com/doi/abs/10.1080/15427560709337012) (with Lisa Anderson and Jeffrey Gerlach), *Journal of Behavioral Finance*, 2007, 8 (1), pp. 1-8
 
 ## Working Papers
-- Mis-classified, Binary, Endogenous Regressors: Identification and Inference (with Camilo Garcia-Jimeno, Revised and Resubmitted to *Journal of Econometrics*) [[paper](http://ditraglia.com//pdf/DiTraglia_Garcia-Jimeno_2017b.pdf)] 
+- Identifying the Effect of a Mis-classified, Binary, Endogenous Regressor (with Camilo Garcia-Jimeno, Revised and Resubmitted to *Journal of Econometrics*) [[paper](http://ditraglia/com/pdf/DiTraglia_Garcia-Jimeno_2018.pdf),[2017 NBER version](http://ditraglia.com//pdf/DiTraglia_Garcia-Jimeno_2017b.pdf)] 
 - A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models (with Camilo Garcia-Jimeno, Revision Requested by *Journal of Econometrics*) [[paper](http://ditraglia.com/pdf/DiTraglia_Garcia-Jimeno_2017.pdf)]
 
 ## In Progress
