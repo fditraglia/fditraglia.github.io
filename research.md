@@ -5,7 +5,7 @@ permalink: /research/
 ---
 
 ## Research Statement
-Click [here](https://github.com/fditraglia/fditraglia-research/raw/master/DiTraglia-research-statement.pdf) to view a copy of my most recent research statement.
+Click [here](https://github.com/fditraglia/fditraglia-research/raw/master/DiTraglia-research-statement.pdf) to download a copy of my most recent research statement.
 
 ## Publications
 
