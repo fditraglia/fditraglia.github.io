@@ -3,8 +3,9 @@ layout: page
 title: Research
 permalink: /research/
 ---
-I an an econometrician with a particular interest in the interface between theory and practice. The three main topics of my recent and ongoing research are model selection and averaging, measurement error, and models with social interactions. I also work on substantive applications with a significant econometric component, primarily in applied microeconomics.
-Click [here](https://github.com/fditraglia.com/fditraglia-research/raw/master/DiTraglia-research-statement.pdf) to download a copy of my full research statement.
+
+## Research Statement
+Click [here](https://github.com/fditraglia) to view a copy of my most recent research statement.
 
 ## Publications
 
