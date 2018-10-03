@@ -3,6 +3,9 @@ layout: page
 title: Research
 permalink: /research/
 ---
+I an an econometrician with a particular interest in the interface between theory and practice. The three main topics of my recent and ongoing research are model selection and averaging, measurement error, and models with social interactions. I also work on substantive applications with a significant econometric component, primarily in applied microeconomics.
+Click [here](https://github.com/fditraglia.com/fditraglia-research/raw/master/DiTraglia-research-statement.pdf) to download a copy of my full research statement.
+
 ## Publications
 
 - [A Generalized Focused Information Criterion for GMM with Applications to Panel Data Models](https://onlinelibrary.wiley.com/doi/10.1002/jae.2614) (with Minsu Chang), *Journal of Applied Econometrics*, 2018, 33 (3), pp. 378-397 [[pre-print](http://ditraglia.com/pdf/GFIC_paper.pdf), [code](https://github.com/fditraglia/gfic)]
