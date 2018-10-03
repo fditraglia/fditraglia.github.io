@@ -4,7 +4,7 @@ title: Miscellaneous
 permalink: /misc/
 ---
 
-- [R Workshop](RWorkshop) - Materials from an R workshop that I organized through the Warren Center a few years ago.
+- [R Workshop](RWorkshop) - Material from an R workshop that I organized a few years back. 
 - [Blog](blog) - Currently Dormant
 
 
