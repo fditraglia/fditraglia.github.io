@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Teaching
-permalink: /Teaching/
+permalink: /teaching/
 ---
 My office hours for the Fall Semester of 2018 will take place on Mondays from 3-4pm and Thursdays from 4-5pm in PCPSE 630.
 
