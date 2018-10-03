@@ -4,8 +4,8 @@ email: fditra@sas.upenn.edu
 office: 630 PCPSE, University of Pennsylvania
 address: 133 South 36th Street, Philadelphia PA 19104
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: fjditr
+url: "http://ditraglia.com" # the base hostname & protocol for your site
+twitter_username: 
 github_username:  fditraglia
 
 # Build settings
