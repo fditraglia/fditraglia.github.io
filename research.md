@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-Click [here](https://github.com/fditraglia/fditraglia-research/raw/master/DiTraglia-research-statement.pdf) to download a copy of my most recent research statement.
+Click [here](/pdf/DiTraglia-research.pdf) to download a copy of my most recent research statement.
 
 ## Publications
 
@@ -16,7 +16,7 @@ Click [here](https://github.com/fditraglia/fditraglia-research/raw/master/DiTrag
 
 ## Working Papers
 - Identifying the Effect of a Mis-classified, Binary, Endogenous Regressor (with Camilo Garcia-Jimeno, Revised and Resubmitted to *Journal of Econometrics*) [[paper](http://ditraglia.com/pdf/DiTraglia_Garcia-Jimeno_2018.pdf), [NBER version](http://ditraglia.com/pdf/DiTraglia_Garcia-Jimeno_2017b.pdf)] 
-- A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models (with Camilo Garcia-Jimeno, Revision Requested by *Journal of Econometrics*) [[paper](http://ditraglia.com/pdf/DiTraglia_Garcia-Jimeno_2017.pdf)]
+- A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models (with Camilo Garcia-Jimeno, Revised and Resubmitted to *Journal of Econometrics*) [[paper](http://ditraglia.com/pdf/DiTraglia_Garcia-Jimeno_2018b.pdf)]
 
 ## In Progress
 - Estimating the Returns to Lying (with Arthur Lewbel)
