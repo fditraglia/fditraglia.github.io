@@ -1,0 +1,381 @@
+"Area","Region","Pct_Leave","mean_hourly_pay2005"
+"Hartlepool","North East",69.57,10.89
+"Middlesbrough","North East",65.48,10.02
+"Redcar and Cleveland","North East",66.19,11.45
+"Stockton-on-Tees","North East",61.73,12.15
+"Darlington","North East",56.18,11.03
+"Halton","North West",57.42,10.5
+"Warrington","North West",54.27,14
+"Blackburn with Darwen","North West",56.34,11.13
+"Blackpool","North West",67.46,9.91
+"Kingston upon Hull, City of","Yorkshire and The Humber",67.62,9.64
+"East Riding of Yorkshire","Yorkshire and The Humber",60.4,12.07
+"North East Lincolnshire","Yorkshire and The Humber",69.87,10.28
+"North Lincolnshire","Yorkshire and The Humber",66.3,13.17
+"York","Yorkshire and The Humber",41.96,12.55
+"Derby","East Midlands",57.22,12.03
+"Leicester","East Midlands",48.92,10.38
+"Rutland","East Midlands",50.57,13.21
+"Nottingham","East Midlands",50.84,11.63
+"Herefordshire, County of","West Midlands",59.22,11.32
+"Telford and Wrekin","West Midlands",63.22,11.04
+"Stoke-on-Trent","West Midlands",69.36,9.99
+"Bath and North East Somerset","South West",42.15,13.95
+"Bristol, City of","South West",38.27,12.61
+"North Somerset","South West",52.17,14.16
+"South Gloucestershire","South West",52.68,12.83
+"Plymouth","South West",59.94,10.45
+"Torbay","South West",63.16,9.98
+"Bournemouth","South West",54.88,11.3
+"Poole","South West",58.17,12.44
+"Swindon","South West",54.66,13.3
+"Peterborough","East",60.89,11.59
+"Luton","East",56.55,11.53
+"Southend-on-Sea","East",58.08,13.11
+"Thurrock","East",72.28,12.3
+"Medway","South East",64.08,12.24
+"Bracknell Forest","South East",53.94,15.39
+"West Berkshire","South East",48.22,14.84
+"Reading","South East",41.97,14.06
+"Slough","South East",54.33,12.49
+"Windsor and Maidenhead","South East",46.1,20.39
+"Wokingham","South East",43.31,18.82
+"Milton Keynes","South East",51.41,13.57
+"Brighton and Hove","South East",31.38,13.08
+"Portsmouth","South East",58.08,11.54
+"Southampton","South East",53.8,11.48
+"Isle of Wight","South East",61.95,11.2
+"County Durham","North East",57.55,12.37
+"Cheshire East","North West",51.18,16.05
+"Cheshire West and Chester","North West",50.68,15.04
+"Shropshire","West Midlands",56.87,14.21
+"Cornwall","South West",56.52,11.42
+"Isles of Scilly","South West",43.61,6.43
+"Wiltshire","South West",52.49,15.02
+"Bedford","East",51.78,13.32
+"Central Bedfordshire","East",56.13,16.64
+"Northumberland","North East",54.11,13.67
+"Aylesbury Vale","South East",50.5,15.08
+"Chiltern","South East",44.98,19.53
+"South Bucks","South East",50.7,18.39
+"Wycombe","South East",48.03,16.63
+"Cambridge","East",26.15,15.73
+"East Cambridgeshire","East",50.92,14.23
+"Fenland","East",71.39,10.53
+"Huntingdonshire","East",54.24,14.01
+"South Cambridgeshire","East",39.77,16.94
+"Allerdale","North West",58.65,11.28
+"Barrow-in-Furness","North West",60.62,10.01
+"Carlisle","North West",60.14,11.17
+"Copeland","North West",62,12.83
+"Eden","North West",53.32,11.02
+"South Lakeland","North West",47.14,13.25
+"Amber Valley","East Midlands",60.28,11.77
+"Bolsover","East Midlands",70.83,10.34
+"Chesterfield","East Midlands",60.04,11.59
+"Derbyshire Dales","East Midlands",51.56,15.57
+"Erewash","East Midlands",61.23,11.67
+"High Peak","East Midlands",50.55,12.76
+"North East Derbyshire","East Midlands",62.78,11.64
+"South Derbyshire","East Midlands",60.35,11.91
+"East Devon","South West",54.11,11.3
+"Exeter","South West",44.72,10.64
+"Mid Devon","South West",53.34,10.57
+"North Devon","South West",57.04,11.05
+"South Hams","South West",47.15,12.47
+"Teignbridge","South West",53.9,10.71
+"Torridge","South West",60.83,9.74
+"West Devon","South West",53.2,12.66
+"Christchurch","South West",58.83,13.86
+"East Dorset","South West",57.62,14.08
+"North Dorset","South West",56.4,11.15
+"Purbeck","South West",59.07,11.37
+"West Dorset","South West",51.03,12.98
+"Weymouth and Portland","South West",61.04,10.9
+"Eastbourne","South East",57.33,11.3
+"Hastings","South East",54.88,10.15
+"Lewes","South East",47.93,13.27
+"Rother","South East",58.53,13.92
+"Wealden","South East",54.5,14.65
+"Basildon","East",68.62,14.17
+"Braintree","East",61.13,14.12
+"Brentwood","East",59.15,19.92
+"Castle Point","East",72.7,14.26
+"Chelmsford","East",52.83,15.94
+"Colchester","East",53.6,14.11
+"Epping Forest","East",62.69,16.05
+"Harlow","East",68.1,11.25
+"Maldon","East",62.58,15.15
+"Rochford","East",66.61,15.29
+"Tendring","East",69.5,10.87
+"Uttlesford","East",50.68,15.91
+"Cheltenham","South West",43.83,14.08
+"Cotswold","South West",48.9,13.93
+"Forest of Dean","South West",58.58,13.23
+"Gloucester","South West",58.5,11.05
+"Stroud","South West",45.39,13.73
+"Tewkesbury","South West",53.25,14.32
+"Basingstoke and Deane","South East",51.9,14.8
+"East Hampshire","South East",49.48,16.38
+"Eastleigh","South East",52.45,13.23
+"Fareham","South East",55.1,12.93
+"Gosport","South East",63.86,11.07
+"Hart","South East",47.6,18.84
+"Havant","South East",62.36,12.57
+"New Forest","South East",57.76,12.67
+"Rushmoor","South East",58.21,12.69
+"Test Valley","South East",51.94,13.87
+"Winchester","South East",41.07,17.63
+"Broxbourne","East",66.26,14.44
+"Dacorum","East",50.67,15.98
+"Hertsmere","East",50.84,16.26
+"North Hertfordshire","East",45.63,15.46
+"Three Rivers","East",51.27,17.64
+"Watford","East",50.27,15.17
+"Ashford","South East",59.43,13.04
+"Canterbury","South East",51.04,13.68
+"Dartford","South East",64.22,13.45
+"Dover","South East",62.15,11.8
+"Gravesham","South East",65.38,12.88
+"Maidstone","South East",58.75,13.84
+"Sevenoaks","South East",54.38,18.98
+"Shepway","South East",62.25,13.64
+"Swale","South East",62.46,11.34
+"Thanet","South East",63.85,12.66
+"Tonbridge and Malling","South East",55.7,15.79
+"Tunbridge Wells","South East",45.11,15.93
+"Burnley","North West",66.61,10.77
+"Chorley","North West",56.83,12.23
+"Fylde","North West",56.96,13.4
+"Hyndburn","North West",66.19,10.36
+"Lancaster","North West",51.08,12.13
+"Pendle","North West",63.15,10.49
+"Preston","North West",53.31,12
+"Ribble Valley","North West",56.39,14.28
+"Rossendale","North West",60.68,12.11
+"South Ribble","North West",58.56,11.96
+"West Lancashire","North West",55.31,12.71
+"Wyre","North West",63.77,12.09
+"Blaby","East Midlands",59.47,13.26
+"Charnwood","East Midlands",53.81,11.9
+"Harborough","East Midlands",50.75,13.97
+"Hinckley and Bosworth","East Midlands",60.33,12.97
+"Melton","East Midlands",58.11,13.18
+"North West Leicestershire","East Midlands",60.7,12.53
+"Oadby and Wigston","East Midlands",54.58,11.77
+"Boston","East Midlands",75.56,10.33
+"East Lindsey","East Midlands",70.65,10.21
+"Lincoln","East Midlands",56.94,11.03
+"North Kesteven","East Midlands",62.26,11.41
+"South Holland","East Midlands",73.59,10.44
+"South Kesteven","East Midlands",59.93,13.46
+"West Lindsey","East Midlands",61.82,11.97
+"Breckland","East",64.22,10.28
+"Broadland","East",54.37,11.52
+"Great Yarmouth","East",71.5,10.32
+"King's Lynn and West Norfolk","East",66.4,10.82
+"North Norfolk","East",58.91,9.94
+"Norwich","East",43.76,11.04
+"South Norfolk","East",51.69,12.92
+"Corby","East Midlands",64.25,9.56
+"Daventry","East Midlands",58.6,15.41
+"East Northamptonshire","East Midlands",58.76,13.4
+"Kettering","East Midlands",60.99,11.33
+"Northampton","East Midlands",58.38,11.96
+"South Northamptonshire","East Midlands",54.34,14.63
+"Wellingborough","East Midlands",62.42,11.78
+"Craven","Yorkshire and The Humber",52.83,12.17
+"Hambleton","Yorkshire and The Humber",53.66,13.62
+"Harrogate","Yorkshire and The Humber",49.03,14.2
+"Richmondshire","Yorkshire and The Humber",56.78,11.04
+"Ryedale","Yorkshire and The Humber",55.26,12.61
+"Scarborough","Yorkshire and The Humber",61.99,11.32
+"Selby","Yorkshire and The Humber",59.17,14.04
+"Ashfield","East Midlands",69.84,10.36
+"Bassetlaw","East Midlands",67.83,12.04
+"Broxtowe","East Midlands",54.65,12.44
+"Gedling","East Midlands",55.55,12.51
+"Mansfield","East Midlands",70.86,10.9
+"Newark and Sherwood","East Midlands",60.39,12.29
+"Rushcliffe","East Midlands",42.45,16.04
+"Cherwell","South East",50.31,12.81
+"Oxford","South East",29.73,12.8
+"South Oxfordshire","South East",45.02,17.45
+"Vale of White Horse","South East",43.3,14.72
+"West Oxfordshire","South East",46.34,14.07
+"Mendip","South West",48.93,12.54
+"Sedgemoor","South West",61.2,12.15
+"South Somerset","South West",57.25,11.8
+"Taunton Deane","South West",52.92,12.04
+"West Somerset","South West",60.59,11.15
+"Cannock Chase","West Midlands",68.86,11.1
+"East Staffordshire","West Midlands",63.21,11.62
+"Lichfield","West Midlands",58.81,14.22
+"Newcastle-under-Lyme","West Midlands",63.04,11.65
+"South Staffordshire","West Midlands",64.85,12.48
+"Stafford","West Midlands",55.99,13.11
+"Staffordshire Moorlands","West Midlands",64.73,11.74
+"Tamworth","West Midlands",67.47,10.98
+"Babergh","East",54.19,12.02
+"Forest Heath","East",64.97,10.01
+"Ipswich","East",58.26,10.72
+"Mid Suffolk","East",55.23,14.15
+"St Edmundsbury","East",56.62,12.59
+"Suffolk Coastal","East",53,12.31
+"Waveney","East",62.9,9.83
+"Elmbridge","South East",40.47,24.06
+"Epsom and Ewell","South East",47.92,17.18
+"Guildford","South East",43.83,18.15
+"Mole Valley","South East",46.92,21.07
+"Reigate and Banstead","South East",50.49,17.63
+"Runnymede","South East",54.26,16.63
+"Spelthorne","South East",60.3,15.48
+"Surrey Heath","South East",50.98,17.98
+"Tandridge","South East",52.84,17.99
+"Waverley","South East",41.61,17.63
+"Woking","South East",43.85,20.14
+"North Warwickshire","West Midlands",66.88,12.56
+"Nuneaton and Bedworth","West Midlands",66.01,11.63
+"Rugby","West Midlands",56.7,13.26
+"Stratford-on-Avon","West Midlands",51.56,15.3
+"Warwick","West Midlands",41.22,14.65
+"Adur","South East",54.57,11.31
+"Arun","South East",62.48,10.7
+"Chichester","South East",50.92,13.78
+"Crawley","South East",58.41,11.9
+"Horsham","South East",48.54,16.29
+"Mid Sussex","South East",46.91,15.75
+"Worthing","South East",52.99,11.64
+"Bromsgrove","West Midlands",55.37,14.51
+"Malvern Hills","West Midlands",52.16,14.37
+"Redditch","West Midlands",62.29,11.37
+"Worcester","West Midlands",53.68,12.01
+"Wychavon","West Midlands",57.86,13.12
+"Wyre Forest","West Midlands",63.15,11.13
+"St Albans","East",37.29,20.01
+"Welwyn Hatfield","East",52.99,15.64
+"East Hertfordshire","East",50.36,19.67
+"Stevenage","East",59.25,12.62
+"Bolton","North West",58.29,11.52
+"Bury","North West",54.12,11.98
+"Manchester","North West",39.64,11.67
+"Oldham","North West",60.86,11.46
+"Rochdale","North West",60.07,11.46
+"Salford","North West",56.81,11.15
+"Stockport","North West",47.67,13.28
+"Tameside","North West",61.14,11.03
+"Trafford","North West",42.31,14.09
+"Wigan","North West",63.9,11.39
+"Knowsley","North West",51.56,10.9
+"Liverpool","North West",41.81,12.04
+"St. Helens","North West",58.02,11.59
+"Sefton","North West",48.13,12.32
+"Wirral","North West",48.3,12.92
+"Barnsley","Yorkshire and The Humber",68.31,11.01
+"Doncaster","Yorkshire and The Humber",68.96,10.72
+"Rotherham","Yorkshire and The Humber",67.89,11.08
+"Sheffield","Yorkshire and The Humber",50.99,11.65
+"Newcastle upon Tyne","North East",49.3,12.18
+"North Tyneside","North East",53.4,11.62
+"South Tyneside","North East",62.05,10.9
+"Sunderland","North East",61.34,10.84
+"Birmingham","West Midlands",50.42,12.02
+"Coventry","West Midlands",55.6,12.26
+"Dudley","West Midlands",67.6,11.09
+"Sandwell","West Midlands",66.72,10.38
+"Solihull","West Midlands",56.16,14.87
+"Walsall","West Midlands",67.86,10.56
+"Wolverhampton","West Midlands",62.57,10.3
+"Bradford","Yorkshire and The Humber",54.23,11.33
+"Calderdale","Yorkshire and The Humber",55.68,12.08
+"Kirklees","Yorkshire and The Humber",54.67,12.52
+"Leeds","Yorkshire and The Humber",49.69,12.26
+"Wakefield","Yorkshire and The Humber",66.36,11.35
+"Gateshead","North East",56.85,10.8
+"City of London","London",24.71,34.9
+"Barking and Dagenham","London",62.44,12
+"Barnet","London",37.77,17.85
+"Bexley","London",62.95,14.76
+"Brent","London",40.26,13.71
+"Bromley","London",49.35,18.2
+"Camden","London",25.06,21.99
+"Croydon","London",45.71,14.88
+"Ealing","London",39.6,15.7
+"Enfield","London",44.18,15.46
+"Greenwich","London",44.41,14.62
+"Hackney","London",21.52,15.13
+"Hammersmith and Fulham","London",29.98,18.54
+"Haringey","London",24.43,15.21
+"Harrow","London",45.37,15.11
+"Havering","London",69.66,15.76
+"Hillingdon","London",56.37,14.37
+"Hounslow","London",48.94,14.73
+"Islington","London",24.78,19.18
+"Kensington and Chelsea","London",31.31,33.62
+"Kingston upon Thames","London",38.39,16.49
+"Lambeth","London",21.38,15.72
+"Lewisham","London",30.14,14.75
+"Merton","London",37.06,18.27
+"Newham","London",47.16,12.02
+"Redbridge","London",46.03,15.46
+"Richmond upon Thames","London",30.71,22.87
+"Southwark","London",27.19,16.5
+"Sutton","London",53.72,14.79
+"Tower Hamlets","London",32.54,17.45
+"Waltham Forest","London",40.9,13.83
+"Wandsworth","London",24.97,19.44
+"Westminster","London",31.03,25.4
+"Clackmannanshire","Scotland",42.22,11.09
+"Dumfries and Galloway","Scotland",46.94,11.1
+"East Ayrshire","Scotland",41.4,11.48
+"East Lothian","Scotland",35.4,12.12
+"East Renfrewshire","Scotland",25.68,14.24
+"Eilean Siar","Scotland",44.76,10.95
+"Falkirk","Scotland",43.24,10.97
+"Fife","Scotland",41.41,11.97
+"Highland","Scotland",44.05,11.25
+"Inverclyde","Scotland",36.2,11.98
+"Midlothian","Scotland",37.94,11.26
+"Moray","Scotland",49.87,10.23
+"North Ayrshire","Scotland",43.12,12.67
+"Orkney Islands","Scotland",36.84,12.11
+"Perth and Kinross","Scotland",38.91,11.81
+"Scottish Borders","Scotland",41.53,12.03
+"Shetland Islands","Scotland",43.49,12.1
+"South Ayrshire","Scotland",41.04,13.95
+"South Lanarkshire","Scotland",36.92,12.05
+"Stirling","Scotland",32.28,13.56
+"Aberdeen City","Scotland",38.9,13.59
+"Aberdeenshire","Scotland",44.99,12.64
+"Argyll and Bute","Scotland",39.43,11.47
+"City of Edinburgh","Scotland",25.56,14.22
+"Renfrewshire","Scotland",35.19,12.44
+"West Dunbartonshire","Scotland",38.01,10.68
+"West Lothian","Scotland",41.75,11.92
+"Angus","Scotland",44.74,11.66
+"Dundee City","Scotland",40.22,11.68
+"North Lanarkshire","Scotland",38.34,10.9
+"East Dunbartonshire","Scotland",28.6,15.96
+"Glasgow City","Scotland",33.41,11.88
+"Isle of Anglesey","Wales",50.94,11.24
+"Gwynedd","Wales",41.95,11.49
+"Conwy","Wales",53.98,11.86
+"Denbighshire","Wales",54,11.61
+"Flintshire","Wales",56.37,12.05
+"Wrexham","Wales",59.04,11.25
+"Ceredigion","Wales",45.37,11.82
+"Pembrokeshire","Wales",57.14,10.52
+"Carmarthenshire","Wales",53.75,10.8
+"Swansea","Wales",51.51,11.23
+"Neath Port Talbot","Wales",56.84,11.1
+"Bridgend","Wales",54.64,12.5
+"Vale of Glamorgan","Wales",49.27,13.12
+"Cardiff","Wales",39.98,13.13
+"Rhondda Cynon Taf","Wales",53.7,10.63
+"Caerphilly","Wales",57.63,10.98
+"Blaenau Gwent","Wales",62.03,9.5
+"Torfaen","Wales",59.78,11.78
+"Monmouthshire","Wales",49.56,14.89
+"Newport","Wales",55.99,12.14
+"Powys","Wales",53.74,10.91
+"Merthyr Tydfil","Wales",56.44,10.59
