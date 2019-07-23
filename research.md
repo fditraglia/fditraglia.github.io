@@ -8,7 +8,7 @@ Click [here](/pdf/DiTraglia-research.pdf) to download a copy of my most recent r
 
 ## Publications
 
-- [Identifying the Effect of a Mis-classified, Binary, Endogenous Regressor](https://authors.elsevier.com/a/1YjlV15Dji0~jL) (with Camilo Garcia-Jimeno), *Journal of Econometrics*, 2019, 209 (2), pp. 376-390. [[pre-print](http://ditraglia.com/pdf/binary-regressor-final.pdf), [NBER version](http://ditraglia.com/pdf/DiTraglia_Garcia-Jimeno_2017b.pdf)] 
+- [Identifying the Effect of a Mis-classified, Binary, Endogenous Regressor](https://www.sciencedirect.com/science/article/pii/S0304407619300181) (with Camilo Garcia-Jimeno), *Journal of Econometrics*, 2019, 209 (2), pp. 376-390. [[pre-print](http://ditraglia.com/pdf/binary-regressor-final.pdf), [NBER version](http://ditraglia.com/pdf/DiTraglia_Garcia-Jimeno_2017b.pdf)] 
 - [A Generalized Focused Information Criterion for GMM with Applications to Panel Data Models](https://onlinelibrary.wiley.com/doi/10.1002/jae.2614) (with Minsu Chang), *Journal of Applied Econometrics*, 2018, 33 (3), pp. 378-397 [[pre-print](http://ditraglia.com/pdf/GFIC_paper.pdf), [code](https://github.com/fditraglia/gfic)]
 - [Using Invalid Instruments on Purpose: Focused Moment Selection and Averaging for GMM](https://www.sciencedirect.com/science/article/pii/S0304407616301518), *Journal of Econometrics*, 2016, 195 (2), pp. 187-208 [[pre-print](http://ditraglia.com/pdf/FMSC.pdf), [appendix](http://ditraglia.com/pdf/FMSC_appendix.pdf), [code](https://github.com/fditraglia/fmsc)]
 - [Portfolio Selection: An Extreme Value Approach](https://www.sciencedirect.com/science/article/pii/S0378426612002592) (with Jeffrey Gerlach), *Journal of Banking and Finance*, 2013, 37 (2), pp. 305-323 [[pre-print](http://ditraglia.com/pdf/EV_paper.pdf)]
