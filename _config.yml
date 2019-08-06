@@ -1,7 +1,7 @@
 # Site settings
 title: Francis J. DiTraglia
 email: francis.ditraglia.economics.ox.ac.uk
-office: 630 Manor Road Building, University of Oxford 
+office: 2132 Manor Road Building, University of Oxford 
 address: Manor Road, Oxford OX1 3UQ, United Kingdom
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ditraglia.com" # the base hostname & protocol for your site
