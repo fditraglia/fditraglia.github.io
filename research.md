@@ -17,8 +17,8 @@ Click [here](/pdf/DiTraglia-research.pdf) to download a copy of my most recent r
 
 ## Working Papers
 - A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models (with Camilo Garcia-Jimeno, *Revise-and-Resubmit, Journal of Business and Economic Statistics*) [[paper](http://ditraglia.com/pdf/DiTraglia-Garcia-Jimeno-2019.pdf)]
+- Identifying Causal Effects in Experiments with Social Interactions and Non-compliance (with Camilo Garcia-Jimeno, Rossa O'Keeffe-O'Donovan, and Alejandro Sanchez) [*Draft Coming Soon*]
 
 ## In Progress
-- Identifying Causal Effects in Experiments with Social Interactions and Non-compliance (with Camilo Garcia-Jimeno, Rossa O'Keeffe-O'Donovan, and Alejandro Sanchez, *Draft Coming Soon*)
 - A History of Violence: Forced Displacement and De Facto Land Reform in Rural Colombia (with Camilo Garcia-Jimeno) 
 - Estimating the Returns to Lying (with Arthur Lewbel)
