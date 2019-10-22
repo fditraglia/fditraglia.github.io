@@ -7,11 +7,11 @@ permalink: /teaching/
 
 # University of Oxford
 
-### Lectures
+#### Lectures
 - Advanced Econometrics 1 (Graduate)
 - MPhil Econometrics (Graduate)
 
-### Tutorials
+#### Tutorials
 - [Econometrics](./pdf/econometrics-tutorials.pdf) (Undergraduate)
 - Quantitative Economics (Undergraduate)
 
