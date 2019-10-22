@@ -6,9 +6,13 @@ permalink: /teaching/
 <!--- My office hours for the Spring Semester of 2019 will take place on Mondays from 3-4pm and Thursdays from 4-5pm in PCPSE 630. --->
 
 # University of Oxford
+
+## Lectures
 - Advanced Econometrics 1 (Graduate)
 - MPhil Econometrics (Graduate)
-- Econometrics (Undergraduate)
+
+## Tutorials
+- [Econometrics](./pdf/econometrics-tutorials.pdf) (Undergraduate)
 - Quantitative Economics (Undergraduate)
 
 # University of Pennsylvania
