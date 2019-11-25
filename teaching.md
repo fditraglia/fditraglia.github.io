@@ -8,8 +8,8 @@ permalink: /teaching/
 # University of Oxford
 
 #### Lectures
-- Advanced Econometrics 1 (Graduate)
-- MPhil Econometrics (Graduate)
+- [Treatment Effects](./pdf/treatment-effects.pdf) - Advanced Econometrics 1 (Graduate)
+- [Limited Dependent Variables](./pdf/) - MPhil Econometrics (Graduate)
 
 #### Tutorials
 - [Econometrics](./pdf/econometrics-tutorials.pdf) (Undergraduate)
