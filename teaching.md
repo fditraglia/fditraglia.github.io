@@ -15,6 +15,9 @@ permalink: /teaching/
 - [Econometrics](./pdf/econometrics-tutorials.pdf) (Undergraduate)
 - Quantitative Economics (Undergraduate)
 
+#### Thank you DataCamp!
+Thanks to [DataCamp](https://www.datacamp.com/) for supporting my teaching by providing my students free access to their excellent online data science tutorials.
+
 # University of Pennsylvania
 My archived teaching materials from 2012-2019 are available below:
 - [Econ 103](http://ditraglia.com/Econ103Public) - Statistics for Economists (Undergrad)
