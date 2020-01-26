@@ -9,7 +9,7 @@ permalink: /teaching/
 
 #### Lectures
 - [Treatment Effects](./pdf/treatment-effects.pdf) - Advanced Econometrics 1 (Graduate)
-- [Limited Dependent Variables](./pdf/) - MPhil Econometrics (Graduate)
+- [Limited Dependent Variables](./pdf/limdep.pdf) - MPhil Econometrics (Graduate)
 
 #### Tutorials
 - [Econometrics](./pdf/econometrics-tutorials.pdf) (Undergraduate)
