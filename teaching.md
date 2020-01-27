@@ -8,8 +8,8 @@ permalink: /teaching/
 # University of Oxford
 
 #### Lectures
-- Treatment Effects - Advance Econometrics 1 (Graduate): [notes](./pdf/treatment-effects.pdf) - Advanced Econometrics 1 (Graduate)
-- Limited Dependent Variables - 1st-year MPhil Econometrics (Graduate): [[slides](./pdf/limdep.pdf), [errata](./pdf/limdep-errata.pdf), [R-examples](./pdf/), [ps1](./pdf/), [ps2](./pdf/)] - MPhil Econometrics (Graduate)
+- [Treatment Effects](./pdf/treatment-effects.pdf) - Advanced Econometrics 1 (Graduate)
+- Limited Dependent Variables - MPhil Econometrics (Graduate): [[slides](./pdf/limdep.pdf), [errata](./pdf/limdep-errata.pdf), [R-examples](./pdf/), [ps1](./pdf/), [ps2](./pdf/)] 
 
 #### Tutorials
 - [Econometrics](./pdf/econometrics-tutorials.pdf) (Undergraduate)
