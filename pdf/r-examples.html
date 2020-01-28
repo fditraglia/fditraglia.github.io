@@ -1353,11 +1353,6 @@ opacity: 0;
 }
 @media print {
 
-@page {
-size: landscape;
-margin: 0;
-}
-
 slides slide {
 display: block !important;
 position: relative;
@@ -3227,6 +3222,13 @@ summary(quasipois)$dispersion</pre>
 
 <pre >## [1] 0.7507749</pre>
 
+<pre class = 'prettyprint lang-r'># Now do it &quot;by hand&quot; 
+yhat &lt;- predict(pois_reg, type = &#39;response&#39;)
+uhat &lt;- residuals(pois_reg, type = &#39;response&#39;)
+mean(uhat^2 / yhat)</pre>
+
+<pre >## [1] 0.7493959</pre>
+
 </article></slide><slide class=""><hgroup><h2>Robust &ldquo;Sandwich&rdquo; SEs for Poisson Regression</h2></hgroup><article  id="robust-sandwich-ses-for-poisson-regression">
 
 <pre class = 'prettyprint lang-r'>coeftest(pois_reg, vcov. = vcovHC)</pre>
@@ -3245,6 +3247,24 @@ summary(quasipois)$dispersion</pre>
 ## tv          -0.14470460  0.04407782  -3.2829  0.001027 ** 
 ## ---
 ## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</pre>
+
+</article></slide><slide class=""><hgroup><h2>Comparing OLS and Poisson Estimates</h2></hgroup><article  id="comparing-ols-and-poisson-estimates">
+
+<pre class = 'prettyprint lang-r'>ybar &lt;- mean(fertil2$children)
+OLS_est &lt;- coefficients(ols)[-1]
+pois_est &lt;- coefficients(pois_reg)[-1]
+cbind(OLS = OLS_est, Poisson_APE = ybar * pois_est, Poisson = pois_est)</pre>
+
+<pre >##                   OLS  Poisson_APE      Poisson
+## educ     -0.064408588 -0.049131299 -0.021664469
+## age       0.272473589  0.765008442  0.337330821
+## agesq    -0.001906707 -0.009333995 -0.004115829
+## evermarr  0.682272453  0.713801366  0.314751037
+## urban    -0.227893299 -0.195157760 -0.086054903
+## electric -0.261739443 -0.273352064 -0.120534717
+## tv       -0.249950916 -0.328165205 -0.144704596</pre>
+
+<p><em>Note</em> the <code>age</code> and <code>agesq</code> entries are not partial effects. Why not?</p>
 
 </article></slide><slide class=""><hgroup><h2>Binary Outcome: Married Women’s Labor Supply</h2></hgroup><article  id="binary-outcome-married-womens-labor-supply">
 
