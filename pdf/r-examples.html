@@ -1353,6 +1353,11 @@ opacity: 0;
 }
 @media print {
 
+@page {
+size: landscape;
+margin: 0;
+}
+
 slides slide {
 display: block !important;
 position: relative;
@@ -3158,20 +3163,20 @@ fertility_model &lt;- children ~ educ + age + agesq + evermarr + urban + electri
 </article></slide><slide class=""><hgroup><h2>OLS Results - Robust SE</h2></hgroup><article  id="ols-results---robust-se">
 
 <pre class = 'prettyprint lang-r'>ols &lt;- lm(fertility_model, data = fertil2)
-coeftest(ols, vcov. = vcovHC)</pre>
+coeftest(ols, vcov. = vcovHC, type = &#39;HC0&#39;)</pre>
 
 <pre >## 
 ## t test of coefficients:
 ## 
 ##                Estimate  Std. Error  t value  Pr(&gt;|t|)    
-## (Intercept) -3.39383962  0.25216727 -13.4587 &lt; 2.2e-16 ***
-## educ        -0.06440859  0.00636282 -10.1226 &lt; 2.2e-16 ***
-## age          0.27247359  0.01989920  13.6927 &lt; 2.2e-16 ***
-## agesq       -0.00190671  0.00035643  -5.3495 9.274e-08 ***
-## evermarr     0.68227245  0.05272935  12.9391 &lt; 2.2e-16 ***
-## urban       -0.22789330  0.04483567  -5.0829 3.874e-07 ***
-## electric    -0.26173944  0.07321897  -3.5747 0.0003544 ***
-## tv          -0.24995092  0.08243078  -3.0323 0.0024417 ** 
+## (Intercept) -3.39383962  0.25132813 -13.5036 &lt; 2.2e-16 ***
+## educ        -0.06440859  0.00634670 -10.1484 &lt; 2.2e-16 ***
+## age          0.27247359  0.01983018  13.7404 &lt; 2.2e-16 ***
+## agesq       -0.00190671  0.00035513  -5.3690 8.331e-08 ***
+## evermarr     0.68227245  0.05261334  12.9677 &lt; 2.2e-16 ***
+## urban       -0.22789330  0.04474180  -5.0935 3.664e-07 ***
+## electric    -0.26173944  0.07292374  -3.5892 0.0003353 ***
+## tv          -0.24995092  0.08207145  -3.0455 0.0023366 ** 
 ## ---
 ## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</pre>
 
@@ -3231,20 +3236,20 @@ mean(uhat^2 / yhat)</pre>
 
 </article></slide><slide class=""><hgroup><h2>Robust &ldquo;Sandwich&rdquo; SEs for Poisson Regression</h2></hgroup><article  id="robust-sandwich-ses-for-poisson-regression">
 
-<pre class = 'prettyprint lang-r'>coeftest(pois_reg, vcov. = vcovHC)</pre>
+<pre class = 'prettyprint lang-r'>coeftest(pois_reg, vcov. = vcovHC, type = &#39;HC0&#39;)</pre>
 
 <pre >## 
 ## z test of coefficients:
 ## 
 ##                Estimate  Std. Error  z value  Pr(&gt;|z|)    
-## (Intercept) -5.37482940  0.14819279 -36.2692 &lt; 2.2e-16 ***
-## educ        -0.02166447  0.00260030  -8.3315 &lt; 2.2e-16 ***
-## age          0.33733082  0.00947906  35.5869 &lt; 2.2e-16 ***
-## agesq       -0.00411583  0.00014458 -28.4673 &lt; 2.2e-16 ***
-## evermarr     0.31475104  0.02327461  13.5234 &lt; 2.2e-16 ***
-## urban       -0.08605490  0.02010227  -4.2809 1.862e-05 ***
-## electric    -0.12053472  0.03750915  -3.2135  0.001311 ** 
-## tv          -0.14470460  0.04407782  -3.2829  0.001027 ** 
+## (Intercept) -5.37482940  0.14774627 -36.3788 &lt; 2.2e-16 ***
+## educ        -0.02166447  0.00259146  -8.3600 &lt; 2.2e-16 ***
+## age          0.33733082  0.00944626  35.7105 &lt; 2.2e-16 ***
+## agesq       -0.00411583  0.00014403 -28.5769 &lt; 2.2e-16 ***
+## evermarr     0.31475104  0.02320899  13.5616 &lt; 2.2e-16 ***
+## urban       -0.08605490  0.02004479  -4.2931 1.762e-05 ***
+## electric    -0.12053472  0.03728819  -3.2325 0.0012270 ** 
+## tv          -0.14470460  0.04380043  -3.3037 0.0009541 ***
 ## ---
 ## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</pre>
 
@@ -3304,20 +3309,20 @@ labor_model &lt;- inlf ~ nwifeinc + educ + exper + expersq + age + kidslt6 + kid
 </article></slide><slide class=""><hgroup><h2>Linear Probability Model - Robust SE</h2></hgroup><article  id="linear-probability-model---robust-se">
 
 <pre class = 'prettyprint lang-r'>lpm &lt;- lm(labor_model, data = mroz)
-coeftest(lpm, vcov. = vcovHC)</pre>
+coeftest(lpm, vcov. = vcovHC, type = &#39;HC0&#39;)</pre>
 
 <pre >## 
 ## t test of coefficients:
 ## 
 ##                Estimate  Std. Error t value  Pr(&gt;|t|)    
-## (Intercept)  0.58551922  0.15358032  3.8125  0.000149 ***
-## nwifeinc    -0.00340517  0.00155826 -2.1852  0.029182 *  
-## educ         0.03799530  0.00733982  5.1766 2.909e-07 ***
-## exper        0.03949239  0.00598359  6.6001 7.800e-11 ***
-## expersq     -0.00059631  0.00019895 -2.9973  0.002814 ** 
-## age         -0.01609081  0.00241459 -6.6640 5.183e-11 ***
-## kidslt6     -0.26181047  0.03215160 -8.1430 1.621e-15 ***
-## kidsge6      0.01301223  0.01366031  0.9526  0.341123    
+## (Intercept)  0.58551922  0.15144889  3.8661 0.0001202 ***
+## nwifeinc    -0.00340517  0.00151681 -2.2450 0.0250635 *  
+## educ         0.03799530  0.00722734  5.2572 1.913e-07 ***
+## exper        0.03949239  0.00577907  6.8337 1.722e-11 ***
+## expersq     -0.00059631  0.00018899 -3.1552 0.0016683 ** 
+## age         -0.01609081  0.00238623 -6.7432 3.108e-11 ***
+## kidslt6     -0.26181047  0.03161391 -8.2815 5.626e-16 ***
+## kidsge6      0.01301223  0.01346085  0.9667 0.3340215    
 ## ---
 ## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</pre>
 
@@ -3359,7 +3364,60 @@ coeftest(probit)</pre>
 ## kidslt6     -0.86832468  0.11837727 -7.3352 2.213e-13 ***
 ## kidsge6      0.03600561  0.04403026  0.8177  0.413502    
 ## ---
-## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</pre></article></slide>
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</pre>
+
+</article></slide><slide class=""><hgroup><h2>Calculating Pseudo-\(R^2\) (if you must…)</h2></hgroup><article  id="calculating-pseudo-r2-if-you-must">
+
+<pre class = 'prettyprint lang-r'># Fit models with only an intercept
+model0 &lt;- inlf ~ 1
+logit0 &lt;- glm(model0, family = binomial(link = &#39;logit&#39;), data = mroz)
+probit0 &lt;- glm(model0, family = binomial(link = &#39;probit&#39;), data = mroz)
+
+# Pseudo R-squared for Logit
+1 - logLik(logit) / logLik(logit0)</pre>
+
+<pre >## &#39;log Lik.&#39; 0.2196814 (df=8)</pre>
+
+<pre class = 'prettyprint lang-r'># Pseudo R-squared for Probit
+1 - logLik(probit) / logLik(probit0)</pre>
+
+<pre >## &#39;log Lik.&#39; 0.2205805 (df=8)</pre>
+
+</article></slide><slide class=""><hgroup><h2>Calculating Average Partial Effects</h2></hgroup><article  id="calculating-average-partial-effects">
+
+<pre class = 'prettyprint lang-r'># Average of g(x&#39;beta_hat) where g is the std. logistic density: dlogis
+# (predict defaults to the scale of x&#39;beta_hat)
+logit_APE_factor &lt;- mean(dlogis(predict(logit)))
+logit_APE_factor</pre>
+
+<pre >## [1] 0.1785796</pre>
+
+<pre class = 'prettyprint lang-r'># Average of g(x&#39;beta_hat) where g is the std. normal density: dnorm
+# (predict defaults to the scale of x&#39;beta_hat)
+probit_APE_factor &lt;- mean(dnorm(predict(probit)))
+probit_APE_factor </pre>
+
+<pre >## [1] 0.3007555</pre>
+
+</article></slide><slide class=""><hgroup><h2>Comparison of APEs - LPM, Logit &amp; Probit</h2></hgroup><article  id="comparison-of-apes---lpm-logit-probit">
+
+<pre class = 'prettyprint lang-r'># Extract estimated coefficients, excluding the first (the constant)
+lpm_est &lt;- coefficients(lpm)[-1]
+logit_est &lt;- coefficients(logit)[-1]
+probit_est &lt;- coefficients(probit)[-1]
+
+# Rescale the logit and probit estimates to obtain APEs
+cbind(lpm = lpm_est, logit_APE = logit_APE_factor * logit_est, 
+      probit_APE = probit_APE_factor * probit_est)</pre>
+
+<pre >##                    lpm     logit_APE   probit_APE
+## nwifeinc -0.0034051689 -0.0038118135 -0.003616176
+## educ      0.0379953030  0.0394965238  0.039370095
+## exper     0.0394923895  0.0367641056  0.037097345
+## expersq  -0.0005963119 -0.0005632587 -0.000567546
+## age      -0.0160908061 -0.0157193606 -0.015895665
+## kidslt6  -0.2618104667 -0.2577536551 -0.261153464
+## kidsge6   0.0130122346  0.0107348186  0.010828887</pre></article></slide>
 
 
   <slide class="backdrop"></slide>
