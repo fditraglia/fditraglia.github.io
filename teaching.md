@@ -9,7 +9,7 @@ permalink: /teaching/
 
 #### Lectures
 - [Treatment Effects](./pdf/treatment-effects.pdf) (Graduate)
-- Limited Dependent Variables (Graduate) [[slides](./pdf/limdep.pdf), [errata](./pdf/limdep-errata.pdf), [examples](./pdf/r-examples.html), [ps1](./pdf/ps1.pdf)] 
+- Limited Dependent Variables (Graduate) [[slides](./pdf/limdep.pdf), [errata](./pdf/limdep-errata.pdf), [examples](./pdf/r-examples.html), [ps1](./pdf/limdep-ps1.pdf), [ps2](./pdf/limdep-ps2.pdf)] 
 
 #### Tutorials
 - [Econometrics](./pdf/econometrics-tutorials.pdf) (Undergraduate)
