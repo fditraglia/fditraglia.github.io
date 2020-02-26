@@ -4,10 +4,11 @@ title: Research
 permalink: /research/
 ---
 
-Click [here](/pdf/DiTraglia-research.pdf) to download a copy of my most recent research statement.
+<!-- Click [here](/pdf/DiTraglia-research.pdf) to download a copy of my most recent research statement.-->
 
 ## Publications
 
+- A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models (with Camilo Garcia-Jimeno), *Journal of Business and Economic Statistics*, Forthcoming. [[pre-print](http://ditraglia.com/pdf/DiTraglia-Garcia-Jimeno-2019.pdf)]
 - [Identifying the Effect of a Mis-classified, Binary, Endogenous Regressor](https://www.sciencedirect.com/science/article/pii/S0304407619300181) (with Camilo Garcia-Jimeno), *Journal of Econometrics*, 2019, 209 (2), pp. 376-390. [[pre-print](http://ditraglia.com/pdf/binary-regressor-final.pdf), [NBER version](http://ditraglia.com/pdf/DiTraglia_Garcia-Jimeno_2017b.pdf)] 
 - [A Generalized Focused Information Criterion for GMM with Applications to Panel Data Models](https://onlinelibrary.wiley.com/doi/10.1002/jae.2614) (with Minsu Chang), *Journal of Applied Econometrics*, 2018, 33 (3), pp. 378-397 [[pre-print](http://ditraglia.com/pdf/GFIC_paper.pdf), [code](https://github.com/fditraglia/gfic)]
 - [Using Invalid Instruments on Purpose: Focused Moment Selection and Averaging for GMM](https://www.sciencedirect.com/science/article/pii/S0304407616301518), *Journal of Econometrics*, 2016, 195 (2), pp. 187-208 [[pre-print](http://ditraglia.com/pdf/FMSC.pdf), [appendix](http://ditraglia.com/pdf/FMSC_appendix.pdf), [code](https://github.com/fditraglia/fmsc)]
@@ -16,9 +17,9 @@ Click [here](/pdf/DiTraglia-research.pdf) to download a copy of my most recent r
 - [Yes, Wall Street, There is a January Effect: Evidence from Laboratory Auctions](http://www.tandfonline.com/doi/abs/10.1080/15427560709337012) (with Lisa Anderson and Jeffrey Gerlach), *Journal of Behavioral Finance*, 2007, 8 (1), pp. 1-8
 
 ## Working Papers
-- A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models (with Camilo Garcia-Jimeno, *Revised and Resubmitted, Journal of Business and Economic Statistics*) [[paper](http://ditraglia.com/pdf/DiTraglia-Garcia-Jimeno-2019.pdf)]
 - Identifying Causal Effects in Experiments with Social Interactions and Non-compliance (with Camilo Garcia-Jimeno, Rossa O'Keeffe-O'Donovan, and Alejandro Sanchez) [*Draft Coming Soon*]
 
 ## In Progress
 - A History of Violence: Forced Displacement and De Facto Land Reform in Rural Colombia (with Camilo Garcia-Jimeno) 
 - Estimating the Returns to Lying (with Arthur Lewbel)
+- Nonparametric Analysis of Labor Supply Using Gaussian Process Regression (with Ian Crawford)
