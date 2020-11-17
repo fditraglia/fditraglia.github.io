@@ -5,7 +5,7 @@ office: 2132 Manor Road Building, University of Oxford
 address: Manor Road, Oxford OX1 3UQ, United Kingdom
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ditraglia.com" # the base hostname & protocol for your site
-twitter_username: 
+twitter_username: economictricks
 github_username:  fditraglia
 
 # Build settings
