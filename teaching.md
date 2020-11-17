@@ -8,15 +8,16 @@ permalink: /teaching/
 # University of Oxford
 
 #### Lectures
-- [Treatment Effects](./pdf/treatment-effects.pdf) (Graduate)
+- [Treatment Effects](https://treatment-effects.com) (Graduate)
 - Limited Dependent Variables (Graduate) [[slides](./pdf/limdep.pdf), [errata](./pdf/limdep-errata.pdf), [examples](./pdf/r-examples.html), [ps1](./pdf/limdep-ps1.pdf), [ps1-R-solution](./pdf/ps1-Rsoln.html), [ps2](./pdf/limdep-ps2.pdf), [ps2-R-solution](./pdf/ps2-Rsoln.html)] 
 
 #### Tutorials
 - [Econometrics](./pdf/econometrics-tutorials.pdf) (Undergraduate)
 - Quantitative Economics (Undergraduate)
+- Behavioral and Experimental Economics (Undergraduate)
 
-#### Thank you DataCamp!
-Thanks to [DataCamp](https://www.datacamp.com/) for supporting my teaching by providing my students free access to their excellent online data science tutorials.
+<!--#### Thank you DataCamp!
+Thanks to [DataCamp](https://www.datacamp.com/) for supporting my teaching by providing my students free access to their excellent online data science tutorials.-->
 
 # University of Pennsylvania
 My archived teaching materials from 2012-2019 are available below:
