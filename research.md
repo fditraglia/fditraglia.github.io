@@ -17,7 +17,7 @@ permalink: /research/
 - [Yes, Wall Street, There is a January Effect: Evidence from Laboratory Auctions](http://www.tandfonline.com/doi/abs/10.1080/15427560709337012) (with Lisa Anderson and Jeffrey Gerlach), *Journal of Behavioral Finance*, 2007, 8 (1), pp. 1-8
 
 ## Working Papers
-- Identifying Causal Effects in Experiments with Social Interactions and Non-compliance (with Camilo Garcia-Jimeno, Rossa O'Keeffe-O'Donovan, and Alejandro Sanchez) [[paper](http://arxiv.org/abs/2011.07051), [slides](./pdf/spillovers-slides.pdf)]
+- [Identifying Causal Effects in Experiments with Social Interactions and Non-compliance (with Camilo Garcia-Jimeno, Rossa O'Keeffe-O'Donovan, and Alejandro Sanchez)](https://ditraglia.com/pdf/spillovers-paper.pdf)
 
 ## In Progress
 - A History of Violence: Forced Displacement and De Facto Land Reform in Rural Colombia (with Camilo Garcia-Jimeno) 
