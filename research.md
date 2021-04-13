@@ -23,3 +23,4 @@ permalink: /research/
 - A History of Violence: Forced Displacement and De Facto Land Reform in Rural Colombia (with Camilo Garcia-Jimeno) 
 - Estimating the Returns to Lying (with Arthur Lewbel)
 - Nonparametric Analysis of Labor Supply Using Gaussian Process Regression (with Ian Crawford)
+- Choosing Additional Instruments for Mendelian Randomization under Pleiotropy (with Ashish Patel, Stephen Brugess, and Verena Zuber)
