@@ -18,7 +18,7 @@ permalink: /research/
 
 ## Working Papers
 - [Identifying Causal Effects in Experiments with Spillovers and Non-compliance (with Camilo Garcia-Jimeno, Rossa O'Keeffe-O'Donovan, and Alejandro Sanchez)](https://ditraglia.com/pdf/spillovers-paper.pdf) *Submitted*
-- [Selection of Invalid Instruments can Improve Estimation in Mendelian Randomization (with Ashish Patel, Stephen Brugess, and Verena Zuber)](https://arxiv.org/abs/2107.01513) 
+- [Selection of Invalid Instruments can Improve Estimation in Mendelian Randomization (with Ashish Patel, Stephen Burgess, and Verena Zuber)](https://arxiv.org/abs/2107.01513) 
 
 ## In Progress
 - A History of Violence: Forced Displacement and De Facto Land Reform in Rural Colombia (with Camilo Garcia-Jimeno) 
