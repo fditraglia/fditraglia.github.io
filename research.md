@@ -24,3 +24,4 @@ permalink: /research/
 - A History of Violence: Forced Displacement and De Facto Land Reform in Rural Colombia (with Camilo Garcia-Jimeno) 
 - Estimating the Returns to Lying (with Arthur Lewbel)
 - Nonparametric Analysis of Labor Supply Using Gaussian Process Regression (with Ian Crawford)
+- Mapping Disparities in Childhood Lead Exposure in England (with Ludovica Gazze)
