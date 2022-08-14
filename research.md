@@ -17,7 +17,7 @@ permalink: /research/
 - [Yes, Wall Street, There is a January Effect: Evidence from Laboratory Auctions](http://www.tandfonline.com/doi/abs/10.1080/15427560709337012) (with Lisa Anderson and Jeffrey Gerlach), *Journal of Behavioral Finance*, 2007, 8 (1), pp. 1-8
 
 ## Working Papers
-- [Identifying Causal Effects in Experiments with Spillovers and Non-compliance (with Camilo Garcia-Jimeno, Rossa O'Keeffe-O'Donovan, and Alejandro Sanchez)](https://ditraglia.com/pdf/spillovers-paper.pdf) *Revise and Resubmit at Journal of Econometrics* [[slides](https://ditraglia.com/pdf/spillovers-slides.pdf)]
+- [Identifying Causal Effects in Experiments with Spillovers and Non-compliance (with Camilo Garcia-Jimeno, Rossa O'Keeffe-O'Donovan, and Alejandro Sanchez)](https://ditraglia.com/pdf/spillovers-paper.pdf) *Re-submitted to Journal of Econometrics* [[slides](https://ditraglia.com/pdf/spillovers-slides.pdf)]
 - [Selection of Invalid Instruments can Improve Estimation in Mendelian Randomization (with Ashish Patel, Stephen Burgess, and Verena Zuber)](https://arxiv.org/abs/2107.01513) *Submitted* 
 
 ## In Progress
