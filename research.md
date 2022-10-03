@@ -25,6 +25,6 @@ permalink: /research/
 - A History of Violence: Forced Displacement and De Facto Land Reform in Rural Colombia (with Camilo Garcia-Jimeno) 
 - The Limits of Self-sommitment and Private Paternalism (Issac Meza, Joyce Sadka, Enrique Seira, and Craig McIntosh)
 - Mapping Disparities in Childhood Lead Exposure in England (with Ludovica Gazze)
-- Estimation and Inference for Marginal Treatment Effects: a Bayesian Semi-parametric Approach
+- Estimation and Inference for Marginal Treatment Effects: a Bayesian Semi-parametric Approach (with Laura Liu)
 - Estimating the Returns to Lying (with Arthur Lewbel)
 <!--- Nonparametric Analysis of Labor Supply Using Gaussian Process Regression (with Ian Crawford)-->
