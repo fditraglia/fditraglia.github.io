@@ -18,11 +18,13 @@ permalink: /research/
 
 ## Working Papers
 - [Identifying Causal Effects in Experiments with Spillovers and Non-compliance (with Camilo Garcia-Jimeno, Rossa O'Keeffe-O'Donovan, and Alejandro Sanchez)](https://ditraglia.com/pdf/spillovers-paper.pdf) *Re-submitted to Journal of Econometrics* [[slides](https://ditraglia.com/pdf/spillovers-slides.pdf)]
+- Hidden Hazards and Screening Policy: Predicting Undetected Lead Exposure in Illinois using Machine Learning (with Ali Abbasi, Ludovica Gazze, and Bridge Pals), *Revise and Resubmit Journal of Health Economics*
 - [Selection of Invalid Instruments can Improve Estimation in Mendelian Randomization (with Ashish Patel, Stephen Burgess, and Verena Zuber)](https://arxiv.org/abs/2107.01513) *Submitted* 
 
 ## In Progress
 - A History of Violence: Forced Displacement and De Facto Land Reform in Rural Colombia (with Camilo Garcia-Jimeno) 
-- Mapping Disparities in Childhood Lead Exposure in England (with Ludovica Gazze)
 - The Limits of Self-sommitment and Private Paternalism (Issac Meza, Joyce Sadka, Enrique Seira, and Craig McIntosh)
+- Mapping Disparities in Childhood Lead Exposure in England (with Ludovica Gazze)
+- Estimation and Inference for Marginal Treatment Effects: a Bayesian Semi-parametric Approach (with Laura Liu)
 - Estimating the Returns to Lying (with Arthur Lewbel)
 <!--- Nonparametric Analysis of Labor Supply Using Gaussian Process Regression (with Ian Crawford)-->
