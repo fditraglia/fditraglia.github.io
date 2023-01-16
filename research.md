@@ -18,7 +18,7 @@ permalink: /research/
 - [Yes, Wall Street, There is a January Effect: Evidence from Laboratory Auctions](http://www.tandfonline.com/doi/abs/10.1080/15427560709337012) (with Lisa Anderson and Jeffrey Gerlach), *Journal of Behavioral Finance*, 2007, 8 (1), pp. 1-8
 
 ## Working Papers
-- [Hidden Hazards and Screening Policy: Predicting Undetected Lead Exposure in Illinois](https://ditraglia.com/pdf/lead-JHE.pdf) (with Ali Abbasi, Ludovica Gazze, and Bridge Pals), *Re-submitted to Journal of Health Economics*
+- [Hidden Hazards and Screening Policy: Predicting Undetected Lead Exposure in Illinois](https://ditraglia.com/pdf/lead-JHE.pdf) (with Ali Abbasi, Ludovica Gazze, and Bridget Pals), *Re-submitted to Journal of Health Economics*
 - [Selection of Invalid Instruments can Improve Estimation in Mendelian Randomization](https://arxiv.org/abs/2107.01513) (with Ashish Patel, Stephen Burgess, and Verena Zuber) *Submitted* 
 
 ## In Progress
