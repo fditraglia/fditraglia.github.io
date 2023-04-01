@@ -22,7 +22,7 @@ permalink: /research/
 - [Selection of Invalid Instruments can Improve Estimation in Mendelian Randomization](https://arxiv.org/abs/2107.01513) (with Ashish Patel, Stephen Burgess, and Verena Zuber) *Submitted* 
 
 ## In Progress
-- The Limits of Self-sommitment and Private Paternalism (Issac Meza, Joyce Sadka, Enrique Seira, and Craig McIntosh)
+- The Limits of Self-commitment and Private Paternalism (Issac Meza, Joyce Sadka, Enrique Seira, and Craig McIntosh)
 - Estimation and Inference for Marginal Treatment Effects: a Bayesian Semi-parametric Approach (with Laura Liu)
 - A History of Violence: Forced Displacement and De Facto Land Reform in Rural Colombia (with Camilo Garcia-Jimeno) 
 - Mapping Disparities in Childhood Lead Exposure in England (with Ludovica Gazze)
