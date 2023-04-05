@@ -8,7 +8,7 @@ permalink: /teaching/
 # University of Oxford
 
 #### Lectures
-- [Empirical Research Methods](https://empirical-methods.com) (Graduate)
+- [Empirical Research Methods](https://ditraglia.com/erm) (Graduate)
 - [Treatment Effects](https://treatment-effects.com) (Graduate)
 - [Limited Dependent Variables](https://economictricks.com) (Graduate) 
 
