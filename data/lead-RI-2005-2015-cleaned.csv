@@ -1,0 +1,1552 @@
+state,town,zip,year,tested,BLL_geq_5
+RI,Barrington,NA,2005,5,1
+RI,Barrington,NA,2006,9,2
+RI,Barrington,NA,2007,6,4
+RI,Barrington,NA,2008,7,0
+RI,Barrington,NA,2009,2,0
+RI,Barrington,NA,2010,3,0
+RI,Barrington,NA,2011,3,0
+RI,Barrington,NA,2012,6,0
+RI,Barrington,NA,2013,8,0
+RI,Barrington,NA,2014,10,0
+RI,Barrington,NA,2015,5,0
+RI,Barrington,02806,2005,681,41
+RI,Barrington,02806,2006,666,56
+RI,Barrington,02806,2007,707,37
+RI,Barrington,02806,2008,562,35
+RI,Barrington,02806,2009,491,83
+RI,Barrington,02806,2010,462,19
+RI,Barrington,02806,2011,468,12
+RI,Barrington,02806,2012,436,12
+RI,Barrington,02806,2013,445,11
+RI,Barrington,02806,2014,419,7
+RI,Barrington,02806,2015,447,6
+RI,Bristol,NA,2005,4,0
+RI,Bristol,NA,2006,7,0
+RI,Bristol,NA,2007,7,0
+RI,Bristol,NA,2008,7,2
+RI,Bristol,NA,2009,0,0
+RI,Bristol,NA,2010,1,0
+RI,Bristol,NA,2011,3,0
+RI,Bristol,NA,2012,3,0
+RI,Bristol,NA,2013,6,0
+RI,Bristol,NA,2014,7,2
+RI,Bristol,NA,2015,6,0
+RI,Bristol,02809,2005,660,90
+RI,Bristol,02809,2006,635,92
+RI,Bristol,02809,2007,632,59
+RI,Bristol,02809,2008,600,73
+RI,Bristol,02809,2009,544,107
+RI,Bristol,02809,2010,535,34
+RI,Bristol,02809,2011,564,31
+RI,Bristol,02809,2012,520,21
+RI,Bristol,02809,2013,494,21
+RI,Bristol,02809,2014,474,17
+RI,Bristol,02809,2015,445,12
+RI,Burrillville,NA,2005,4,1
+RI,Burrillville,NA,2006,6,1
+RI,Burrillville,NA,2007,6,1
+RI,Burrillville,NA,2008,5,0
+RI,Burrillville,NA,2009,7,0
+RI,Burrillville,NA,2010,4,0
+RI,Burrillville,NA,2011,4,0
+RI,Burrillville,NA,2012,7,0
+RI,Burrillville,NA,2013,6,0
+RI,Burrillville,NA,2014,7,0
+RI,Burrillville,NA,2015,0,0
+RI,Burrillville,02826,2005,15,5
+RI,Burrillville,02826,2006,16,2
+RI,Burrillville,02826,2007,22,1
+RI,Burrillville,02826,2008,21,1
+RI,Burrillville,02826,2009,16,1
+RI,Burrillville,02826,2010,14,1
+RI,Burrillville,02826,2011,20,3
+RI,Burrillville,02826,2012,11,0
+RI,Burrillville,02826,2013,14,0
+RI,Burrillville,02826,2014,9,0
+RI,Burrillville,02826,2015,12,0
+RI,Burrillville,02830,2005,155,28
+RI,Burrillville,02830,2006,157,19
+RI,Burrillville,02830,2007,143,19
+RI,Burrillville,02830,2008,139,17
+RI,Burrillville,02830,2009,107,8
+RI,Burrillville,02830,2010,106,7
+RI,Burrillville,02830,2011,99,6
+RI,Burrillville,02830,2012,103,4
+RI,Burrillville,02830,2013,103,4
+RI,Burrillville,02830,2014,105,3
+RI,Burrillville,02830,2015,125,8
+RI,Burrillville,02839,2005,39,8
+RI,Burrillville,02839,2006,33,10
+RI,Burrillville,02839,2007,41,5
+RI,Burrillville,02839,2008,45,4
+RI,Burrillville,02839,2009,32,2
+RI,Burrillville,02839,2010,31,3
+RI,Burrillville,02839,2011,31,0
+RI,Burrillville,02839,2012,39,3
+RI,Burrillville,02839,2013,34,1
+RI,Burrillville,02839,2014,32,1
+RI,Burrillville,02839,2015,40,2
+RI,Burrillville,02858,2005,9,1
+RI,Burrillville,02858,2006,16,0
+RI,Burrillville,02858,2007,14,1
+RI,Burrillville,02858,2008,12,0
+RI,Burrillville,02858,2009,17,0
+RI,Burrillville,02858,2010,12,0
+RI,Burrillville,02858,2011,10,0
+RI,Burrillville,02858,2012,18,1
+RI,Burrillville,02858,2013,11,2
+RI,Burrillville,02858,2014,10,0
+RI,Burrillville,02858,2015,15,1
+RI,Burrillville,02859,2005,205,44
+RI,Burrillville,02859,2006,197,30
+RI,Burrillville,02859,2007,171,17
+RI,Burrillville,02859,2008,165,21
+RI,Burrillville,02859,2009,146,24
+RI,Burrillville,02859,2010,127,13
+RI,Burrillville,02859,2011,135,16
+RI,Burrillville,02859,2012,113,7
+RI,Burrillville,02859,2013,115,9
+RI,Burrillville,02859,2014,105,6
+RI,Burrillville,02859,2015,121,5
+RI,Central Falls,NA,2005,12,4
+RI,Central Falls,NA,2006,6,1
+RI,Central Falls,NA,2007,18,6
+RI,Central Falls,NA,2008,10,0
+RI,Central Falls,NA,2009,1,0
+RI,Central Falls,NA,2010,7,1
+RI,Central Falls,NA,2011,7,2
+RI,Central Falls,NA,2012,6,1
+RI,Central Falls,NA,2013,6,0
+RI,Central Falls,NA,2014,10,0
+RI,Central Falls,NA,2015,5,0
+RI,Central Falls,02863,2005,1184,351
+RI,Central Falls,02863,2006,1128,278
+RI,Central Falls,02863,2007,1076,191
+RI,Central Falls,02863,2008,1114,214
+RI,Central Falls,02863,2009,974,244
+RI,Central Falls,02863,2010,933,125
+RI,Central Falls,02863,2011,956,78
+RI,Central Falls,02863,2012,905,79
+RI,Central Falls,02863,2013,917,85
+RI,Central Falls,02863,2014,841,57
+RI,Central Falls,02863,2015,869,65
+RI,Central Falls,02864,2005,0,0
+RI,Central Falls,02864,2006,0,0
+RI,Central Falls,02864,2007,0,0
+RI,Central Falls,02864,2008,0,0
+RI,Central Falls,02864,2009,0,0
+RI,Central Falls,02864,2010,2,0
+RI,Central Falls,02864,2011,1,0
+RI,Central Falls,02864,2012,1,0
+RI,Central Falls,02864,2013,0,0
+RI,Central Falls,02864,2014,0,0
+RI,Central Falls,02864,2015,0,0
+RI,Charlestown,NA,2005,3,0
+RI,Charlestown,NA,2006,3,1
+RI,Charlestown,NA,2007,4,0
+RI,Charlestown,NA,2008,1,0
+RI,Charlestown,NA,2009,1,0
+RI,Charlestown,NA,2010,1,0
+RI,Charlestown,NA,2011,1,0
+RI,Charlestown,NA,2012,1,0
+RI,Charlestown,NA,2013,1,0
+RI,Charlestown,NA,2014,6,0
+RI,Charlestown,NA,2015,0,0
+RI,Charlestown,02813,2005,196,32
+RI,Charlestown,02813,2006,179,25
+RI,Charlestown,02813,2007,163,15
+RI,Charlestown,02813,2008,140,13
+RI,Charlestown,02813,2009,160,27
+RI,Charlestown,02813,2010,106,10
+RI,Charlestown,02813,2011,113,6
+RI,Charlestown,02813,2012,118,6
+RI,Charlestown,02813,2013,104,3
+RI,Charlestown,02813,2014,86,3
+RI,Charlestown,02813,2015,72,4
+RI,Coventry,NA,2005,8,1
+RI,Coventry,NA,2006,10,1
+RI,Coventry,NA,2007,9,1
+RI,Coventry,NA,2008,5,0
+RI,Coventry,NA,2009,6,3
+RI,Coventry,NA,2010,5,0
+RI,Coventry,NA,2011,7,1
+RI,Coventry,NA,2012,3,0
+RI,Coventry,NA,2013,7,1
+RI,Coventry,NA,2014,12,2
+RI,Coventry,NA,2015,6,0
+RI,Coventry,02816,2005,735,63
+RI,Coventry,02816,2006,777,73
+RI,Coventry,02816,2007,714,53
+RI,Coventry,02816,2008,674,44
+RI,Coventry,02816,2009,672,64
+RI,Coventry,02816,2010,593,32
+RI,Coventry,02816,2011,590,23
+RI,Coventry,02816,2012,535,14
+RI,Coventry,02816,2013,540,19
+RI,Coventry,02816,2014,611,17
+RI,Coventry,02816,2015,559,18
+RI,Coventry,02827,2005,35,4
+RI,Coventry,02827,2006,27,1
+RI,Coventry,02827,2007,31,4
+RI,Coventry,02827,2008,24,3
+RI,Coventry,02827,2009,27,3
+RI,Coventry,02827,2010,28,2
+RI,Coventry,02827,2011,24,0
+RI,Coventry,02827,2012,30,1
+RI,Coventry,02827,2013,21,0
+RI,Coventry,02827,2014,19,1
+RI,Coventry,02827,2015,17,2
+RI,Cranston,NA,2005,189,47
+RI,Cranston,NA,2006,150,29
+RI,Cranston,NA,2007,128,18
+RI,Cranston,NA,2008,106,14
+RI,Cranston,NA,2009,74,5
+RI,Cranston,NA,2010,68,14
+RI,Cranston,NA,2011,95,7
+RI,Cranston,NA,2012,83,5
+RI,Cranston,NA,2013,73,5
+RI,Cranston,NA,2014,57,2
+RI,Cranston,NA,2015,76,8
+RI,Cranston,02823,2005,0,0
+RI,Cranston,02823,2006,0,0
+RI,Cranston,02823,2007,0,0
+RI,Cranston,02823,2008,0,0
+RI,Cranston,02823,2009,0,0
+RI,Cranston,02823,2010,2,0
+RI,Cranston,02823,2011,3,0
+RI,Cranston,02823,2012,5,0
+RI,Cranston,02823,2013,3,1
+RI,Cranston,02823,2014,2,0
+RI,Cranston,02823,2015,1,0
+RI,Cranston,02905,2005,9,3
+RI,Cranston,02905,2006,60,15
+RI,Cranston,02905,2007,107,30
+RI,Cranston,02905,2008,103,22
+RI,Cranston,02905,2009,99,24
+RI,Cranston,02905,2010,85,13
+RI,Cranston,02905,2011,84,7
+RI,Cranston,02905,2012,74,11
+RI,Cranston,02905,2013,81,9
+RI,Cranston,02905,2014,84,7
+RI,Cranston,02905,2015,88,8
+RI,Cranston,02910,2005,608,113
+RI,Cranston,02910,2006,632,98
+RI,Cranston,02910,2007,589,81
+RI,Cranston,02910,2008,593,81
+RI,Cranston,02910,2009,545,93
+RI,Cranston,02910,2010,527,47
+RI,Cranston,02910,2011,559,47
+RI,Cranston,02910,2012,568,32
+RI,Cranston,02910,2013,554,26
+RI,Cranston,02910,2014,593,16
+RI,Cranston,02910,2015,566,24
+RI,Cranston,02920,2005,837,136
+RI,Cranston,02920,2006,857,122
+RI,Cranston,02920,2007,828,111
+RI,Cranston,02920,2008,786,88
+RI,Cranston,02920,2009,795,123
+RI,Cranston,02920,2010,762,63
+RI,Cranston,02920,2011,805,54
+RI,Cranston,02920,2012,776,41
+RI,Cranston,02920,2013,801,35
+RI,Cranston,02920,2014,780,29
+RI,Cranston,02920,2015,753,34
+RI,Cranston,02921,2005,278,13
+RI,Cranston,02921,2006,283,11
+RI,Cranston,02921,2007,279,8
+RI,Cranston,02921,2008,248,16
+RI,Cranston,02921,2009,207,8
+RI,Cranston,02921,2010,204,10
+RI,Cranston,02921,2011,184,1
+RI,Cranston,02921,2012,149,1
+RI,Cranston,02921,2013,168,3
+RI,Cranston,02921,2014,180,3
+RI,Cranston,02921,2015,207,2
+RI,Cumberland,NA,2005,6,0
+RI,Cumberland,NA,2006,7,1
+RI,Cumberland,NA,2007,5,1
+RI,Cumberland,NA,2008,2,0
+RI,Cumberland,NA,2009,2,0
+RI,Cumberland,NA,2010,2,0
+RI,Cumberland,NA,2011,8,0
+RI,Cumberland,NA,2012,5,0
+RI,Cumberland,NA,2013,10,0
+RI,Cumberland,NA,2014,8,0
+RI,Cumberland,NA,2015,10,0
+RI,Cumberland,02864,2005,879,79
+RI,Cumberland,02864,2006,836,56
+RI,Cumberland,02864,2007,867,54
+RI,Cumberland,02864,2008,847,45
+RI,Cumberland,02864,2009,822,70
+RI,Cumberland,02864,2010,649,23
+RI,Cumberland,02864,2011,645,17
+RI,Cumberland,02864,2012,781,21
+RI,Cumberland,02864,2013,705,15
+RI,Cumberland,02864,2014,766,11
+RI,Cumberland,02864,2015,729,17
+RI,East Greenwich,NA,2005,7,0
+RI,East Greenwich,NA,2006,3,1
+RI,East Greenwich,NA,2007,7,0
+RI,East Greenwich,NA,2008,5,1
+RI,East Greenwich,NA,2009,4,0
+RI,East Greenwich,NA,2010,3,0
+RI,East Greenwich,NA,2011,4,0
+RI,East Greenwich,NA,2012,2,0
+RI,East Greenwich,NA,2013,3,0
+RI,East Greenwich,NA,2014,0,0
+RI,East Greenwich,NA,2015,0,0
+RI,East Greenwich,02818,2005,310,24
+RI,East Greenwich,02818,2006,347,23
+RI,East Greenwich,02818,2007,302,19
+RI,East Greenwich,02818,2008,300,12
+RI,East Greenwich,02818,2009,251,12
+RI,East Greenwich,02818,2010,238,9
+RI,East Greenwich,02818,2011,253,8
+RI,East Greenwich,02818,2012,273,6
+RI,East Greenwich,02818,2013,268,6
+RI,East Greenwich,02818,2014,308,5
+RI,East Greenwich,02818,2015,304,6
+RI,East Providence,NA,2005,94,12
+RI,East Providence,NA,2006,81,15
+RI,East Providence,NA,2007,98,15
+RI,East Providence,NA,2008,90,15
+RI,East Providence,NA,2009,73,11
+RI,East Providence,NA,2010,76,6
+RI,East Providence,NA,2011,76,2
+RI,East Providence,NA,2012,80,7
+RI,East Providence,NA,2013,68,2
+RI,East Providence,NA,2014,65,2
+RI,East Providence,NA,2015,65,0
+RI,East Providence,02914,2005,761,159
+RI,East Providence,02914,2006,776,151
+RI,East Providence,02914,2007,757,130
+RI,East Providence,02914,2008,781,130
+RI,East Providence,02914,2009,771,133
+RI,East Providence,02914,2010,765,86
+RI,East Providence,02914,2011,770,55
+RI,East Providence,02914,2012,761,55
+RI,East Providence,02914,2013,649,48
+RI,East Providence,02914,2014,643,42
+RI,East Providence,02914,2015,611,38
+RI,East Providence,02915,2005,443,70
+RI,East Providence,02915,2006,467,66
+RI,East Providence,02915,2007,498,74
+RI,East Providence,02915,2008,434,59
+RI,East Providence,02915,2009,421,76
+RI,East Providence,02915,2010,429,46
+RI,East Providence,02915,2011,416,37
+RI,East Providence,02915,2012,410,29
+RI,East Providence,02915,2013,446,27
+RI,East Providence,02915,2014,393,23
+RI,East Providence,02915,2015,354,17
+RI,East Providence,02916,2005,190,22
+RI,East Providence,02916,2006,203,20
+RI,East Providence,02916,2007,230,22
+RI,East Providence,02916,2008,227,19
+RI,East Providence,02916,2009,222,26
+RI,East Providence,02916,2010,220,11
+RI,East Providence,02916,2011,240,14
+RI,East Providence,02916,2012,271,16
+RI,East Providence,02916,2013,265,14
+RI,East Providence,02916,2014,265,15
+RI,East Providence,02916,2015,230,11
+RI,Exeter,NA,2005,9,3
+RI,Exeter,NA,2006,5,2
+RI,Exeter,NA,2007,2,0
+RI,Exeter,NA,2008,1,0
+RI,Exeter,NA,2009,5,0
+RI,Exeter,NA,2010,3,0
+RI,Exeter,NA,2011,2,0
+RI,Exeter,NA,2012,2,1
+RI,Exeter,NA,2013,1,0
+RI,Exeter,NA,2014,1,0
+RI,Exeter,NA,2015,0,0
+RI,Exeter,02822,2005,109,12
+RI,Exeter,02822,2006,117,11
+RI,Exeter,02822,2007,112,4
+RI,Exeter,02822,2008,99,10
+RI,Exeter,02822,2009,92,13
+RI,Exeter,02822,2010,84,10
+RI,Exeter,02822,2011,100,1
+RI,Exeter,02822,2012,83,4
+RI,Exeter,02822,2013,104,5
+RI,Exeter,02822,2014,84,2
+RI,Exeter,02822,2015,70,2
+RI,Foster,NA,2005,2,1
+RI,Foster,NA,2006,1,0
+RI,Foster,NA,2007,3,0
+RI,Foster,NA,2008,3,0
+RI,Foster,NA,2009,0,0
+RI,Foster,NA,2010,1,0
+RI,Foster,NA,2011,0,0
+RI,Foster,NA,2012,2,0
+RI,Foster,NA,2013,3,0
+RI,Foster,NA,2014,0,0
+RI,Foster,NA,2015,1,0
+RI,Foster,02825,2005,116,16
+RI,Foster,02825,2006,108,11
+RI,Foster,02825,2007,107,8
+RI,Foster,02825,2008,102,8
+RI,Foster,02825,2009,95,10
+RI,Foster,02825,2010,71,9
+RI,Foster,02825,2011,68,4
+RI,Foster,02825,2012,57,2
+RI,Foster,02825,2013,66,1
+RI,Foster,02825,2014,56,3
+RI,Foster,02825,2015,71,6
+RI,Glocester,NA,2005,3,1
+RI,Glocester,NA,2006,3,1
+RI,Glocester,NA,2007,3,0
+RI,Glocester,NA,2008,2,0
+RI,Glocester,NA,2009,4,0
+RI,Glocester,NA,2010,1,0
+RI,Glocester,NA,2011,2,0
+RI,Glocester,NA,2012,1,0
+RI,Glocester,NA,2013,4,0
+RI,Glocester,NA,2014,5,0
+RI,Glocester,NA,2015,5,0
+RI,Glocester,02814,2005,173,29
+RI,Glocester,02814,2006,151,22
+RI,Glocester,02814,2007,162,20
+RI,Glocester,02814,2008,126,9
+RI,Glocester,02814,2009,121,16
+RI,Glocester,02814,2010,121,4
+RI,Glocester,02814,2011,114,5
+RI,Glocester,02814,2012,140,4
+RI,Glocester,02814,2013,119,2
+RI,Glocester,02814,2014,126,4
+RI,Glocester,02814,2015,117,4
+RI,Glocester,02829,2005,9,2
+RI,Glocester,02829,2006,8,0
+RI,Glocester,02829,2007,8,1
+RI,Glocester,02829,2008,8,1
+RI,Glocester,02829,2009,5,0
+RI,Glocester,02829,2010,7,0
+RI,Glocester,02829,2011,4,0
+RI,Glocester,02829,2012,2,0
+RI,Glocester,02829,2013,4,0
+RI,Glocester,02829,2014,2,0
+RI,Glocester,02829,2015,2,0
+RI,Hopkinton,NA,2005,9,2
+RI,Hopkinton,NA,2006,10,2
+RI,Hopkinton,NA,2007,8,1
+RI,Hopkinton,NA,2008,4,0
+RI,Hopkinton,NA,2009,6,1
+RI,Hopkinton,NA,2010,4,0
+RI,Hopkinton,NA,2011,5,0
+RI,Hopkinton,NA,2012,5,0
+RI,Hopkinton,NA,2013,2,0
+RI,Hopkinton,NA,2014,1,0
+RI,Hopkinton,NA,2015,4,1
+RI,Hopkinton,02804,2005,70,12
+RI,Hopkinton,02804,2006,81,10
+RI,Hopkinton,02804,2007,67,6
+RI,Hopkinton,02804,2008,70,10
+RI,Hopkinton,02804,2009,59,9
+RI,Hopkinton,02804,2010,58,2
+RI,Hopkinton,02804,2011,51,3
+RI,Hopkinton,02804,2012,38,6
+RI,Hopkinton,02804,2013,44,5
+RI,Hopkinton,02804,2014,39,1
+RI,Hopkinton,02804,2015,44,1
+RI,Hopkinton,02832,2005,114,19
+RI,Hopkinton,02832,2006,100,21
+RI,Hopkinton,02832,2007,101,18
+RI,Hopkinton,02832,2008,109,13
+RI,Hopkinton,02832,2009,104,22
+RI,Hopkinton,02832,2010,76,9
+RI,Hopkinton,02832,2011,89,3
+RI,Hopkinton,02832,2012,85,7
+RI,Hopkinton,02832,2013,67,4
+RI,Hopkinton,02832,2014,77,1
+RI,Hopkinton,02832,2015,63,5
+RI,Hopkinton,02833,2005,15,2
+RI,Hopkinton,02833,2006,15,1
+RI,Hopkinton,02833,2007,8,1
+RI,Hopkinton,02833,2008,11,2
+RI,Hopkinton,02833,2009,16,4
+RI,Hopkinton,02833,2010,9,2
+RI,Hopkinton,02833,2011,11,0
+RI,Hopkinton,02833,2012,7,0
+RI,Hopkinton,02833,2013,6,0
+RI,Hopkinton,02833,2014,6,0
+RI,Hopkinton,02833,2015,13,0
+RI,Hopkinton,02873,2005,10,2
+RI,Hopkinton,02873,2006,4,1
+RI,Hopkinton,02873,2007,9,1
+RI,Hopkinton,02873,2008,4,2
+RI,Hopkinton,02873,2009,6,1
+RI,Hopkinton,02873,2010,8,1
+RI,Hopkinton,02873,2011,10,1
+RI,Hopkinton,02873,2012,5,0
+RI,Hopkinton,02873,2013,7,1
+RI,Hopkinton,02873,2014,5,0
+RI,Hopkinton,02873,2015,4,0
+RI,Jamestown,NA,2005,2,0
+RI,Jamestown,NA,2006,4,1
+RI,Jamestown,NA,2007,0,0
+RI,Jamestown,NA,2008,1,0
+RI,Jamestown,NA,2009,0,0
+RI,Jamestown,NA,2010,0,0
+RI,Jamestown,NA,2011,0,0
+RI,Jamestown,NA,2012,1,0
+RI,Jamestown,NA,2013,1,0
+RI,Jamestown,NA,2014,0,0
+RI,Jamestown,NA,2015,1,0
+RI,Jamestown,02835,2005,115,13
+RI,Jamestown,02835,2006,111,12
+RI,Jamestown,02835,2007,88,9
+RI,Jamestown,02835,2008,84,5
+RI,Jamestown,02835,2009,62,10
+RI,Jamestown,02835,2010,67,5
+RI,Jamestown,02835,2011,55,2
+RI,Jamestown,02835,2012,62,4
+RI,Jamestown,02835,2013,59,5
+RI,Jamestown,02835,2014,72,2
+RI,Jamestown,02835,2015,50,1
+RI,Johnston,NA,2005,8,1
+RI,Johnston,NA,2006,11,1
+RI,Johnston,NA,2007,10,2
+RI,Johnston,NA,2008,6,0
+RI,Johnston,NA,2009,3,1
+RI,Johnston,NA,2010,7,3
+RI,Johnston,NA,2011,8,0
+RI,Johnston,NA,2012,7,0
+RI,Johnston,NA,2013,9,0
+RI,Johnston,NA,2014,4,0
+RI,Johnston,NA,2015,6,0
+RI,Johnston,02919,2005,647,85
+RI,Johnston,02919,2006,580,73
+RI,Johnston,02919,2007,600,50
+RI,Johnston,02919,2008,592,62
+RI,Johnston,02919,2009,564,67
+RI,Johnston,02919,2010,554,35
+RI,Johnston,02919,2011,524,23
+RI,Johnston,02919,2012,556,12
+RI,Johnston,02919,2013,548,12
+RI,Johnston,02919,2014,565,12
+RI,Johnston,02919,2015,537,6
+RI,Lincoln,NA,2005,3,2
+RI,Lincoln,NA,2006,14,2
+RI,Lincoln,NA,2007,12,1
+RI,Lincoln,NA,2008,7,1
+RI,Lincoln,NA,2009,5,1
+RI,Lincoln,NA,2010,8,0
+RI,Lincoln,NA,2011,8,0
+RI,Lincoln,NA,2012,7,0
+RI,Lincoln,NA,2013,5,0
+RI,Lincoln,NA,2014,5,0
+RI,Lincoln,NA,2015,3,0
+RI,Lincoln,02802,2005,8,2
+RI,Lincoln,02802,2006,13,4
+RI,Lincoln,02802,2007,20,2
+RI,Lincoln,02802,2008,13,1
+RI,Lincoln,02802,2009,14,1
+RI,Lincoln,02802,2010,12,0
+RI,Lincoln,02802,2011,14,0
+RI,Lincoln,02802,2012,13,0
+RI,Lincoln,02802,2013,12,1
+RI,Lincoln,02802,2014,10,0
+RI,Lincoln,02802,2015,8,0
+RI,Lincoln,02838,2005,85,12
+RI,Lincoln,02838,2006,74,11
+RI,Lincoln,02838,2007,82,7
+RI,Lincoln,02838,2008,80,2
+RI,Lincoln,02838,2009,69,8
+RI,Lincoln,02838,2010,74,6
+RI,Lincoln,02838,2011,75,10
+RI,Lincoln,02838,2012,87,4
+RI,Lincoln,02838,2013,82,2
+RI,Lincoln,02838,2014,68,4
+RI,Lincoln,02838,2015,86,4
+RI,Lincoln,02865,2005,368,56
+RI,Lincoln,02865,2006,388,26
+RI,Lincoln,02865,2007,350,25
+RI,Lincoln,02865,2008,349,14
+RI,Lincoln,02865,2009,318,21
+RI,Lincoln,02865,2010,322,15
+RI,Lincoln,02865,2011,270,6
+RI,Lincoln,02865,2012,288,12
+RI,Lincoln,02865,2013,286,9
+RI,Lincoln,02865,2014,283,5
+RI,Lincoln,02865,2015,328,6
+RI,Little Compton,NA,2005,1,0
+RI,Little Compton,NA,2006,1,0
+RI,Little Compton,NA,2007,1,0
+RI,Little Compton,NA,2008,1,0
+RI,Little Compton,NA,2009,1,0
+RI,Little Compton,NA,2010,1,0
+RI,Little Compton,NA,2011,2,0
+RI,Little Compton,NA,2012,3,0
+RI,Little Compton,NA,2013,1,0
+RI,Little Compton,NA,2014,1,0
+RI,Little Compton,NA,2015,1,0
+RI,Little Compton,02801,2005,3,2
+RI,Little Compton,02801,2006,2,1
+RI,Little Compton,02801,2007,1,1
+RI,Little Compton,02801,2008,1,1
+RI,Little Compton,02801,2009,3,1
+RI,Little Compton,02801,2010,2,0
+RI,Little Compton,02801,2011,1,0
+RI,Little Compton,02801,2012,1,0
+RI,Little Compton,02801,2013,0,0
+RI,Little Compton,02801,2014,1,1
+RI,Little Compton,02801,2015,3,0
+RI,Little Compton,02837,2005,121,20
+RI,Little Compton,02837,2006,109,15
+RI,Little Compton,02837,2007,113,19
+RI,Little Compton,02837,2008,76,10
+RI,Little Compton,02837,2009,68,12
+RI,Little Compton,02837,2010,75,6
+RI,Little Compton,02837,2011,65,3
+RI,Little Compton,02837,2012,55,2
+RI,Little Compton,02837,2013,53,4
+RI,Little Compton,02837,2014,42,2
+RI,Little Compton,02837,2015,42,3
+RI,Middletown,NA,2005,59,5
+RI,Middletown,NA,2006,51,1
+RI,Middletown,NA,2007,64,5
+RI,Middletown,NA,2008,46,4
+RI,Middletown,NA,2009,27,3
+RI,Middletown,NA,2010,23,0
+RI,Middletown,NA,2011,17,1
+RI,Middletown,NA,2012,32,0
+RI,Middletown,NA,2013,24,0
+RI,Middletown,NA,2014,22,0
+RI,Middletown,NA,2015,40,1
+RI,Middletown,02842,2005,535,49
+RI,Middletown,02842,2006,563,75
+RI,Middletown,02842,2007,504,36
+RI,Middletown,02842,2008,401,33
+RI,Middletown,02842,2009,305,43
+RI,Middletown,02842,2010,297,22
+RI,Middletown,02842,2011,317,17
+RI,Middletown,02842,2012,376,11
+RI,Middletown,02842,2013,362,16
+RI,Middletown,02842,2014,325,7
+RI,Middletown,02842,2015,351,10
+RI,Narragansett,NA,2005,6,1
+RI,Narragansett,NA,2006,9,2
+RI,Narragansett,NA,2007,5,0
+RI,Narragansett,NA,2008,5,0
+RI,Narragansett,NA,2009,10,2
+RI,Narragansett,NA,2010,3,0
+RI,Narragansett,NA,2011,3,0
+RI,Narragansett,NA,2012,2,0
+RI,Narragansett,NA,2013,6,0
+RI,Narragansett,NA,2014,4,0
+RI,Narragansett,NA,2015,3,0
+RI,Narragansett,02882,2005,223,24
+RI,Narragansett,02882,2006,214,19
+RI,Narragansett,02882,2007,199,15
+RI,Narragansett,02882,2008,165,8
+RI,Narragansett,02882,2009,157,26
+RI,Narragansett,02882,2010,145,8
+RI,Narragansett,02882,2011,123,4
+RI,Narragansett,02882,2012,123,1
+RI,Narragansett,02882,2013,124,2
+RI,Narragansett,02882,2014,120,5
+RI,Narragansett,02882,2015,93,2
+RI,New Shoreham,NA,2005,27,6
+RI,New Shoreham,NA,2006,22,1
+RI,New Shoreham,NA,2007,15,1
+RI,New Shoreham,NA,2008,20,3
+RI,New Shoreham,NA,2009,12,5
+RI,New Shoreham,NA,2010,14,3
+RI,New Shoreham,NA,2011,20,2
+RI,New Shoreham,NA,2012,23,4
+RI,New Shoreham,NA,2013,20,0
+RI,New Shoreham,NA,2014,21,2
+RI,New Shoreham,NA,2015,22,4
+RI,New Shoreham,02807,2005,1,0
+RI,New Shoreham,02807,2006,1,0
+RI,New Shoreham,02807,2007,0,0
+RI,New Shoreham,02807,2008,1,0
+RI,New Shoreham,02807,2009,2,0
+RI,New Shoreham,02807,2010,0,0
+RI,New Shoreham,02807,2011,1,0
+RI,New Shoreham,02807,2012,2,0
+RI,New Shoreham,02807,2013,2,0
+RI,New Shoreham,02807,2014,2,1
+RI,New Shoreham,02807,2015,0,0
+RI,Newport,NA,2005,9,2
+RI,Newport,NA,2006,7,1
+RI,Newport,NA,2007,7,1
+RI,Newport,NA,2008,11,4
+RI,Newport,NA,2009,4,2
+RI,Newport,NA,2010,8,2
+RI,Newport,NA,2011,3,1
+RI,Newport,NA,2012,1,0
+RI,Newport,NA,2013,5,0
+RI,Newport,NA,2014,7,1
+RI,Newport,NA,2015,2,0
+RI,Newport,02840,2005,846,182
+RI,Newport,02840,2006,865,161
+RI,Newport,02840,2007,817,142
+RI,Newport,02840,2008,691,134
+RI,Newport,02840,2009,513,125
+RI,Newport,02840,2010,518,72
+RI,Newport,02840,2011,564,56
+RI,Newport,02840,2012,605,61
+RI,Newport,02840,2013,571,41
+RI,Newport,02840,2014,515,35
+RI,Newport,02840,2015,561,35
+RI,Newport,02841,2005,8,1
+RI,Newport,02841,2006,2,0
+RI,Newport,02841,2007,6,0
+RI,Newport,02841,2008,3,0
+RI,Newport,02841,2009,2,0
+RI,Newport,02841,2010,1,0
+RI,Newport,02841,2011,1,0
+RI,Newport,02841,2012,1,0
+RI,Newport,02841,2013,3,0
+RI,Newport,02841,2014,0,0
+RI,Newport,02841,2015,2,1
+RI,North Kingstown,NA,2005,9,1
+RI,North Kingstown,NA,2006,12,2
+RI,North Kingstown,NA,2007,15,0
+RI,North Kingstown,NA,2008,9,0
+RI,North Kingstown,NA,2009,9,1
+RI,North Kingstown,NA,2010,8,1
+RI,North Kingstown,NA,2011,5,0
+RI,North Kingstown,NA,2012,4,0
+RI,North Kingstown,NA,2013,13,2
+RI,North Kingstown,NA,2014,8,0
+RI,North Kingstown,NA,2015,3,0
+RI,North Kingstown,02852,2005,562,48
+RI,North Kingstown,02852,2006,555,48
+RI,North Kingstown,02852,2007,529,33
+RI,North Kingstown,02852,2008,421,32
+RI,North Kingstown,02852,2009,425,54
+RI,North Kingstown,02852,2010,381,19
+RI,North Kingstown,02852,2011,360,17
+RI,North Kingstown,02852,2012,379,12
+RI,North Kingstown,02852,2013,396,8
+RI,North Kingstown,02852,2014,369,3
+RI,North Kingstown,02852,2015,351,8
+RI,North Kingstown,02874,2005,162,10
+RI,North Kingstown,02874,2006,136,9
+RI,North Kingstown,02874,2007,150,7
+RI,North Kingstown,02874,2008,128,7
+RI,North Kingstown,02874,2009,107,10
+RI,North Kingstown,02874,2010,88,2
+RI,North Kingstown,02874,2011,78,3
+RI,North Kingstown,02874,2012,91,3
+RI,North Kingstown,02874,2013,82,1
+RI,North Kingstown,02874,2014,66,1
+RI,North Kingstown,02874,2015,63,0
+RI,North Kingstown,02877,2005,0,0
+RI,North Kingstown,02877,2006,0,0
+RI,North Kingstown,02877,2007,0,0
+RI,North Kingstown,02877,2008,0,0
+RI,North Kingstown,02877,2009,0,0
+RI,North Kingstown,02877,2010,1,0
+RI,North Kingstown,02877,2011,0,0
+RI,North Kingstown,02877,2012,2,0
+RI,North Kingstown,02877,2013,1,0
+RI,North Kingstown,02877,2014,1,0
+RI,North Kingstown,02877,2015,2,0
+RI,North Providence,NA,2005,223,41
+RI,North Providence,NA,2006,198,33
+RI,North Providence,NA,2007,241,25
+RI,North Providence,NA,2008,241,27
+RI,North Providence,NA,2009,201,25
+RI,North Providence,NA,2010,123,5
+RI,North Providence,NA,2011,113,12
+RI,North Providence,NA,2012,108,7
+RI,North Providence,NA,2013,104,1
+RI,North Providence,NA,2014,80,4
+RI,North Providence,NA,2015,90,2
+RI,North Providence,02904,2005,466,74
+RI,North Providence,02904,2006,415,50
+RI,North Providence,02904,2007,372,28
+RI,North Providence,02904,2008,351,36
+RI,North Providence,02904,2009,314,48
+RI,North Providence,02904,2010,308,20
+RI,North Providence,02904,2011,291,14
+RI,North Providence,02904,2012,274,8
+RI,North Providence,02904,2013,296,3
+RI,North Providence,02904,2014,299,9
+RI,North Providence,02904,2015,318,6
+RI,North Providence,02911,2005,33,7
+RI,North Providence,02911,2006,38,9
+RI,North Providence,02911,2007,39,2
+RI,North Providence,02911,2008,33,5
+RI,North Providence,02911,2009,74,8
+RI,North Providence,02911,2010,140,6
+RI,North Providence,02911,2011,153,10
+RI,North Providence,02911,2012,181,5
+RI,North Providence,02911,2013,220,9
+RI,North Providence,02911,2014,194,8
+RI,North Providence,02911,2015,226,6
+RI,North Smithfield,NA,2005,2,0
+RI,North Smithfield,NA,2006,5,0
+RI,North Smithfield,NA,2007,6,0
+RI,North Smithfield,NA,2008,10,0
+RI,North Smithfield,NA,2009,1,0
+RI,North Smithfield,NA,2010,10,0
+RI,North Smithfield,NA,2011,6,0
+RI,North Smithfield,NA,2012,8,0
+RI,North Smithfield,NA,2013,4,0
+RI,North Smithfield,NA,2014,5,0
+RI,North Smithfield,NA,2015,2,1
+RI,North Smithfield,02824,2005,6,1
+RI,North Smithfield,02824,2006,9,1
+RI,North Smithfield,02824,2007,7,1
+RI,North Smithfield,02824,2008,8,2
+RI,North Smithfield,02824,2009,4,0
+RI,North Smithfield,02824,2010,4,0
+RI,North Smithfield,02824,2011,6,0
+RI,North Smithfield,02824,2012,8,0
+RI,North Smithfield,02824,2013,6,0
+RI,North Smithfield,02824,2014,2,0
+RI,North Smithfield,02824,2015,9,0
+RI,North Smithfield,02876,2005,17,3
+RI,North Smithfield,02876,2006,15,1
+RI,North Smithfield,02876,2007,10,0
+RI,North Smithfield,02876,2008,14,1
+RI,North Smithfield,02876,2009,15,0
+RI,North Smithfield,02876,2010,7,1
+RI,North Smithfield,02876,2011,15,0
+RI,North Smithfield,02876,2012,13,0
+RI,North Smithfield,02876,2013,23,0
+RI,North Smithfield,02876,2014,18,0
+RI,North Smithfield,02876,2015,17,0
+RI,North Smithfield,02896,2005,185,25
+RI,North Smithfield,02896,2006,193,16
+RI,North Smithfield,02896,2007,180,14
+RI,North Smithfield,02896,2008,150,3
+RI,North Smithfield,02896,2009,168,11
+RI,North Smithfield,02896,2010,158,2
+RI,North Smithfield,02896,2011,146,2
+RI,North Smithfield,02896,2012,162,6
+RI,North Smithfield,02896,2013,144,0
+RI,North Smithfield,02896,2014,171,1
+RI,North Smithfield,02896,2015,181,3
+RI,Pawtucket,NA,2005,46,11
+RI,Pawtucket,NA,2006,76,19
+RI,Pawtucket,NA,2007,61,14
+RI,Pawtucket,NA,2008,35,5
+RI,Pawtucket,NA,2009,29,10
+RI,Pawtucket,NA,2010,28,1
+RI,Pawtucket,NA,2011,26,4
+RI,Pawtucket,NA,2012,32,1
+RI,Pawtucket,NA,2013,35,2
+RI,Pawtucket,NA,2014,41,1
+RI,Pawtucket,NA,2015,27,4
+RI,Pawtucket,02860,2005,2131,506
+RI,Pawtucket,02860,2006,2084,447
+RI,Pawtucket,02860,2007,2119,368
+RI,Pawtucket,02860,2008,2098,335
+RI,Pawtucket,02860,2009,1944,406
+RI,Pawtucket,02860,2010,1780,198
+RI,Pawtucket,02860,2011,1907,169
+RI,Pawtucket,02860,2012,1855,146
+RI,Pawtucket,02860,2013,1749,143
+RI,Pawtucket,02860,2014,1728,140
+RI,Pawtucket,02860,2015,1704,135
+RI,Pawtucket,02861,2005,685,112
+RI,Pawtucket,02861,2006,730,109
+RI,Pawtucket,02861,2007,691,71
+RI,Pawtucket,02861,2008,770,91
+RI,Pawtucket,02861,2009,649,80
+RI,Pawtucket,02861,2010,661,42
+RI,Pawtucket,02861,2011,644,30
+RI,Pawtucket,02861,2012,631,21
+RI,Pawtucket,02861,2013,638,27
+RI,Pawtucket,02861,2014,605,27
+RI,Pawtucket,02861,2015,558,19
+RI,Pawtucket,02862,2005,10,1
+RI,Pawtucket,02862,2006,9,0
+RI,Pawtucket,02862,2007,10,0
+RI,Pawtucket,02862,2008,13,1
+RI,Pawtucket,02862,2009,15,3
+RI,Pawtucket,02862,2010,17,4
+RI,Pawtucket,02862,2011,11,0
+RI,Pawtucket,02862,2012,10,1
+RI,Pawtucket,02862,2013,14,1
+RI,Pawtucket,02862,2014,15,1
+RI,Pawtucket,02862,2015,15,0
+RI,Portsmouth,NA,2005,6,0
+RI,Portsmouth,NA,2006,7,1
+RI,Portsmouth,NA,2007,9,1
+RI,Portsmouth,NA,2008,5,0
+RI,Portsmouth,NA,2009,7,1
+RI,Portsmouth,NA,2010,3,0
+RI,Portsmouth,NA,2011,5,0
+RI,Portsmouth,NA,2012,5,0
+RI,Portsmouth,NA,2013,6,0
+RI,Portsmouth,NA,2014,3,1
+RI,Portsmouth,NA,2015,0,0
+RI,Portsmouth,02840,2005,0,0
+RI,Portsmouth,02840,2006,0,0
+RI,Portsmouth,02840,2007,0,0
+RI,Portsmouth,02840,2008,0,0
+RI,Portsmouth,02840,2009,0,0
+RI,Portsmouth,02840,2010,0,0
+RI,Portsmouth,02840,2011,2,0
+RI,Portsmouth,02840,2012,0,0
+RI,Portsmouth,02840,2013,0,0
+RI,Portsmouth,02840,2014,0,0
+RI,Portsmouth,02840,2015,0,0
+RI,Portsmouth,02871,2005,623,55
+RI,Portsmouth,02871,2006,577,42
+RI,Portsmouth,02871,2007,501,41
+RI,Portsmouth,02871,2008,397,23
+RI,Portsmouth,02871,2009,291,29
+RI,Portsmouth,02871,2010,267,17
+RI,Portsmouth,02871,2011,281,11
+RI,Portsmouth,02871,2012,350,12
+RI,Portsmouth,02871,2013,285,11
+RI,Portsmouth,02871,2014,275,12
+RI,Portsmouth,02871,2015,301,5
+RI,Portsmouth,02872,2005,3,1
+RI,Portsmouth,02872,2006,0,0
+RI,Portsmouth,02872,2007,2,0
+RI,Portsmouth,02872,2008,1,0
+RI,Portsmouth,02872,2009,0,0
+RI,Portsmouth,02872,2010,2,0
+RI,Portsmouth,02872,2011,1,0
+RI,Portsmouth,02872,2012,2,0
+RI,Portsmouth,02872,2013,2,0
+RI,Portsmouth,02872,2014,1,0
+RI,Portsmouth,02872,2015,2,0
+RI,Providence,NA,2005,258,85
+RI,Providence,NA,2006,269,76
+RI,Providence,NA,2007,201,39
+RI,Providence,NA,2008,200,36
+RI,Providence,NA,2009,198,45
+RI,Providence,NA,2010,177,26
+RI,Providence,NA,2011,189,23
+RI,Providence,NA,2012,159,13
+RI,Providence,NA,2013,194,13
+RI,Providence,NA,2014,188,14
+RI,Providence,NA,2015,148,14
+RI,Providence,02901,2005,10,5
+RI,Providence,02901,2006,5,0
+RI,Providence,02901,2007,5,3
+RI,Providence,02901,2008,6,1
+RI,Providence,02901,2009,5,1
+RI,Providence,02901,2010,12,3
+RI,Providence,02901,2011,6,0
+RI,Providence,02901,2012,10,0
+RI,Providence,02901,2013,8,0
+RI,Providence,02901,2014,2,0
+RI,Providence,02901,2015,2,0
+RI,Providence,02902,2005,12,2
+RI,Providence,02902,2006,5,1
+RI,Providence,02902,2007,5,2
+RI,Providence,02902,2008,9,1
+RI,Providence,02902,2009,10,1
+RI,Providence,02902,2010,8,1
+RI,Providence,02902,2011,6,0
+RI,Providence,02902,2012,5,0
+RI,Providence,02902,2013,10,0
+RI,Providence,02902,2014,4,0
+RI,Providence,02902,2015,7,1
+RI,Providence,02903,2005,136,43
+RI,Providence,02903,2006,125,38
+RI,Providence,02903,2007,152,36
+RI,Providence,02903,2008,128,30
+RI,Providence,02903,2009,178,42
+RI,Providence,02903,2010,147,19
+RI,Providence,02903,2011,161,16
+RI,Providence,02903,2012,131,19
+RI,Providence,02903,2013,124,5
+RI,Providence,02903,2014,195,15
+RI,Providence,02903,2015,237,23
+RI,Providence,02904,2005,451,108
+RI,Providence,02904,2006,512,100
+RI,Providence,02904,2007,465,74
+RI,Providence,02904,2008,511,74
+RI,Providence,02904,2009,504,81
+RI,Providence,02904,2010,465,42
+RI,Providence,02904,2011,476,30
+RI,Providence,02904,2012,499,30
+RI,Providence,02904,2013,479,29
+RI,Providence,02904,2014,464,15
+RI,Providence,02904,2015,445,25
+RI,Providence,02905,2005,897,305
+RI,Providence,02905,2006,915,266
+RI,Providence,02905,2007,938,221
+RI,Providence,02905,2008,855,191
+RI,Providence,02905,2009,848,205
+RI,Providence,02905,2010,846,138
+RI,Providence,02905,2011,811,119
+RI,Providence,02905,2012,899,104
+RI,Providence,02905,2013,820,68
+RI,Providence,02905,2014,789,64
+RI,Providence,02905,2015,753,68
+RI,Providence,02906,2005,641,172
+RI,Providence,02906,2006,645,137
+RI,Providence,02906,2007,657,112
+RI,Providence,02906,2008,592,96
+RI,Providence,02906,2009,593,102
+RI,Providence,02906,2010,608,67
+RI,Providence,02906,2011,574,49
+RI,Providence,02906,2012,638,47
+RI,Providence,02906,2013,590,37
+RI,Providence,02906,2014,450,34
+RI,Providence,02906,2015,496,33
+RI,Providence,02907,2005,1798,769
+RI,Providence,02907,2006,1700,637
+RI,Providence,02907,2007,1659,515
+RI,Providence,02907,2008,1603,449
+RI,Providence,02907,2009,1502,413
+RI,Providence,02907,2010,1495,302
+RI,Providence,02907,2011,1463,212
+RI,Providence,02907,2012,1478,195
+RI,Providence,02907,2013,1521,144
+RI,Providence,02907,2014,1523,130
+RI,Providence,02907,2015,1507,137
+RI,Providence,02908,2005,1670,518
+RI,Providence,02908,2006,1593,445
+RI,Providence,02908,2007,1580,374
+RI,Providence,02908,2008,1499,323
+RI,Providence,02908,2009,1380,307
+RI,Providence,02908,2010,1411,229
+RI,Providence,02908,2011,1433,188
+RI,Providence,02908,2012,1349,147
+RI,Providence,02908,2013,1378,116
+RI,Providence,02908,2014,1373,129
+RI,Providence,02908,2015,1277,116
+RI,Providence,02909,2005,2425,813
+RI,Providence,02909,2006,2358,719
+RI,Providence,02909,2007,2221,543
+RI,Providence,02909,2008,2284,577
+RI,Providence,02909,2009,2255,598
+RI,Providence,02909,2010,2310,386
+RI,Providence,02909,2011,2220,310
+RI,Providence,02909,2012,2257,292
+RI,Providence,02909,2013,2212,239
+RI,Providence,02909,2014,2104,186
+RI,Providence,02909,2015,2118,181
+RI,Providence,02910,2005,0,0
+RI,Providence,02910,2006,1,0
+RI,Providence,02910,2007,3,0
+RI,Providence,02910,2008,0,0
+RI,Providence,02910,2009,2,0
+RI,Providence,02910,2010,0,0
+RI,Providence,02910,2011,2,0
+RI,Providence,02910,2012,0,0
+RI,Providence,02910,2013,0,0
+RI,Providence,02910,2014,0,0
+RI,Providence,02910,2015,1,0
+RI,Providence,02912,2005,1,0
+RI,Providence,02912,2006,2,0
+RI,Providence,02912,2007,1,0
+RI,Providence,02912,2008,2,1
+RI,Providence,02912,2009,1,0
+RI,Providence,02912,2010,0,0
+RI,Providence,02912,2011,1,0
+RI,Providence,02912,2012,0,0
+RI,Providence,02912,2013,3,0
+RI,Providence,02912,2014,0,0
+RI,Providence,02912,2015,1,0
+RI,Providence,02918,2005,2,1
+RI,Providence,02918,2006,0,0
+RI,Providence,02918,2007,0,0
+RI,Providence,02918,2008,0,0
+RI,Providence,02918,2009,0,0
+RI,Providence,02918,2010,0,0
+RI,Providence,02918,2011,0,0
+RI,Providence,02918,2012,1,0
+RI,Providence,02918,2013,0,0
+RI,Providence,02918,2014,0,0
+RI,Providence,02918,2015,0,0
+RI,Providence,02919,2005,0,0
+RI,Providence,02919,2006,1,0
+RI,Providence,02919,2007,0,0
+RI,Providence,02919,2008,0,0
+RI,Providence,02919,2009,0,0
+RI,Providence,02919,2010,0,0
+RI,Providence,02919,2011,0,0
+RI,Providence,02919,2012,0,0
+RI,Providence,02919,2013,0,0
+RI,Providence,02919,2014,0,0
+RI,Providence,02919,2015,0,0
+RI,Providence,02940,2005,4,1
+RI,Providence,02940,2006,6,2
+RI,Providence,02940,2007,12,1
+RI,Providence,02940,2008,9,1
+RI,Providence,02940,2009,7,1
+RI,Providence,02940,2010,11,0
+RI,Providence,02940,2011,12,0
+RI,Providence,02940,2012,9,2
+RI,Providence,02940,2013,9,0
+RI,Providence,02940,2014,11,0
+RI,Providence,02940,2015,8,0
+RI,Richmond,NA,2005,46,6
+RI,Richmond,NA,2006,47,3
+RI,Richmond,NA,2007,48,6
+RI,Richmond,NA,2008,37,4
+RI,Richmond,NA,2009,31,8
+RI,Richmond,NA,2010,14,5
+RI,Richmond,NA,2011,12,2
+RI,Richmond,NA,2012,6,0
+RI,Richmond,NA,2013,12,0
+RI,Richmond,NA,2014,7,1
+RI,Richmond,NA,2015,5,0
+RI,Richmond,02803,2005,2,1
+RI,Richmond,02803,2006,1,0
+RI,Richmond,02803,2007,2,0
+RI,Richmond,02803,2008,0,0
+RI,Richmond,02803,2009,0,0
+RI,Richmond,02803,2010,0,0
+RI,Richmond,02803,2011,0,0
+RI,Richmond,02803,2012,0,0
+RI,Richmond,02803,2013,0,0
+RI,Richmond,02803,2014,0,0
+RI,Richmond,02803,2015,0,0
+RI,Richmond,02812,2005,30,1
+RI,Richmond,02812,2006,36,1
+RI,Richmond,02812,2007,31,0
+RI,Richmond,02812,2008,26,1
+RI,Richmond,02812,2009,28,2
+RI,Richmond,02812,2010,25,0
+RI,Richmond,02812,2011,22,0
+RI,Richmond,02812,2012,26,1
+RI,Richmond,02812,2013,31,1
+RI,Richmond,02812,2014,18,2
+RI,Richmond,02812,2015,19,1
+RI,Richmond,02832,2005,3,0
+RI,Richmond,02832,2006,3,0
+RI,Richmond,02832,2007,1,0
+RI,Richmond,02832,2008,1,0
+RI,Richmond,02832,2009,5,2
+RI,Richmond,02832,2010,3,0
+RI,Richmond,02832,2011,2,0
+RI,Richmond,02832,2012,0,0
+RI,Richmond,02832,2013,1,0
+RI,Richmond,02832,2014,1,0
+RI,Richmond,02832,2015,1,0
+RI,Richmond,02836,2005,0,0
+RI,Richmond,02836,2006,0,0
+RI,Richmond,02836,2007,0,0
+RI,Richmond,02836,2008,0,0
+RI,Richmond,02836,2009,0,0
+RI,Richmond,02836,2010,1,0
+RI,Richmond,02836,2011,2,0
+RI,Richmond,02836,2012,2,0
+RI,Richmond,02836,2013,4,0
+RI,Richmond,02836,2014,1,0
+RI,Richmond,02836,2015,0,0
+RI,Richmond,02875,2005,31,4
+RI,Richmond,02875,2006,25,5
+RI,Richmond,02875,2007,19,0
+RI,Richmond,02875,2008,9,2
+RI,Richmond,02875,2009,11,3
+RI,Richmond,02875,2010,11,0
+RI,Richmond,02875,2011,8,0
+RI,Richmond,02875,2012,14,0
+RI,Richmond,02875,2013,14,0
+RI,Richmond,02875,2014,9,0
+RI,Richmond,02875,2015,6,0
+RI,Richmond,02892,2005,12,2
+RI,Richmond,02892,2006,15,1
+RI,Richmond,02892,2007,17,0
+RI,Richmond,02892,2008,14,1
+RI,Richmond,02892,2009,11,0
+RI,Richmond,02892,2010,8,0
+RI,Richmond,02892,2011,7,0
+RI,Richmond,02892,2012,6,0
+RI,Richmond,02892,2013,7,0
+RI,Richmond,02892,2014,6,0
+RI,Richmond,02892,2015,15,1
+RI,Richmond,02894,2005,0,0
+RI,Richmond,02894,2006,0,0
+RI,Richmond,02894,2007,1,0
+RI,Richmond,02894,2008,2,0
+RI,Richmond,02894,2009,1,1
+RI,Richmond,02894,2010,6,1
+RI,Richmond,02894,2011,9,3
+RI,Richmond,02894,2012,9,5
+RI,Richmond,02894,2013,7,1
+RI,Richmond,02894,2014,8,2
+RI,Richmond,02894,2015,8,0
+RI,Richmond,02898,2005,42,6
+RI,Richmond,02898,2006,39,2
+RI,Richmond,02898,2007,34,6
+RI,Richmond,02898,2008,36,4
+RI,Richmond,02898,2009,28,3
+RI,Richmond,02898,2010,33,2
+RI,Richmond,02898,2011,23,2
+RI,Richmond,02898,2012,23,0
+RI,Richmond,02898,2013,32,1
+RI,Richmond,02898,2014,23,1
+RI,Richmond,02898,2015,20,1
+RI,Scituate,NA,2005,117,15
+RI,Scituate,NA,2006,61,7
+RI,Scituate,NA,2007,50,3
+RI,Scituate,NA,2008,24,5
+RI,Scituate,NA,2009,20,4
+RI,Scituate,NA,2010,10,0
+RI,Scituate,NA,2011,13,0
+RI,Scituate,NA,2012,7,0
+RI,Scituate,NA,2013,5,0
+RI,Scituate,NA,2014,7,0
+RI,Scituate,NA,2015,6,0
+RI,Scituate,02815,2005,0,0
+RI,Scituate,02815,2006,0,0
+RI,Scituate,02815,2007,1,0
+RI,Scituate,02815,2008,0,0
+RI,Scituate,02815,2009,0,0
+RI,Scituate,02815,2010,0,0
+RI,Scituate,02815,2011,0,0
+RI,Scituate,02815,2012,0,0
+RI,Scituate,02815,2013,1,0
+RI,Scituate,02815,2014,1,0
+RI,Scituate,02815,2015,3,0
+RI,Scituate,02831,2005,88,17
+RI,Scituate,02831,2006,91,15
+RI,Scituate,02831,2007,70,7
+RI,Scituate,02831,2008,72,8
+RI,Scituate,02831,2009,64,7
+RI,Scituate,02831,2010,76,2
+RI,Scituate,02831,2011,61,1
+RI,Scituate,02831,2012,70,2
+RI,Scituate,02831,2013,68,2
+RI,Scituate,02831,2014,55,3
+RI,Scituate,02831,2015,53,0
+RI,Scituate,02832,2005,1,0
+RI,Scituate,02832,2006,1,0
+RI,Scituate,02832,2007,1,1
+RI,Scituate,02832,2008,1,0
+RI,Scituate,02832,2009,1,0
+RI,Scituate,02832,2010,0,0
+RI,Scituate,02832,2011,1,0
+RI,Scituate,02832,2012,0,0
+RI,Scituate,02832,2013,0,0
+RI,Scituate,02832,2014,0,0
+RI,Scituate,02832,2015,0,0
+RI,Scituate,02857,2005,80,14
+RI,Scituate,02857,2006,96,11
+RI,Scituate,02857,2007,116,8
+RI,Scituate,02857,2008,114,11
+RI,Scituate,02857,2009,104,16
+RI,Scituate,02857,2010,111,6
+RI,Scituate,02857,2011,98,4
+RI,Scituate,02857,2012,96,3
+RI,Scituate,02857,2013,112,5
+RI,Scituate,02857,2014,83,2
+RI,Scituate,02857,2015,108,4
+RI,Smithfield,NA,2005,9,0
+RI,Smithfield,NA,2006,8,2
+RI,Smithfield,NA,2007,3,0
+RI,Smithfield,NA,2008,6,2
+RI,Smithfield,NA,2009,4,0
+RI,Smithfield,NA,2010,4,0
+RI,Smithfield,NA,2011,6,0
+RI,Smithfield,NA,2012,6,0
+RI,Smithfield,NA,2013,7,0
+RI,Smithfield,NA,2014,8,0
+RI,Smithfield,NA,2015,3,0
+RI,Smithfield,02828,2005,127,9
+RI,Smithfield,02828,2006,129,6
+RI,Smithfield,02828,2007,135,8
+RI,Smithfield,02828,2008,120,7
+RI,Smithfield,02828,2009,119,8
+RI,Smithfield,02828,2010,93,3
+RI,Smithfield,02828,2011,109,0
+RI,Smithfield,02828,2012,104,3
+RI,Smithfield,02828,2013,114,1
+RI,Smithfield,02828,2014,108,1
+RI,Smithfield,02828,2015,99,1
+RI,Smithfield,02917,2005,189,17
+RI,Smithfield,02917,2006,248,15
+RI,Smithfield,02917,2007,227,9
+RI,Smithfield,02917,2008,203,15
+RI,Smithfield,02917,2009,192,17
+RI,Smithfield,02917,2010,166,4
+RI,Smithfield,02917,2011,178,4
+RI,Smithfield,02917,2012,171,1
+RI,Smithfield,02917,2013,167,0
+RI,Smithfield,02917,2014,153,3
+RI,Smithfield,02917,2015,191,2
+RI,South Kingstown,NA,2005,25,5
+RI,South Kingstown,NA,2006,29,4
+RI,South Kingstown,NA,2007,24,1
+RI,South Kingstown,NA,2008,18,2
+RI,South Kingstown,NA,2009,14,1
+RI,South Kingstown,NA,2010,15,0
+RI,South Kingstown,NA,2011,14,3
+RI,South Kingstown,NA,2012,11,0
+RI,South Kingstown,NA,2013,12,0
+RI,South Kingstown,NA,2014,10,0
+RI,South Kingstown,NA,2015,3,0
+RI,South Kingstown,02879,2005,483,63
+RI,South Kingstown,02879,2006,481,54
+RI,South Kingstown,02879,2007,436,32
+RI,South Kingstown,02879,2008,408,39
+RI,South Kingstown,02879,2009,382,53
+RI,South Kingstown,02879,2010,333,29
+RI,South Kingstown,02879,2011,320,23
+RI,South Kingstown,02879,2012,308,21
+RI,South Kingstown,02879,2013,317,21
+RI,South Kingstown,02879,2014,294,16
+RI,South Kingstown,02879,2015,247,12
+RI,South Kingstown,02880,2005,3,1
+RI,South Kingstown,02880,2006,4,0
+RI,South Kingstown,02880,2007,2,0
+RI,South Kingstown,02880,2008,4,0
+RI,South Kingstown,02880,2009,2,0
+RI,South Kingstown,02880,2010,3,0
+RI,South Kingstown,02880,2011,1,0
+RI,South Kingstown,02880,2012,0,0
+RI,South Kingstown,02880,2013,2,0
+RI,South Kingstown,02880,2014,3,0
+RI,South Kingstown,02880,2015,1,0
+RI,South Kingstown,02881,2005,72,14
+RI,South Kingstown,02881,2006,52,3
+RI,South Kingstown,02881,2007,77,7
+RI,South Kingstown,02881,2008,67,4
+RI,South Kingstown,02881,2009,54,7
+RI,South Kingstown,02881,2010,39,3
+RI,South Kingstown,02881,2011,35,1
+RI,South Kingstown,02881,2012,36,1
+RI,South Kingstown,02881,2013,41,1
+RI,South Kingstown,02881,2014,28,1
+RI,South Kingstown,02881,2015,31,3
+RI,South Kingstown,02883,2005,31,6
+RI,South Kingstown,02883,2006,17,2
+RI,South Kingstown,02883,2007,11,1
+RI,South Kingstown,02883,2008,10,2
+RI,South Kingstown,02883,2009,13,4
+RI,South Kingstown,02883,2010,5,2
+RI,South Kingstown,02883,2011,4,2
+RI,South Kingstown,02883,2012,1,0
+RI,South Kingstown,02883,2013,3,1
+RI,South Kingstown,02883,2014,1,0
+RI,South Kingstown,02883,2015,2,0
+RI,South Kingstown,02892,2005,105,10
+RI,South Kingstown,02892,2006,99,12
+RI,South Kingstown,02892,2007,111,6
+RI,South Kingstown,02892,2008,99,7
+RI,South Kingstown,02892,2009,89,15
+RI,South Kingstown,02892,2010,89,6
+RI,South Kingstown,02892,2011,74,2
+RI,South Kingstown,02892,2012,70,1
+RI,South Kingstown,02892,2013,84,2
+RI,South Kingstown,02892,2014,77,4
+RI,South Kingstown,02892,2015,58,2
+RI,Tiverton,NA,2005,4,0
+RI,Tiverton,NA,2006,8,1
+RI,Tiverton,NA,2007,7,1
+RI,Tiverton,NA,2008,5,1
+RI,Tiverton,NA,2009,3,0
+RI,Tiverton,NA,2010,8,2
+RI,Tiverton,NA,2011,5,0
+RI,Tiverton,NA,2012,7,0
+RI,Tiverton,NA,2013,4,0
+RI,Tiverton,NA,2014,5,0
+RI,Tiverton,NA,2015,0,0
+RI,Tiverton,02878,2005,515,68
+RI,Tiverton,02878,2006,519,87
+RI,Tiverton,02878,2007,458,44
+RI,Tiverton,02878,2008,418,48
+RI,Tiverton,02878,2009,337,64
+RI,Tiverton,02878,2010,372,37
+RI,Tiverton,02878,2011,370,23
+RI,Tiverton,02878,2012,367,20
+RI,Tiverton,02878,2013,370,9
+RI,Tiverton,02878,2014,345,10
+RI,Tiverton,02878,2015,347,11
+RI,Unknown,NA,2005,54,6
+RI,Unknown,NA,2006,5,0
+RI,Unknown,NA,2007,9,0
+RI,Unknown,NA,2008,2,0
+RI,Unknown,NA,2009,19,2
+RI,Unknown,NA,2010,10,0
+RI,Unknown,NA,2011,12,0
+RI,Unknown,NA,2012,3,0
+RI,Unknown,NA,2013,5,0
+RI,Unknown,NA,2014,6,0
+RI,Unknown,NA,2015,5,0
+RI,Warren,NA,2005,1,0
+RI,Warren,NA,2006,5,2
+RI,Warren,NA,2007,1,0
+RI,Warren,NA,2008,1,1
+RI,Warren,NA,2009,3,1
+RI,Warren,NA,2010,5,0
+RI,Warren,NA,2011,1,0
+RI,Warren,NA,2012,4,0
+RI,Warren,NA,2013,1,0
+RI,Warren,NA,2014,2,0
+RI,Warren,NA,2015,1,0
+RI,Warren,02885,2005,335,57
+RI,Warren,02885,2006,349,65
+RI,Warren,02885,2007,350,58
+RI,Warren,02885,2008,347,50
+RI,Warren,02885,2009,296,66
+RI,Warren,02885,2010,329,41
+RI,Warren,02885,2011,324,28
+RI,Warren,02885,2012,303,31
+RI,Warren,02885,2013,287,25
+RI,Warren,02885,2014,271,9
+RI,Warren,02885,2015,267,12
+RI,Warwick,NA,2005,40,8
+RI,Warwick,NA,2006,56,6
+RI,Warwick,NA,2007,53,6
+RI,Warwick,NA,2008,46,4
+RI,Warwick,NA,2009,35,6
+RI,Warwick,NA,2010,33,0
+RI,Warwick,NA,2011,27,0
+RI,Warwick,NA,2012,30,1
+RI,Warwick,NA,2013,37,0
+RI,Warwick,NA,2014,37,3
+RI,Warwick,NA,2015,18,1
+RI,Warwick,02886,2005,734,80
+RI,Warwick,02886,2006,729,76
+RI,Warwick,02886,2007,712,69
+RI,Warwick,02886,2008,656,40
+RI,Warwick,02886,2009,595,53
+RI,Warwick,02886,2010,636,23
+RI,Warwick,02886,2011,640,19
+RI,Warwick,02886,2012,610,21
+RI,Warwick,02886,2013,622,14
+RI,Warwick,02886,2014,668,20
+RI,Warwick,02886,2015,594,20
+RI,Warwick,02887,2005,1,0
+RI,Warwick,02887,2006,0,0
+RI,Warwick,02887,2007,3,0
+RI,Warwick,02887,2008,2,0
+RI,Warwick,02887,2009,4,0
+RI,Warwick,02887,2010,1,0
+RI,Warwick,02887,2011,1,1
+RI,Warwick,02887,2012,1,0
+RI,Warwick,02887,2013,3,1
+RI,Warwick,02887,2014,1,0
+RI,Warwick,02887,2015,3,0
+RI,Warwick,02888,2005,461,58
+RI,Warwick,02888,2006,472,47
+RI,Warwick,02888,2007,481,47
+RI,Warwick,02888,2008,430,26
+RI,Warwick,02888,2009,405,40
+RI,Warwick,02888,2010,397,24
+RI,Warwick,02888,2011,406,17
+RI,Warwick,02888,2012,374,15
+RI,Warwick,02888,2013,366,10
+RI,Warwick,02888,2014,380,15
+RI,Warwick,02888,2015,389,12
+RI,Warwick,02889,2005,611,71
+RI,Warwick,02889,2006,600,69
+RI,Warwick,02889,2007,590,61
+RI,Warwick,02889,2008,533,39
+RI,Warwick,02889,2009,501,61
+RI,Warwick,02889,2010,469,21
+RI,Warwick,02889,2011,501,20
+RI,Warwick,02889,2012,516,21
+RI,Warwick,02889,2013,492,19
+RI,Warwick,02889,2014,520,10
+RI,Warwick,02889,2015,468,6
+RI,West Greenwich,NA,2005,4,0
+RI,West Greenwich,NA,2006,2,0
+RI,West Greenwich,NA,2007,2,0
+RI,West Greenwich,NA,2008,2,0
+RI,West Greenwich,NA,2009,2,0
+RI,West Greenwich,NA,2010,2,1
+RI,West Greenwich,NA,2011,0,0
+RI,West Greenwich,NA,2012,2,0
+RI,West Greenwich,NA,2013,1,0
+RI,West Greenwich,NA,2014,3,0
+RI,West Greenwich,NA,2015,2,0
+RI,West Greenwich,02817,2005,125,12
+RI,West Greenwich,02817,2006,120,8
+RI,West Greenwich,02817,2007,111,6
+RI,West Greenwich,02817,2008,85,1
+RI,West Greenwich,02817,2009,89,6
+RI,West Greenwich,02817,2010,88,6
+RI,West Greenwich,02817,2011,117,0
+RI,West Greenwich,02817,2012,104,2
+RI,West Greenwich,02817,2013,101,4
+RI,West Greenwich,02817,2014,65,1
+RI,West Greenwich,02817,2015,83,0
+RI,West Warwick,NA,2005,14,7
+RI,West Warwick,NA,2006,11,2
+RI,West Warwick,NA,2007,13,3
+RI,West Warwick,NA,2008,8,1
+RI,West Warwick,NA,2009,12,2
+RI,West Warwick,NA,2010,9,2
+RI,West Warwick,NA,2011,9,0
+RI,West Warwick,NA,2012,13,0
+RI,West Warwick,NA,2013,19,2
+RI,West Warwick,NA,2014,12,0
+RI,West Warwick,NA,2015,10,0
+RI,West Warwick,02818,2005,1,0
+RI,West Warwick,02818,2006,0,0
+RI,West Warwick,02818,2007,0,0
+RI,West Warwick,02818,2008,1,0
+RI,West Warwick,02818,2009,0,0
+RI,West Warwick,02818,2010,0,0
+RI,West Warwick,02818,2011,1,0
+RI,West Warwick,02818,2012,1,0
+RI,West Warwick,02818,2013,1,0
+RI,West Warwick,02818,2014,0,0
+RI,West Warwick,02818,2015,0,0
+RI,West Warwick,02893,2005,821,113
+RI,West Warwick,02893,2006,845,119
+RI,West Warwick,02893,2007,811,99
+RI,West Warwick,02893,2008,774,77
+RI,West Warwick,02893,2009,727,92
+RI,West Warwick,02893,2010,780,50
+RI,West Warwick,02893,2011,727,43
+RI,West Warwick,02893,2012,753,34
+RI,West Warwick,02893,2013,733,28
+RI,West Warwick,02893,2014,731,27
+RI,West Warwick,02893,2015,690,32
+RI,Westerly,NA,2005,5,0
+RI,Westerly,NA,2006,7,0
+RI,Westerly,NA,2007,10,1
+RI,Westerly,NA,2008,13,2
+RI,Westerly,NA,2009,9,3
+RI,Westerly,NA,2010,3,0
+RI,Westerly,NA,2011,6,2
+RI,Westerly,NA,2012,7,0
+RI,Westerly,NA,2013,6,1
+RI,Westerly,NA,2014,3,1
+RI,Westerly,NA,2015,2,0
+RI,Westerly,02808,2005,77,9
+RI,Westerly,02808,2006,63,13
+RI,Westerly,02808,2007,66,8
+RI,Westerly,02808,2008,74,8
+RI,Westerly,02808,2009,63,11
+RI,Westerly,02808,2010,62,3
+RI,Westerly,02808,2011,63,3
+RI,Westerly,02808,2012,41,1
+RI,Westerly,02808,2013,43,2
+RI,Westerly,02808,2014,36,2
+RI,Westerly,02808,2015,33,1
+RI,Westerly,02891,2005,514,78
+RI,Westerly,02891,2006,488,63
+RI,Westerly,02891,2007,499,75
+RI,Westerly,02891,2008,488,62
+RI,Westerly,02891,2009,454,61
+RI,Westerly,02891,2010,364,34
+RI,Westerly,02891,2011,335,13
+RI,Westerly,02891,2012,292,14
+RI,Westerly,02891,2013,293,6
+RI,Westerly,02891,2014,260,15
+RI,Westerly,02891,2015,254,10
+RI,Woonsocket,NA,2005,9,3
+RI,Woonsocket,NA,2006,23,6
+RI,Woonsocket,NA,2007,19,4
+RI,Woonsocket,NA,2008,12,3
+RI,Woonsocket,NA,2009,18,4
+RI,Woonsocket,NA,2010,9,0
+RI,Woonsocket,NA,2011,8,1
+RI,Woonsocket,NA,2012,9,1
+RI,Woonsocket,NA,2013,9,0
+RI,Woonsocket,NA,2014,12,2
+RI,Woonsocket,NA,2015,6,0
+RI,Woonsocket,02895,2005,1569,367
+RI,Woonsocket,02895,2006,1738,327
+RI,Woonsocket,02895,2007,1635,311
+RI,Woonsocket,02895,2008,1522,164
+RI,Woonsocket,02895,2009,1499,184
+RI,Woonsocket,02895,2010,1218,94
+RI,Woonsocket,02895,2011,1361,83
+RI,Woonsocket,02895,2012,1341,77
+RI,Woonsocket,02895,2013,1217,35
+RI,Woonsocket,02895,2014,1250,62
+RI,Woonsocket,02895,2015,1301,71
