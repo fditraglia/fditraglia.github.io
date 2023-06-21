@@ -8,7 +8,7 @@ permalink: /research/
 
 ## Publications
 
-- [Hidden Hazards and Screening Policy: Predicting Undetected Lead Exposure in Illinois](https://ditraglia.com/pdf/lead-JHE.pdf) (with Ali Abbasi, Ludovica Gazze, and Bridget Pals), Forthcoming *Journal of Health Economics*
+- [Hidden Hazards and Screening Policy: Predicting Undetected Lead Exposure in Illinois](https://www.sciencedirect.com/science/article/pii/S0167629623000607) (with Ali Abbasi, Ludovica Gazze, and Bridget Pals), Forthcoming *Journal of Health Economics*, [[pre-print]](https://ditraglia.com/pdf/lead-JHE.pdf)
 - [Identifying Causal Effects in Experiments with Spillovers and Non-compliance (with Camilo Garcia-Jimeno, Rossa O'Keeffe-O'Donovan, and Alejandro Sanchez)](https://doi.org/10.1016/j.jeconom.2023.01.008) , *Journal of Econometrics*, 2023, 235 (2), pp. 1589-1624 [[preprint](https://ditraglia.com/pdf/spillovers-paper.pdf), [slides](https://ditraglia.com/pdf/spillovers-slides.pdf)]
 - [A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models](https://doi.org/10.1080/07350015.2020.1753528) (with Camilo Garcia-Jimeno), *Journal of Business and Economic Statistics*, 2021, 39(4), pp. 1038-1053. [[pre-print](http://ditraglia.com/pdf/DiTraglia-Garcia-Jimeno-2019.pdf)]
 - [Identifying the Effect of a Mis-classified, Binary, Endogenous Regressor](https://www.sciencedirect.com/science/article/pii/S0304407619300181) (with Camilo Garcia-Jimeno), *Journal of Econometrics*, 2019, 209 (2), pp. 376-390. [[pre-print](http://ditraglia.com/pdf/binary-regressor-final.pdf), [NBER version](http://ditraglia.com/pdf/DiTraglia_Garcia-Jimeno_2017b.pdf)] 
