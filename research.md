@@ -19,7 +19,7 @@ permalink: /research/
 - [Yes, Wall Street, There is a January Effect: Evidence from Laboratory Auctions](http://www.tandfonline.com/doi/abs/10.1080/15427560709337012) (with Lisa Anderson and Jeffrey Gerlach), *Journal of Behavioral Finance*, 2007, 8 (1), pp. 1-8
 
 ## Working Papers
-- [Selection of Invalid Instruments can Improve Estimation in Mendelian Randomization](https://arxiv.org/abs/2107.01513) (with Ashish Patel, Stephen Burgess, and Verena Zuber) *Submitted* 
+- [Selection of Invalid Instruments can Improve Estimation in Mendelian Randomization](https://arxiv.org/abs/2107.01513) (with Ashish Patel, Stephen Burgess, and Verena Zuber), Revise and resubmit *Annals of Applied Statistics*. 
 
 ## In Progress
 - The Limits of Self-commitment and Private Paternalism (Issac Meza, Joyce Sadka, Enrique Seira, and Craig McIntosh)
