@@ -7,15 +7,13 @@ permalink: /teaching/
 
 # University of Oxford
 
-#### Lectures
 - [Empirical Research Methods](https://ditraglia.com/erm) (Graduate)
 - [Treatment Effects](https://treatment-effects.com) (Graduate)
 - [Limited Dependent Variables](https://economictricks.com) (Graduate) 
-
-#### Tutorials
-- Quantitative Economics (Undergraduate)
-- Behavioral and Experimental Economics (Undergraduate)
-- [Econometrics](./pdf/econometrics-tutorials.pdf) (Undergraduate)
+- [Introduction to Probability and Statistics](prelims-prob-stats.html) (Undergraduate Tutorials)
+- Quantitative Economics (Undergraduate Tutorials)
+- Behavioral and Experimental Economics (Undergraduate Tutorials)
+- [Econometrics](./pdf/econometrics-tutorials.pdf) (Undergraduate Tutorials)
 
 <!--#### Thank you DataCamp!
 Thanks to [DataCamp](https://www.datacamp.com/) for supporting my teaching by providing my students free access to their excellent online data science tutorials.-->
