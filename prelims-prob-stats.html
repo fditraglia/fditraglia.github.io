@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Francis J. DiTraglia">
-<meta name="dcterms.date" content="2023-10-10">
+<meta name="dcterms.date" content="2023-10-26">
 
 <title>Prelims Probability and Statistics</title>
 <style>
@@ -3124,7 +3124,7 @@ return!"\t\n\x0B\f\r                　\u2028\u2029
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 10, 2023</p>
+      <p class="date">October 26, 2023</p>
     </div>
   </div>
   
@@ -3296,11 +3296,168 @@ B &amp;= \text{There is at least one Head and there is at least one Tail}
 </section>
 <section id="review-questions-1" class="level4">
 <h4 class="anchored" data-anchor-id="review-questions-1">Review Questions</h4>
-<p>TBC</p>
+<p><em>Note: your lecturer uses the term “variable” where the more standard term is “random variable.” I’ll always say random variable, and abbreviate it RV.</em></p>
+<ol type="1">
+<li>Define the “support” aka “support set” of a RV. What is the probability that a RV takes on a value outside of its support set?</li>
+<li>What is the difference between a discrete and continuous RV?</li>
+<li>What is a probability mass function (PMF)? What key properties does it satisfy?</li>
+<li>A random variable is said to follow a “Rademacher distribution” if it is equally likely to take any value in the set <span class="math inline">\(\{−1, +1\}\)</span> and never takes on any value outside this set. Write out and sketch its probability mass function.</li>
+<li>Define the term cumulative distribution function (CDF).
+<ol type="a">
+<li>How is the CDF of a discrete RV related to its PMF?</li>
+<li>How is the CDF of a continuous RV related to its PDF?</li>
+</ol></li>
+<li>Let <span class="math inline">\(X\)</span> be a RV with support set <span class="math inline">\(\{−1, +1\}\)</span> and <span class="math inline">\(p(−1) = 1/3\)</span>. Write down the CDF of <span class="math inline">\(X\)</span>.</li>
+<li>Define the term parameter as it relates to a distribution. Are parameters constant or random?</li>
+<li>If <span class="math inline">\(X\)</span> is a continuous RV and <span class="math inline">\(a, b\)</span> are constants, how do we calculate <span class="math inline">\(P(a \leq X \leq b)\)</span>?</li>
+<li>What are the key properties of a probability density function (PDF)?</li>
+<li>True or False: if <span class="math inline">\(f(x)\)</span> denotes a PDF, then <span class="math inline">\(f(x)\)</span> is a probability so <span class="math inline">\(0 \leq f(x) \leq 1\)</span>.</li>
+<li>Let <span class="math inline">\(X\)</span> be a continuous RV with CDF <span class="math inline">\(F\)</span> . Express <span class="math inline">\(P(−2 \leq X \leq 4)\)</span> in terms of <span class="math inline">\(F\)</span>.</li>
+<li>Let X be a continuous RV with CDF <span class="math inline">\(F\)</span>. Express <span class="math inline">\(P(X \geq x)\)</span> in terms of <span class="math inline">\(F\)</span>.</li>
+<li>Suppose that <span class="math inline">\(X\)</span> is a continuous RV with support set <span class="math inline">\([−1, +1]\)</span>.
+<ol type="a">
+<li>Is 2 a possible realization of this variable?</li>
+<li>What is <span class="math inline">\(P(X = 0.5)\)</span>?</li>
+</ol></li>
+<li>True or False: If <span class="math inline">\(X\)</span> is a continuous RV then <span class="math inline">\(P(X \leq 0.3) = P(X &lt; 0.3)\)</span>. Explain.</li>
+<li>What does it mean to “standardize” a RV?</li>
+<li>Let <span class="math inline">\(X\)</span> be a <span class="math inline">\(\text{Uniform}(0, 1)\)</span> RV. Write down the CDF of <span class="math inline">\(X\)</span>.</li>
+<li>In a <span class="math inline">\(N(\mu, \sigma^2)\)</span> distribution, what features of the the distribution do the parameters <span class="math inline">\(\mu\)</span> and <span class="math inline">\(\sigma^2\)</span> control?</li>
+<li>Suppose that <span class="math inline">\(X \sim N(\mu, \sigma^2)\)</span> Approximately what are the values of the following probabilities?
+<ol type="a">
+<li><span class="math inline">\(P(\mu − \sigma \leq X \leq \mu + \sigma)\)</span></li>
+<li><span class="math inline">\(P(\mu − 2\sigma \leq X \leq \mu + 2\sigma)\)</span></li>
+<li><span class="math inline">\(P(\mu − 3\sigma \leq X \leq \mu + 3\sigma)\)</span></li>
+</ol></li>
+<li>Let <span class="math inline">\(X \sim N(\mu = −2,\sigma^2 = 25)\)</span>. Without consulting a table, what is the approximate value of <span class="math inline">\(P(−12 \leq X \leq 8)\)</span>?</li>
+<li>Let <span class="math inline">\(X \sim N(0, 1)\)</span>. Calculate the following:
+<ol type="a">
+<li><span class="math inline">\(P(X = 0)\)</span></li>
+<li><span class="math inline">\(P(X ≤ −1)\)</span></li>
+<li><span class="math inline">\(P(−1.2 \leq X \leq 1.2)\)</span></li>
+<li>the value of <span class="math inline">\(t\)</span> such that <span class="math inline">\(P(X \leq t) = 0.5\)</span></li>
+<li>the value of <span class="math inline">\(t\)</span> such that <span class="math inline">\(P(X &gt; t) = 0.80\)</span></li>
+<li>the value of <span class="math inline">\(t &gt; 0\)</span> such that <span class="math inline">\(P(−t \leq X \leq t) = 0.9\)</span></li>
+<li>the value of <span class="math inline">\(t &gt; 0\)</span> such that <span class="math inline">\(P(−t \leq X \leq t) = 0.82\)</span></li>
+</ol></li>
+<li>Let <span class="math inline">\(X \sim N (\mu = −2, \sigma^2 9)\)</span>. Calculate the following:
+<ol type="a">
+<li><span class="math inline">\(P(X = 0)\)</span></li>
+<li><span class="math inline">\(P(X \leq −1)\)</span></li>
+<li><span class="math inline">\(P(−1.2 \leq X \leq 1.2)\)</span></li>
+<li>the value of <span class="math inline">\(t\)</span> such that <span class="math inline">\(P(X \leq t) = 0.5\)</span></li>
+<li>the value of <span class="math inline">\(t\)</span> such that <span class="math inline">\(P(X &gt; t) = 0.80\)</span></li>
+<li>the values of <span class="math inline">\(t_0\)</span> and <span class="math inline">\(t_1\)</span> (symmetric around the mean) such that <span class="math inline">\(P(t_0 \leq X \leq t_1) = 0.9\)</span>.</li>
+<li>the values of <span class="math inline">\(t_0\)</span> and <span class="math inline">\(t_1\)</span> (symmetric around the mean) such that <span class="math inline">\(P(t_0 \leq X \leq t_1) = 0.82\)</span></li>
+</ol></li>
+<li>Suppose that <span class="math inline">\(U \sim N (0, \sigma^2)\)</span> and let <span class="math inline">\(a, b, x\)</span> be constants. Find the distribution of each of the following:
+<ol type="a">
+<li><span class="math inline">\(Y = a + U\)</span></li>
+<li><span class="math inline">\(Y = a + bU\)</span></li>
+<li><span class="math inline">\(Y = a + bx + U\)</span></li>
+</ol></li>
+<li>Let <span class="math inline">\(X \sim N(\mu = 1, \sigma^2 = 2)\)</span>.
+<ol type="a">
+<li>What is the 1st quartile of <span class="math inline">\(X\)</span>?</li>
+<li>What is the 77th percentile of <span class="math inline">\(X\)</span>?</li>
+<li>What is the median of <span class="math inline">\(X\)</span>?</li>
+</ol></li>
+<li>Define the following terms:
+<ol type="a">
+<li>conditional distribution</li>
+<li>marginal distribution</li>
+</ol></li>
+<li>Consider the following bivariate PMF <span class="math inline">\(p(X, Y)\)</span> <span class="math display">\[
+\begin{array}{l|cccc}
+&amp; X = 0 &amp; X=2 &amp; X = 3 &amp; X = 4\\
+\hline
+Y=0&amp; \boxed{?} &amp; 2/24 &amp; 2/24 &amp; 1/24\\
+Y=1&amp; 1/24 &amp; 3/24 &amp; 4/24 &amp; 2/24\\
+Y=2&amp; 1/24 &amp; 3/24 &amp; 2/24 &amp; 2/24\\
+\end{array}
+\]</span>
+<ol type="a">
+<li>Fill in the missing value: <span class="math inline">\(\boxed{?}\)</span>.</li>
+<li>Write out the marginal PMF of <span class="math inline">\(X\)</span>.</li>
+<li>Write out the marginal CDF of <span class="math inline">\(Y\)</span>.</li>
+<li>Write out the conditional PMF of <span class="math inline">\(Y\)</span> given <span class="math inline">\(X=3\)</span>.</li>
+<li>Write out the conditional CDF of <span class="math inline">\(X\)</span> given <span class="math inline">\(Y=2\)</span>.</li>
+<li>Are <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> independent? Explain.</li>
+</ol></li>
+</ol>
 </section>
 <section id="problem-set-questions-1" class="level4">
 <h4 class="anchored" data-anchor-id="problem-set-questions-1">Problem Set Questions</h4>
-<p>TBC</p>
+<ol type="1">
+<li>Consider a random variable <span class="math inline">\(X\)</span> which is uniformly distributed <span class="math inline">\(U(0, 1)\)</span>.
+<ol type="a">
+<li>Draw the probability density function (pdf), <span class="math inline">\(f(x)\)</span>. What is the formula for the pdf?</li>
+<li>Draw the cumulative density function (cdf), <span class="math inline">\(F(x)\)</span>. What is the formula for the cdf?</li>
+</ol></li>
+<li>Consider a random variable <span class="math inline">\(X\)</span> which is uniformly distributed <span class="math inline">\(U(0, 1)\)</span>.
+<ol type="a">
+<li>What is the distribution of <span class="math inline">\(Z = 2 + X\)</span>?</li>
+<li>What is the distribution of <span class="math inline">\(Z = 3X\)</span>?</li>
+<li>What is the distribution of <span class="math inline">\(Z = 2 + 3X\)</span>?</li>
+</ol></li>
+<li>Consider a random variable X which is uniformly distributed <span class="math inline">\(U(−2, 3)\)</span>.
+<ol type="a">
+<li>What is the distribution of <span class="math inline">\(Z = 2 + X\)</span>?</li>
+<li>What is the distribution of <span class="math inline">\(Z = 3X\)</span>?</li>
+<li>What is the distribution of <span class="math inline">\(Z = 2 + 3X\)</span>?</li>
+</ol></li>
+<li>For a random variable $X U (2, 12) (read the <span class="math inline">\(\sim\)</span> as “that is distributed”)
+<ol type="a">
+<li>What is <span class="math inline">\(P(3 \leq X \leq 8)\)</span>?</li>
+<li>What is <span class="math inline">\(P(X = 9)\)</span>?</li>
+</ol></li>
+<li>Consider a random variable X which is normally distributed with mean 0 and variance of 1.
+<ol type="a">
+<li>What is the distribution of <span class="math inline">\(Z = 5 + X\)</span>?</li>
+<li>What is the distribution of <span class="math inline">\(Z = 2X\)</span>?</li>
+<li>What is the distribution of <span class="math inline">\(Z = 2 + 3X\)</span>?</li>
+</ol></li>
+<li>Consider a random variable <span class="math inline">\(X\)</span> which is normally distributed with mean 2 and variance of 9.</li>
+</ol>
+<ol type="a">
+<li>What is the distribution of <span class="math inline">\(Z = −2 + X\)</span>?</li>
+<li>What is the distribution of <span class="math inline">\(Z = X/\sqrt{9}\)</span>?</li>
+<li>What is the distribution of <span class="math inline">\(Z = (−2+X)/\sqrt{9}\)</span></li>
+</ol>
+<ol start="7" type="1">
+<li>If <span class="math inline">\(X \sim∼ N (\mu=−1, \sigma^2 =2)\)</span> what is
+<ol type="a">
+<li><span class="math inline">\(P(X = 0)\)</span>?</li>
+<li><span class="math inline">\(P(X \leq −1)\)</span>?</li>
+<li><span class="math inline">\(P(−1 \leq X \leq 1)\)</span>?</li>
+<li>the value of <span class="math inline">\(t\)</span> such that <span class="math inline">\(P(X \leq t) = 0.25\)</span></li>
+<li>the value of <span class="math inline">\(t\)</span> such that <span class="math inline">\(P(X &gt; t) = 0.80\)</span></li>
+<li>the value of <span class="math inline">\(t\)</span> such that <span class="math inline">\(P(−|t| \leq X \leq |t|) = 0.9\)</span></li>
+</ol></li>
+<li>Suppose that students’ marks on the economics prelims paper are normally distributed with mean 61 and standard deviation 9.5.
+<ol type="a">
+<li>What is the probability that a student scores (i) less than 50? (ii) 70 or more?</li>
+<li>What score is exceeded by only 10% of students?</li>
+<li>Find the median, and the upper and lower quartiles.</li>
+<li>What proportion of students have scores within 5 marks of the mean?</li>
+</ol></li>
+<li>Consider the following bivariate probability mass function <span class="math inline">\(f(X, Y )\)</span> <span class="math display">\[
+\begin{array}{l|ccc}
+&amp; X=0 &amp; X=2 &amp; X=3 \\
+\hline
+Y=0&amp;1/36 &amp; 1/18 &amp; 1/12\\
+Y=1&amp; 1/9 &amp; 2/9 &amp; 1/3\\
+Y=2&amp; 1/36 &amp;1/18 &amp; 1/12
+\end{array}
+\]</span> what is
+<ol type="a">
+<li>the marginal PMF of <span class="math inline">\(X\)</span>?</li>
+<li>the marginal CDF of <span class="math inline">\(Y\)</span>?</li>
+<li>the conditional PMF of <span class="math inline">\(Y\)</span>: <span class="math inline">\(f(Y |X = 3)\)</span>?</li>
+<li>the conditional CDF of <span class="math inline">\(X\)</span>: <span class="math inline">\(F(X|Y = 2)\)</span>?</li>
+<li>Are <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> independent?</li>
+</ol></li>
+</ol>
 </section>
 </section>
 <section id="class-3---mt-week-7" class="level3">
@@ -3317,7 +3474,103 @@ B &amp;= \text{There is at least one Head and there is at least one Tail}
 </section>
 <section id="review-questions-2" class="level4">
 <h4 class="anchored" data-anchor-id="review-questions-2">Review Questions</h4>
-<p>TBC</p>
+<ol type="1">
+<li>Consider the population of Oxford undergraduates. Let <span class="math inline">\(X\)</span> be a random variable that represents the distribution of height in centimeters in this population, and <span class="math inline">\(Y\)</span> be a random variable that represents the distribution of weight in kilograms. What are the units of the following quantities?
+<ol type="a">
+<li><span class="math inline">\(\mathbb{E}(X)\)</span></li>
+<li><span class="math inline">\(\text{Var}(Y)\)</span><br>
+</li>
+<li>The standard deviation of <span class="math inline">\(X\)</span></li>
+<li><span class="math inline">\(Z \equiv \left[X - \mathbb{E}(X)\right] / \sqrt{\text{Var}(X)}\)</span></li>
+<li><span class="math inline">\(\text{Cov}(X,Y)\)</span></li>
+<li><span class="math inline">\(\text{Cor}(X,Y)\)</span></li>
+</ol></li>
+<li>Give an example of each:
+<ol type="a">
+<li>A convex function</li>
+<li>A concave function</li>
+</ol></li>
+<li>Let <span class="math inline">\(X\)</span> be a random variable with support set <span class="math inline">\(\left\{0, 1, 2 \right\}\)</span>, <span class="math inline">\(p(1) = 0.3\)</span>, and <span class="math inline">\(p(2) = 0.5\)</span>. Calculate <span class="math inline">\(\mathbb{E}[X]\)</span>.</li>
+<li>Suppose that <span class="math inline">\(X \sim N(\mu, \sigma^2)\)</span>.
+<ol type="a">
+<li>What is <span class="math inline">\(\mathbb{E}[X]\)</span>?</li>
+<li>What is <span class="math inline">\(\text{Var}(X)\)</span>?</li>
+</ol></li>
+<li>Let <span class="math inline">\(X\)</span> be a discrete random variable that is equally likely to take on the values <span class="math inline">\(2\)</span> and <span class="math inline">\(4\)</span> and never takes on any other values. Prove or disprove the following claims, either by using a property of expected value that you have learned, or by direct calculation:
+<ol type="a">
+<li><span class="math inline">\(E(X+1)= E(X) + 10\)</span></li>
+<li><span class="math inline">\(E(X/10) = E(X)/10\)</span></li>
+<li><span class="math inline">\(E(10/X)=10/E(X)\)</span></li>
+<li><span class="math inline">\(E(X^2) = [E(X)]^2\)</span></li>
+<li><span class="math inline">\(E(5X + 2)/10 = [5E(X) + 2]/10\)</span></li>
+</ol></li>
+<li>State Jensen’s Inequality.</li>
+<li>Give the formula for each of these quantities in terms of expectations:
+<ol type="a">
+<li>Variance</li>
+<li>Covariance</li>
+<li>Correlation</li>
+</ol></li>
+<li><span class="math inline">\(X\)</span> be a binary variable where <span class="math inline">\(p = \mathbb{P}(X=1)\)</span> is the proportion of ``ones’’ in the population. Write down the expressions for the following quantities in terms of <span class="math inline">\(p\)</span>:
+<ol type="a">
+<li><span class="math inline">\(\mathbb{E}(X)\)</span></li>
+<li><span class="math inline">\(\text{Var}(X)\)</span></li>
+</ol></li>
+<li>Let <span class="math inline">\(X\)</span> be a binary variable where <span class="math inline">\(p = \mathbb{P}(X=1)\)</span> is the proportion of “ones” in the population.
+<ol type="a">
+<li>Show that <span class="math inline">\(\mathbb{E}(X) = p\)</span></li>
+<li>Show that <span class="math inline">\(\mathbb{E}(X^2) = p\)</span></li>
+<li>Combine the preceding to parts to show that <span class="math inline">\(\text{Var}(X) = p(1 - p)\)</span>.</li>
+</ol></li>
+<li><span class="math inline">\(X\)</span> be a discrete random variable.
+<ol type="a">
+<li>Write down the definition of the expected value <span class="math inline">\(\mathbb{E}[X]\)</span> of <span class="math inline">\(X\)</span>.</li>
+<li>Is <span class="math inline">\(\mathbb{E}[X]\)</span> constant or random? Explain why in one sentence.</li>
+</ol></li>
+<li>What is a conditional expectation?</li>
+<li>Formally state the Law of Iterated Expectations.</li>
+<li>TRUE or FALSE: the following statements are equivalent
+<ol type="a">
+<li><span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> are independent.</li>
+<li>The covariance between <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> is zero.</li>
+</ol></li>
+<li>Suppose that <span class="math inline">\(\text{Var}(Y) = 0\)</span> and <span class="math inline">\(\text{Var}(X) &gt; 0\)</span>. Calculate <span class="math inline">\(\text{Cov}(X,Y)\)</span>.</li>
+<li>Suppose <span class="math inline">\(X\)</span> is a random variable with support <span class="math inline">\(\{-1, 0, 1\}\)</span> where <span class="math inline">\(p(-1)=q\)</span> and <span class="math inline">\(p(1) = p\)</span>. What relationship must hold between <span class="math inline">\(p\)</span> and <span class="math inline">\(q\)</span> to ensure that <span class="math inline">\(E[X] = 0\)</span>?</li>
+<li>Suppose that <span class="math inline">\(\mathbb{E}[X]=8\)</span> and <span class="math inline">\(Y= 3 + X/2\)</span>. Calculate <span class="math inline">\(\mathbb{E}[Y]\)</span>.</li>
+<li>Suppose that <span class="math inline">\(X\)</span> is a discrete random variable and <span class="math inline">\(g\)</span> is a function. Explain how to calculate <span class="math inline">\(\mathbb{E}[g(X)]\)</span>. Is this the same thing as <span class="math inline">\(g\left(\mathbb{E}[X]\right)\)</span>?</li>
+<li>Let <span class="math inline">\(X\)</span> be a random variable with support set <span class="math inline">\(\left\{ -1, 1 \right\}\)</span> and <span class="math inline">\(p(-1) = 1/3\)</span>. Calculate <span class="math inline">\(E[X^2]\)</span>.</li>
+<li>Suppose that <span class="math inline">\(X \sim N(\mu = -2, \sigma^2 = 3)\)</span>. What is <span class="math inline">\(\text{Cov}(X,X)\)</span>?</li>
+<li>Let <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> random variable with <span class="math inline">\(\mathbb{E}[X] = 2\)</span> and <span class="math inline">\(\mathbb{E}[Y] = 1\)</span>. Calculate <span class="math inline">\(\mathbb{E}[X - Y]\)</span>.</li>
+<li>Let <span class="math inline">\(W = Y + Z\)</span> and suppose that <span class="math inline">\(\text{Cov}(X,Y) = 0\)</span> and <span class="math inline">\(\text{Cov}(X,Z) = 0\)</span>. What is the correlation between <span class="math inline">\(W\)</span> and <span class="math inline">\(X\)</span>?</li>
+<li>Suppose <span class="math inline">\(\mathbb{E}[X] = 2\)</span> and <span class="math inline">\(\text{Var}(X) = 5\)</span>. Calculate <span class="math inline">\(\mathbb{E}[X^2]\)</span>.</li>
+<li>Let <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> be random variable with <span class="math inline">\(\text{Var}(X) = 2\)</span> , <span class="math inline">\(\text{Var}(Y) = 1\)</span>, and <span class="math inline">\(\text{Cov}(X,Y) = 0\)</span>. Calculate <span class="math inline">\(\text{Var}(X - Y)\)</span>.</li>
+<li>Let <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> be two random variable with <span class="math inline">\(\text{Var}(X) = \sigma_X^2\)</span>, <span class="math inline">\(\text{Var}(Y) = \sigma_Y^2\)</span>, and <span class="math inline">\(\text{Cov}(X,Y) = \sigma_{XY}\)</span>. If <span class="math inline">\(a,b,c\)</span> are constants, what is <span class="math inline">\(\text{Var}(cX + bY + a)\)</span>?</li>
+<li>Suppose that <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> are two random variables with correlation <span class="math inline">\(\rho = 0.3\)</span>, and standard deviations <span class="math inline">\(\sigma_X = 4\)</span> and <span class="math inline">\(\sigma_Y = 5\)</span>.
+<ol type="a">
+<li>Calculate <span class="math inline">\(\text{Cov}(X,Y)\)</span>.</li>
+<li>Let <span class="math inline">\(Z = (X + Y)/2\)</span>. Calculate <span class="math inline">\(\text{Var}(Z)\)</span>.</li>
+</ol></li>
+<li>Mark each statement as TRUE or FALSE. If FALSE, explain.
+<ol type="a">
+<li>The expected value of a sum <span class="math inline">\(\mathbb{E}[X + Y]\)</span> does in general equal the sum of the expected values <span class="math inline">\(\mathbb{E}[X] + \mathbb{E}[Y]\)</span>; this only holds when <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> are independent.</li>
+<li>The variance of a sum <span class="math inline">\(Var(X + Y)\)</span> is always equal to the sum of the variances <span class="math inline">\(Var(X) + Var(Y)\)</span>.</li>
+</ol></li>
+<li>Let <span class="math inline">\(X\)</span> be a Uniform<span class="math inline">\((0,1)\)</span> random variable.
+<ol type="a">
+<li>Calculate <span class="math inline">\(\mathbb{E}(X)\)</span>.</li>
+<li>Calculate <span class="math inline">\(\mathbb{E}(X^2)\)</span>.</li>
+<li>Combine the preceding two parts to find <span class="math inline">\(\text{Var}(X)\)</span>.</li>
+</ol></li>
+<li>Suppose that <span class="math inline">\(X \sim N(\mu, \sigma^2)\)</span>. Approximately what are the following probabilities? (a) <span class="math inline">\(\mathbb{P}(\mu - \sigma \leq X \leq \mu + \sigma)\)</span> (b) <span class="math inline">\(\mathbb{P}(\mu - 2\sigma \leq X \leq \mu + 2\sigma)\)</span> (c) <span class="math inline">\(\mathbb{P}(\mu - 3\sigma \leq X \leq \mu + 3\sigma)\)</span></li>
+<li>Suppose that <span class="math inline">\(X \sim N(0,1)\)</span>. Calculate <span class="math inline">\(\mathbb{E}[X^2]\)</span>.</li>
+<li>Let <span class="math inline">\(X\)</span> and <span class="math inline">\(U\)</span> be random variables with <span class="math inline">\(\mathbb{E}(U|X)=0\)</span> and <span class="math inline">\(\mathbb{E}(X) = 5\)</span>. Let <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span> be constants, and further define <span class="math inline">\(Y = a + bX + U\)</span>.
+<ol type="a">
+<li>Show that <span class="math inline">\(\mathbb{E}(U) = 0\)</span>.</li>
+<li>Calculate <span class="math inline">\(\mathbb{E}(Y)\)</span>.</li>
+<li>Calculate <span class="math inline">\(\mathbb{E}(Y|X = 0)\)</span>.</li>
+<li>Suppose that <span class="math inline">\(\mathbb{E}(U) = 0\)</span> but <span class="math inline">\(\mathbb{E}(U|X)\)</span> is unknown. Would this make any difference to your answers in parts (b) and (c) above?</li>
+</ol></li>
+</ol>
 </section>
 <section id="problem-set-questions-2" class="level4">
 <h4 class="anchored" data-anchor-id="problem-set-questions-2">Problem Set Questions</h4>
