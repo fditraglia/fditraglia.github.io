@@ -12,7 +12,7 @@ permalink: /teaching/
 - [Limited Dependent Variables](https://economictricks.com) (Graduate) 
 - [Introduction to Probability and Statistics](prelims-prob-stats.html) (Undergraduate Tutorials)
 - Quantitative Economics (Undergraduate Tutorials)
-- Behavioral and Experimental Economics (Undergraduate Tutorials)
+- [Behavioral and Experimental Economics](BEE.html) (Undergraduate Tutorials)
 - [Econometrics](./pdf/econometrics-tutorials.pdf) (Undergraduate Tutorials)
 
 <!--#### Thank you DataCamp!
