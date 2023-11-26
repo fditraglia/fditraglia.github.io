@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Francis J. DiTraglia">
-<meta name="dcterms.date" content="2023-10-26">
+<meta name="dcterms.date" content="2023-11-26">
 
 <title>Prelims Probability and Statistics</title>
 <style>
@@ -3124,7 +3124,7 @@ return!"\t\n\x0B\f\r                　\u2028\u2029
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 26, 2023</p>
+      <p class="date">November 26, 2023</p>
     </div>
   </div>
   
@@ -3574,7 +3574,30 @@ Y=2&amp; 1/36 &amp;1/18 &amp; 1/12
 </section>
 <section id="problem-set-questions-2" class="level4">
 <h4 class="anchored" data-anchor-id="problem-set-questions-2">Problem Set Questions</h4>
-<p>TBC</p>
+<ol type="1">
+<li>Let <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> be random variables and <span class="math inline">\(a,b,c\)</span> be constants. Use the linearity of expectation to derive the following results:
+<ol type="a">
+<li><span class="math inline">\(\text{Cov}(X,Y) = \mathbb{E}(XY) - \mathbb{E}(X)\mathbb{E}(Y)\)</span></li>
+<li><span class="math inline">\(\text{Var}(a + bX + cY) = b^2 \text{Var}(X) + c^2 \text{Var}(Y) + 2bc \text{Cov}(X,Y)\)</span></li>
+</ol></li>
+<li>Let <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> be random variables such that <span class="math inline">\(\mathbb{E}[Y] \neq 0\)</span>. Show that, provided that all of the relevant expectations exist and are finite, <span class="math display">\[\frac{\mathbb{E}[X]}{\mathbb{E}[Y]} - \mathbb{E}\left[ \frac{X}{Y}\right] = \frac{\text{Cov}(X/Y,\, Y)}{\mathbb{E}[Y]}.\]</span></li>
+<li>Let <span class="math inline">\(X\)</span> be a random variable and <span class="math inline">\(a, b\)</span> be constants. Suppose that <span class="math inline">\(Y = a + b X\)</span>. Calculate the correlation between <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> in each of the following cases:
+<ol type="a">
+<li><span class="math inline">\(b &gt; 0\)</span></li>
+<li><span class="math inline">\(b &lt; 0\)</span></li>
+<li><span class="math inline">\(b = 0\)</span></li>
+</ol></li>
+<li>Let <span class="math inline">\(X\)</span> and <span class="math inline">\(U\)</span> be random variables and <span class="math inline">\(a, b\)</span> be constants. Suppose that <span class="math inline">\(Y = a + b X + U\)</span> where <span class="math inline">\(\mathbb{E}(U) = 0\)</span> and <span class="math inline">\(\text{Cov}(X, U) = 0\)</span>.
+<ol type="a">
+<li>Calculate <span class="math inline">\(\mathbb{E}(Y)\)</span>.</li>
+<li>Calculate <span class="math inline">\(\text{Var}(Y)\)</span>.</li>
+<li>Show that <span class="math inline">\(\text{Cov}(X, Y) = b \text{Var}(X)\)</span></li>
+<li>Show that <span class="math inline">\(\text{Corr}(X,Y) = b \sqrt{\frac{\text{Var}(X)}{b^2 \text{Var}(X) + \text{Var}(U)}}\)</span>.</li>
+</ol></li>
+<li>Let <span class="math inline">\(X\)</span> be a <span class="math inline">\(\text{Bernoulli}(p)\)</span> random variable, i.e. <span class="math inline">\(X \in \{0, 1\}\)</span> with <span class="math inline">\(\mathbb{P}(X=1) = p\)</span>. Show that, for any other random variable <span class="math inline">\(Y\)</span> such that the relevant expectations exist and are finite <span class="math display">\[
+\frac{\text{Cov}(X,Y)}{\text{Var}(X)} = \mathbb{E}(Y|X=1) - \mathbb{E}(Y|X=0).
+\]</span></li>
+</ol>
 <!-- ### Class \#4 - HT Week 2 
 
 ### Class \#5 - HT Week 4
