@@ -8,6 +8,7 @@ permalink: /research/
 
 ## Publications
 
+- [Selection of Invalid Instruments can Improve Estimation in Mendelian Randomization](https://arxiv.org/abs/2107.01513) (with Ashish Patel, Stephen Burgess, and Verena Zuber), Forthcoming *Annals of Applied Statistics*. 
 - [Hidden Hazards and Screening Policy: Predicting Undetected Lead Exposure in Illinois](https://doi.org/10.1016/j.jhealeco.2023.102783) (with Ali Abbasi, Ludovica Gazze, and Bridget Pals), Forthcoming *Journal of Health Economics*, [[pre-print]](https://ditraglia.com/pdf/lead-JHE.pdf)
 - [Identifying Causal Effects in Experiments with Spillovers and Non-compliance (with Camilo Garcia-Jimeno, Rossa O'Keeffe-O'Donovan, and Alejandro Sanchez)](https://doi.org/10.1016/j.jeconom.2023.01.008) , *Journal of Econometrics*, 2023, 235 (2), pp. 1589-1624 [[preprint](https://ditraglia.com/pdf/spillovers-paper.pdf), [slides](https://ditraglia.com/pdf/spillovers-slides.pdf)]
 - [A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models](https://doi.org/10.1080/07350015.2020.1753528) (with Camilo Garcia-Jimeno), *Journal of Business and Economic Statistics*, 2021, 39(4), pp. 1038-1053. [[pre-print](http://ditraglia.com/pdf/DiTraglia-Garcia-Jimeno-2019.pdf)]
@@ -20,7 +21,6 @@ permalink: /research/
 
 ## Working Papers
 - [The Controlled Choice Design and Private Paternalism in Pawnshop Borrowing](https://ditraglia.com/pdf/pawn-paper.pdf) (with Issac Meza, Joyce Sadka, Enrique Seira, and Craig McIntosh), *Submitted*
-- [Selection of Invalid Instruments can Improve Estimation in Mendelian Randomization](https://arxiv.org/abs/2107.01513) (with Ashish Patel, Stephen Burgess, and Verena Zuber), Revise and resubmit *Annals of Applied Statistics*. 
 
 ## In Progress
 - Estimation and Inference for Marginal Treatment Effects: a Bayesian Semi-parametric Approach (with Laura Liu)
