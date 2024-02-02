@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Francis J. DiTraglia">
-<meta name="dcterms.date" content="2024-01-29">
+<meta name="dcterms.date" content="2024-02-02">
 
 <title>Prelims Probability and Statistics</title>
 <style>
@@ -3130,7 +3130,7 @@ return!"\t\n\x0B\f\r                　\u2028\u2029
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 29, 2024</p>
+      <p class="date">February 2, 2024</p>
     </div>
   </div>
   
@@ -3734,7 +3734,24 @@ Y=2&amp; 1/36 &amp;1/18 &amp; 1/12
 </section>
 <section id="problem-set-questions-4" class="level4">
 <h4 class="anchored" data-anchor-id="problem-set-questions-4">Problem Set Questions</h4>
-<p>TBC</p>
+<ol type="1">
+<li>In a random sample of 1165 Oxford PPE applicants, the average score on the TSA test was 60.86, with a standard deviation of 8.02. Construct a 95% confidence interval for the population mean score.</li>
+<li>Suppose you are studying the impact of COVID-19 on the labour market. In a random sample of 1000 workers, you find that 354 had been “furloughed” in July 2020. Construct a 90% confidence interval for the population mean furlough rate.</li>
+<li>Suppose that we observe hourly wages for a random sample of 150 university graduates: the sample mean is £31 with a standard deviation of £15. In contrast, the sample mean wage is £17 with a standard deviation of £10 for a sample of 225 non-university graduates. Construct an approximate 95% confidence interval for the difference in population mean wages <span class="math inline">\((\mu_X - \mu_Y)\)</span> between university graduates (X) and non-university graduates (Y).</li>
+<li>You are interested in whether the average rent for a room in Oxford is £500 per month. In a random sample of 300 rooms to rent in Oxford, the average rent is £525 per month with a standard deviation of £200. Test the hypothesis that the average Oxford room rent per month is £500.</li>
+<li>Suppose you have a large random sample <span class="math inline">\(X_1, \ldots, X_n \sim \text{iid} \, N(\mu, \sigma^2)\)</span>, and you test <span class="math inline">\(H_0: \mu = \mu_0\)</span> vs. <span class="math inline">\(H_1: \mu \neq \mu_0\)</span> where <span class="math inline">\(\mu_0\)</span> is some hypothesized value of <span class="math inline">\(\mu\)</span>. You decide to set a significance level, <span class="math inline">\(\alpha\)</span>, at which to conduct the hypothesis test.
+<ol type="a">
+<li>Say you choose <span class="math inline">\(\alpha = 0.05\)</span> and reject. Would you still have rejected if you had instead chosen <span class="math inline">\(\alpha = 0.1\)</span>? Explain.</li>
+<li>Say you choose <span class="math inline">\(\alpha = 0.01\)</span> and fail to reject. Would you have failed to reject if you had instead chosen <span class="math inline">\(\alpha = 0.05\)</span>? Explain.</li>
+</ol></li>
+<li>A random sample of 35 Netflix users are asked to rate two shows: <em>The Queen’s Gambit</em> and <em>Bridgerton</em>. You can access the dataset as a .csv file <a href="https://ditraglia.com/data/user_ratings.csv">from this url</a>. Use the data to test the null hypothesis that both shows are equally highly rated.</li>
+<li>You are interested in whether the Oxford unemployment rate is the same as the national unemployment rate (5%). In a random sample of 1,000 Oxford residents, you find that 63 are unemployed. Test the hypothesis that the Oxford unemployment rate is the same as the national rate.</li>
+<li>Consider two groups A and B composed of 100 people who are suffering from a disease. A drug is given to group A. A placebo is given to group B. It is found that in group A 75 people recover whereas in group B only 65 people recover.
+<ol type="a">
+<li>Test the hypothesis that the drug helped cure the disease.</li>
+<li>Now suppose that the sample sizes in each group are 300 and 225 in group A and 195 in group B recover. What do you conclude?</li>
+</ol></li>
+</ol>
 </section>
 </section>
 <section id="class-6---ht-week-6" class="level3">
@@ -3753,7 +3770,50 @@ Y=2&amp; 1/36 &amp;1/18 &amp; 1/12
 </section>
 <section id="review-questions-5" class="level4">
 <h4 class="anchored" data-anchor-id="review-questions-5">Review Questions</h4>
-<p>TBC</p>
+<ol type="1">
+<li>What is the key difference between time series data and cross-section data?</li>
+<li>List, and be prepared to describe, the typical features exhibited by time series data.</li>
+<li>Define formally (write down the formula) for the population autocorrelation between <span class="math inline">\(X_t\)</span> and <span class="math inline">\(X_{t-h}\)</span>.</li>
+<li>Sketch the typical autocorrelation functions for
+<ol type="a">
+<li>a time series with no autocorrelation,</li>
+<li>a quarterly times series with annual seasonality,</li>
+<li>a strongly persistent time series.</li>
+</ol></li>
+<li>Define “weak stationarity”.</li>
+<li>Why is stationarity important?</li>
+<li>If a time series is not stationary, how might you be able to transform it so that it is? Give three examples.</li>
+<li>Define formally (write down the formulae) for each of the following:
+<ol type="a">
+<li>an AR(1) process</li>
+<li>a Random Walk with Drift</li>
+<li>a Random Walk</li>
+<li>a White Noise process</li>
+</ol></li>
+<li>Is a Random Walk a stationary process? If so why? If not why not?</li>
+<li>Is it possible for an AR(1) process to be stationary?</li>
+<li>Define formally (write down the formula) for <span class="math inline">\(E [X_t|X_{t-1}]\)</span> for a mean-reverting AR(1) process.</li>
+</ol>
+</section>
+<section id="problem-set-questions-5" class="level4">
+<h4 class="anchored" data-anchor-id="problem-set-questions-5">Problem Set Questions</h4>
+<ol type="1">
+<li>At <a href="https://climate.nasa.gov/vital-signs/global-temperature/">this url</a> you can find a plot illustrating the change in global surface temperatures over time, relative to the 1951-1980 average. With reference to the plot, discuss the key differences between time series and cross-sectional data.</li>
+<li>If <span class="math inline">\(X_t\)</span> is white noise with mean <span class="math inline">\(\mu\)</span> and variance <span class="math inline">\(\sigma^2\)</span>, what process does its first difference (<span class="math inline">\(\Delta X_t = X_t - X_{t-1}\)</span>) follow? What is the mean, variance, first order autocovariance, and second order autocovariance of the process?</li>
+<li>Consider the following time series process: <span class="math display">\[X_t = \epsilon_t + 0.5\epsilon_{t-1} + 0.5\epsilon_{t-2}\]</span> where <span class="math inline">\(\epsilon_t\)</span> is identically and independently distributed where <span class="math inline">\(\epsilon_t \sim N(0, \sigma^2)\)</span>.
+<ol type="a">
+<li>What is the mean and variance of <span class="math inline">\(X_t\)</span>?</li>
+<li>What are the first, second, and third order autocovariances?</li>
+</ol></li>
+<li>Let <span class="math inline">\(\epsilon_t\)</span> be identically and independently distributed with <span class="math inline">\(\epsilon_t \sim N(0, \sigma^2)\)</span>. Consider the following time series process: <span class="math display">\[X_t = \alpha + \beta X_{t-1} + \epsilon_t\]</span>
+<ol type="a">
+<li>What is the name commonly given to this type of process? What if <span class="math inline">\(\alpha = 0\)</span> and <span class="math inline">\(\beta = 1\)</span>? What if <span class="math inline">\(\alpha = 0\)</span> and <span class="math inline">\(\beta = 0\)</span>?</li>
+<li>By recursing back one period, show that: <span class="math display">\[X_t = \alpha + \beta \alpha + \beta^2 X_{t-2} + \epsilon_t + \beta \epsilon_{t-1} \quad (3)\]</span></li>
+<li>By using the results on sequences covered in Chapter 4 of the Maths Workbook, show that <span class="math display">\[ X_t = \frac{1 - \beta^t}{1 - \beta} \alpha + \beta^t X_0 + \sum_{j=0}^{t-1} \beta^j \epsilon_{t-j}\]</span> Suppose <span class="math inline">\(0 \leq \beta &lt; 1\)</span> and <span class="math inline">\(X_0\)</span> is a random variable with mean <span class="math inline">\(\frac{\alpha}{1 - \beta}\)</span> and variance <span class="math inline">\(\frac{\sigma^2}{1 - \beta^2}\)</span>, and is uncorrelated with <span class="math inline">\(\epsilon_t\)</span> for all <span class="math inline">\(t &gt; 0\)</span>.</li>
+<li>Find the mean, variance and autocovariance function of <span class="math inline">\(X_t\)</span> for any <span class="math inline">\(t \geq 1\)</span>? Is the process (weakly) stationary?</li>
+</ol></li>
+<li>In studies dating back over 100 years, it’s well established that “regression toward the mean” occurs between the heights of parent and the heights of their adult children. Indicate whether the following statement is true or false: “Parents of tall children will tend to be taller than their children.”</li>
+</ol>
 </section>
 </section>
 <section id="class-7---ht-week-8" class="level3">
@@ -3779,11 +3839,90 @@ Y=2&amp; 1/36 &amp;1/18 &amp; 1/12
 </section>
 <section id="review-questions-6" class="level4">
 <h4 class="anchored" data-anchor-id="review-questions-6">Review Questions</h4>
-<p>TBC</p>
+<ol type="1">
+<li>Define formally (write down the formulae)
+<ol type="a">
+<li>the average treatment effect (ATE);</li>
+<li>the average effect treatment on the treated (ATT).</li>
+</ol></li>
+<li>Define formally (write down the formula) the decomposition of the average difference between the treated and untreated groups into the ATT plus selection bias.</li>
+<li>How (in terms of the effect on the relevant conditional expectations) does randomisation of treatment solve the selection bias problem?</li>
+<li>What is meant by the terms
+<ol type="a">
+<li>“Internal validity”</li>
+<li>“External Validity”</li>
+</ol></li>
+<li>List the main threats to the internal validity of a study of treatment response.</li>
+<li>List the main threats to the external validity of a study of treatment response.</li>
+<li>What are likely to be the empirical effect of non-compliance on the calculation of a causal effect. Will it bias the result up or down?</li>
+<li>What is the conditional independence assumption?</li>
+<li>What are the three main problems encountered when using the conditional independence assumption.</li>
+<li>Is the conditional independence assumption verifiable?</li>
+</ol>
 </section>
-<section id="problem-set-questions-5" class="level4">
-<h4 class="anchored" data-anchor-id="problem-set-questions-5">Problem Set Questions</h4>
-<p>TBC</p>
+<section id="problem-set-questions-6" class="level4">
+<h4 class="anchored" data-anchor-id="problem-set-questions-6">Problem Set Questions</h4>
+<ol type="1">
+<li><p>In “Long-Lasting Effects of Socialist Education” by Nicola Fuchs-Schundeln and Paolo Masella the authors study the effects of a socialist education amongst children educated in the former East Germany (GDR). Socialist teaching was an official school subject in the GDR from 7th grade on and aimed to provide a deep knowledge of Marxism-Leninism, and of the socialist system of the GDR. The authors also suggest that an important feature of this educational system was that “critical thinking was not incentivized and divergent opinions were suppresse”. The authors were interested in the causal effect of exposure to the GDR’s educational system on subsequent labour market outcomes. To study this they exploit the very rapid reorganisation of the school system in the East after the fall of the Berlin Wall (November 9, 1989). The socialist elements of the curriculum were dropped almost immediately. The authors used the German Microcensus (2005-8) to look at individuals in date-of-birth cohorts born between 1974 to 1977 in the GDR. These date-of-birth cohorts were still in education at reunification. The outcome variable of interest was whether or not they were employed at the time of the Microcensus (2005-08). The study relies on the following institutional feature: in the GDR, children turning six on or before May 31 of a given year were automatically enrolled in the first grade by September 1 of the same year. Children born on or after June 1 waited another year before starting school. The authors define their control group as consisting of individuals born on or after June 1. The treatment group consisted of individuals born on or before May 31. Treated individuals within each date-of-birth cohort were exposed to a year more socialist teaching (and one year less of Western education) than individuals in the control group. The authors find that, comparing males in the treatment and control groups, the proportion of males who were employed was 0.021 lower in the treatment than the control group with a standard error of 0.004. Comparing females in the treatment and control groups, the proportion of females who were employed was 0.009 lower in the treatment than the control group with a standard error of 0.019.</p>
+<ol type="a">
+<li>Conduct suitable hypothesis tests to determine whether the difference in employment rates between the treatment and control groups for men and women respectively were statistically significant. What do you conclude?</li>
+<li>The authors interpret their results (subject to the results of the statistical tests above) as causal effects. Using the potential outcomes framework and the standard notation write down an expression describing this causal effect.</li>
+<li>What are the principal assumptions which would justify the authors’ claim that this effect is causal? Why might these assumptions not hold?</li>
+<li>Unfortunately the German Microcensus only records the current residence of respondents and not their residence at the time when they were at school. The authors therefore assumed that respondents currently residing in the East also received their education in the East. Why might this not be the case? If this is not the case how would it bias the results of the study?</li>
+</ol></li>
+<li><p>You are interested in the effect of taking extra online classes (e.g. edX or Khan Academy courses) on whether teenagers apply to university. In a sample of 1000 young adults you observe whether or not they applied to university and whether or not they took at least one online class. You also observe whether they got at least five A*-C grades at GCSE. The tables show the numbers in the sample of the various types of young adult and the proportion who applied to university.</p>
+<table class="table">
+<caption>Numbers of young adults by GCSE grades and whether took at least one online course</caption>
+<thead>
+<tr class="header">
+<th>No. Online Courses</th>
+<th>0</th>
+<th>≥1</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>GSCE Grades &lt; 5 A*-C</td>
+<td>150</td>
+<td>100</td>
+</tr>
+<tr class="even">
+<td>≥ 5 A*-C</td>
+<td>250</td>
+<td>500</td>
+</tr>
+</tbody>
+</table>
+<table class="table">
+<caption>Proportion applying to University</caption>
+<thead>
+<tr class="header">
+<th>No. Online Courses</th>
+<th>0</th>
+<th>≥1</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>GSCE Grades &lt; 5 A*-C</td>
+<td>0.3</td>
+<td>0.8</td>
+</tr>
+<tr class="even">
+<td>≥ 5 A*-C</td>
+<td>0.3</td>
+<td>0.5</td>
+</tr>
+</tbody>
+</table>
+<ol type="a">
+<li>Calculate the average difference in university application rates between those who did at least one online course and those who did not.</li>
+<li>Does this difference have a causal interpretation? Why or why not?</li>
+<li>A friend who has done a statistics course suggests that controlling for GCSE grades might help in this context. What does this mean and why might it help?</li>
+<li>Calculate the conditional treatment effects for those with less than 5 A*-C grades at GCSE and for those with at least 5 A*-C at GCSE.</li>
+<li>Calculate the Average Treatment Effect and the Average Effect of Treatment on the Treated and compare them to the difference you found in part (a).</li>
+</ol></li>
+</ol>
 <!-- ## Suggested Reading Assignments -->
 </section>
 </section>
