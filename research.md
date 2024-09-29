@@ -8,7 +8,7 @@ permalink: /research/
 
 ## Publications
 
-- [Selection of Invalid Instruments can Improve Estimation in Mendelian Randomization](https://arxiv.org/abs/2107.01513) (with Ashish Patel, Stephen Burgess, and Verena Zuber), Forthcoming *Annals of Applied Statistics*. 
+- [Selection of Invalid Instruments can Improve Estimation in Mendelian Randomization](https://doi.org/10.1214/23-AOAS1856) (with Ashish Patel, Stephen Burgess, and Verena Zuber), *Annals of Applied Statistics*, 18 (2), pp. 1729-1749 [[pre-print](https://arxiv.org/abs/2107.01513)]
 - [Hidden Hazards and Screening Policy: Predicting Undetected Lead Exposure in Illinois](https://doi.org/10.1016/j.jhealeco.2023.102783) (with Ali Abbasi, Ludovica Gazze, and Bridget Pals), Forthcoming *Journal of Health Economics*, [[pre-print]](https://ditraglia.com/pdf/lead-JHE.pdf)
 - [Identifying Causal Effects in Experiments with Spillovers and Non-compliance (with Camilo Garcia-Jimeno, Rossa O'Keeffe-O'Donovan, and Alejandro Sanchez)](https://doi.org/10.1016/j.jeconom.2023.01.008) , *Journal of Econometrics*, 2023, 235 (2), pp. 1589-1624 [[preprint](https://ditraglia.com/pdf/spillovers-paper.pdf), [slides](https://ditraglia.com/pdf/spillovers-slides.pdf)]
 - [A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models](https://doi.org/10.1080/07350015.2020.1753528) (with Camilo Garcia-Jimeno), *Journal of Business and Economic Statistics*, 2021, 39(4), pp. 1038-1053. [[pre-print](http://ditraglia.com/pdf/DiTraglia-Garcia-Jimeno-2019.pdf)]
@@ -23,7 +23,9 @@ permalink: /research/
 - [The Controlled Choice Design and Private Paternalism in Pawnshop Borrowing](https://ditraglia.com/pdf/pawn-paper.pdf) (with Issac Meza, Joyce Sadka, Enrique Seira, and Craig McIntosh), *Submitted*
 
 ## In Progress
-- Estimation and Inference for Marginal Treatment Effects: a Bayesian Semi-parametric Approach (with Laura Liu)
-- A History of Violence: Forced Displacement and De Facto Land Reform in Rural Colombia (with Camilo Garcia-Jimeno) 
+- Bayesian Alternatives to Double Machine Learning for Causal Inference (with Laura Liu)
+- To Link or Not to Link? Estimating long-run Treatment Effects from Historical Data (with Camilo Garcia-Jimeno and Ezra Karger)
+- Experimenting with Spillovers: A Guide for Practitioners (with Alejandro Sanchez-Becerra)
+- Global Lead Exposure Since the Ban on Leaded Gasolin (with Mengli Chen, Ludovica Gazze, Reshmi Das, Yigal Erel, Edward Boyle, and Dominik Weiss)
 - Mapping Disparities in Childhood Lead Exposure in England (with Ludovica Gazze)
-- Estimating the Returns to Lying (with Arthur Lewbel)
+- A History of Violence: Forced Displacement and De Facto Land Reform in Rural Colombia (with Camilo Garcia-Jimeno) 
