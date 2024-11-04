@@ -23,9 +23,9 @@ permalink: /research/
 - [Structured Payment in Pawnshop Borrowing: Mandates vs. Choice](https://ditraglia.com/pdf/pawn-paper.pdf) (with Issac Meza, Joyce Sadka, Enrique Seira, and Craig McIntosh), *Submitted*
 
 ## In Progress
-- Bayesian Alternatives to Double Machine Learning for Causal Inference (with Laura Liu)
+- Bayesian Double Machine Learning for Causal Inference (with Laura Liu)
 - To Link or Not to Link? Estimating long-run Treatment Effects from Historical Data (with Camilo Garcia-Jimeno and Ezra Karger)
 - Experimenting with Spillovers: A Guide for Practitioners (with Alejandro Sanchez-Becerra)
-- Global Lead Exposure Since the Ban on Leaded Gasolin (with Mengli Chen, Ludovica Gazze, Reshmi Das, Yigal Erel, Edward Boyle, and Dominik Weiss)
+- Global Lead Exposure Since the Ban on Leaded Gasoline (with Mengli Chen, Ludovica Gazze, Reshmi Das, Yigal Erel, Edward Boyle, and Dominik Weiss)
 - Mapping Disparities in Childhood Lead Exposure in England (with Ludovica Gazze)
 - A History of Violence: Forced Displacement and De Facto Land Reform in Rural Colombia (with Camilo Garcia-Jimeno) 
