@@ -11,7 +11,7 @@ permalink: /teaching/
 - [Treatment Effects](https://treatment-effects.com) (Graduate)
 - [Limited Dependent Variables](https://economictricks.com) (Graduate) 
 - [Introduction to Probability and Statistics](../prelims-prob-stats) (Undergraduate Tutorials)
-- [Quantitative Economics](QE.html) (Undergraduate Tutorials)
+- [Quantitative Economics](../QE) (Undergraduate Tutorials)
 - [Behavioral and Experimental Economics](BEE.html) (Undergraduate Tutorials)
 - [Econometrics](./pdf/econometrics-tutorials.pdf) (Undergraduate Tutorials)
 
