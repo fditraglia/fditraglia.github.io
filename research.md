@@ -20,12 +20,12 @@ permalink: /research/
 - [Yes, Wall Street, There is a January Effect: Evidence from Laboratory Auctions](http://www.tandfonline.com/doi/abs/10.1080/15427560709337012) (with Lisa Anderson and Jeffrey Gerlach), *Journal of Behavioral Finance*, 2007, 8 (1), pp. 1-8
 
 ## Working Papers
-- [Structured Payment in Pawnshop Borrowing: Mandates vs. Choice](https://ditraglia.com/pdf/pawn-paper.pdf) (with Issac Meza, Joyce Sadka, Enrique Seira, and Craig McIntosh), *Submitted*
+- [Structured Payment in Pawnshop Borrowing: Mandates vs. Choice](https://ditraglia.com/pdf/pawn-paper.pdf) (with Issac Meza, Joyce Sadka, Enrique Seira, and Craig McIntosh), *Revise and Re-submit, Review of Economic Studies*
+- Global Lead Exposure Since the Ban on Leaded Gasoline (with Mengli Chen, Ludovica Gazze, Reshmi Das, Yigal Erel, Edward Boyle, and Dominik Weiss), *Submitted*
 
 ## In Progress
 - Bayesian Double Machine Learning for Causal Inference (with Laura Liu)
-- To Link or Not to Link? Estimating long-run Treatment Effects from Historical Data (with Camilo Garcia-Jimeno and Ezra Karger)
 - Experimenting with Spillovers: A Guide for Practitioners (with Alejandro Sanchez-Becerra)
-- Global Lead Exposure Since the Ban on Leaded Gasoline (with Mengli Chen, Ludovica Gazze, Reshmi Das, Yigal Erel, Edward Boyle, and Dominik Weiss)
+- To Link or Not to Link? Estimating long-run Treatment Effects from Historical Data (with Camilo Garcia-Jimeno and Ezra Karger)
 - Mapping Disparities in Childhood Lead Exposure in England (with Ludovica Gazze)
 - A History of Violence: Forced Displacement and De Facto Land Reform in Rural Colombia (with Camilo Garcia-Jimeno) 
