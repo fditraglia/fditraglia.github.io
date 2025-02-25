@@ -24,7 +24,7 @@ permalink: /research/
 - Global Lead Exposure Since the Ban on Leaded Gasoline (with Mengli Chen, Ludovica Gazze, Reshmi Das, Yigal Erel, Edward Boyle, and Dominik Weiss), *Submitted*
 
 ## In Progress
-- Bayesian Double Machine Learning for Causal Inference (with Laura Liu) [[slides](./pdf/BDML-2025-02-26.pdf)]
+- Bayesian Double Machine Learning for Causal Inference (with Laura Liu) [[slides](../pdf/BDML-2025-02-26.pdf)]
 - Experimenting with Spillovers: A Guide for Practitioners (with Alejandro Sanchez-Becerra)
 - To Link or Not to Link? Estimating long-run Treatment Effects from Historical Data (with Camilo Garcia-Jimeno and Ezra Karger)
 - Mapping Disparities in Childhood Lead Exposure in England (with Ludovica Gazze)
