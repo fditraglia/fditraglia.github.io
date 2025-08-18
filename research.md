@@ -21,10 +21,10 @@ permalink: /research/
 
 ## Working Papers
 - [Structured Payment in Pawnshop Borrowing: Mandates vs. Choice](https://ditraglia.com/pdf/pawn-paper.pdf) (with Issac Meza, Joyce Sadka, Enrique Seira, and Craig McIntosh), *Revise and Re-submit, Review of Economic Studies*
+- [Bayesian Double Machine Learning for Causal Inference](https://laurayuliu.com/research/BDML_DL/BDML.pdf) (with Laura Liu) [[slides](../pdf/BDML-2025-02-26.pdf)]
 - Global Lead Exposure Since the Ban on Leaded Gasoline (with Mengli Chen, Ludovica Gazze, Reshmi Das, Yigal Erel, Edward Boyle, and Dominik Weiss), *Submitted*
 
 ## In Progress
-- Bayesian Double Machine Learning for Causal Inference (with Laura Liu) [[slides](../pdf/BDML-2025-02-26.pdf)]
 - Experimenting with Spillovers: A Guide for Practitioners (with Alejandro Sanchez-Becerra)
 - To Link or Not to Link? Estimating long-run Treatment Effects from Historical Data (with Camilo Garcia-Jimeno and Ezra Karger)
 - Mapping Disparities in Childhood Lead Exposure in England (with Ludovica Gazze)
