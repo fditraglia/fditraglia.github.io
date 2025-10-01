@@ -8,7 +8,7 @@ permalink: /research/
 
 ## Publications
 
-- [Environmental Lead Risk in the 21st Century](https://rdcu.be/eIRSq) (with Mengli Chen, Ludovica Gazze, Reshmi Das, Jerome Nriagu, Yigal Erel, Edward Byole, Caroline Taylor, and Dominik Weiss), *Nature Communications Earth and Environment*, 2025, 6:776.
+- [Environmental Lead Risk in the 21st Century](https://rdcu.be/eIRSq) (with Mengli Chen, Ludovica Gazze, Reshmi Das, Jerome Nriagu, Yigal Erel, Edward Boyle, Caroline Taylor, and Dominik Weiss), *Nature Communications Earth and Environment*, 2025, 6:776.
 - [Selection of Invalid Instruments can Improve Estimation in Mendelian Randomization](https://doi.org/10.1214/23-AOAS1856) (with Ashish Patel, Stephen Burgess, and Verena Zuber), *Annals of Applied Statistics*, 2024, 18 (2), pp. 1729-1749 [[pre-print](https://arxiv.org/abs/2107.01513)]
 - [Hidden Hazards and Screening Policy: Predicting Undetected Lead Exposure in Illinois](https://doi.org/10.1016/j.jhealeco.2023.102783) (with Ali Abbasi, Ludovica Gazze, and Bridget Pals), *Journal of Health Economics*, 2023, 90 (102783) [[pre-print]](https://ditraglia.com/pdf/lead-JHE.pdf)
 - [Identifying Causal Effects in Experiments with Spillovers and Non-compliance (with Camilo Garcia-Jimeno, Rossa O'Keeffe-O'Donovan, and Alejandro Sanchez)](https://doi.org/10.1016/j.jeconom.2023.01.008) , *Journal of Econometrics*, 2023, 235 (2), pp. 1589-1624 [[preprint](https://ditraglia.com/pdf/spillovers-paper.pdf), [slides](https://ditraglia.com/pdf/spillovers-slides.pdf)]
