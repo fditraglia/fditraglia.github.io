@@ -159,6 +159,25 @@
 
 
 /**
+ * Home photo
+ */
+.home-photo {
+    float: left;
+    width: 300px;
+    margin: 0 15px 0 0;
+
+    @include media-query($on-palm) {
+        float: none;
+        display: block;
+        margin: 0 auto $spacing-unit / 2;
+        max-width: 300px;
+        width: 100%;
+    }
+}
+
+
+
+/**
  * Page content
  */
 .page-content {
