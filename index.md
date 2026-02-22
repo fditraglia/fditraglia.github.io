@@ -11,5 +11,5 @@ On the applied side, my recent and ongoing work spans a range of topics from chi
 <!--including childhood lead exposure, includes a project using machine learning to predict the prevalence of lead poisoning in young children, an experimental study of pawnbroking in Mexico City, and a study that uses economic modeling to explain patterns of paramilitary violence in Colombia in during the 1990s and early 2000s.-->
 <!-- My research interests include theoretical and applied econometrics, empirical microeconomics, and experimental economics.
 The main topics of my current and ongoing research are model selection and averaging, measurement error, and models with social interactions.-->
-I am co-founder of [SQARE.org](https://sqare.org) and I blog about econometrics, statistics, and R programming at [econometrics.blog](https://www.econometrics.blog/).
+I am co-founder of [SQARE.org](https://sqare.org), maintainer of [restatr](https://restatr.com) (open-source R tools for applied econometrics), and I blog about econometrics, statistics, and R programming at [econometrics.blog](https://www.econometrics.blog/).
 <!-- and [here](/pdf/DiTraglia-research.pdf) for a copy of my research statement.-->
