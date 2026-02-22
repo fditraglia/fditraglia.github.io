@@ -4,7 +4,8 @@ email: francis.ditraglia@economics.ox.ac.uk
 office: 2132 Manor Road Building, University of Oxford 
 address: Manor Road, Oxford OX1 3UQ, United Kingdom
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://ditraglia.com" # the base hostname & protocol for your site
+url: "https://ditraglia.com" # the base hostname & protocol for your site
+description: "Francis J. DiTraglia - Associate Professor of Economics at the University of Oxford. Research in causal inference, instrumental variables, and applied econometrics."
 twitter_username: economictricks
 github_username:  fditraglia
 
