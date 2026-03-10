@@ -59,25 +59,28 @@ GitHub project pages pattern: any repo with Pages enabled gets `ditraglia.com/<r
 
 Low-risk changes to the current Jekyll site. No architectural decisions needed.
 
-- [ ] Add `llms.txt` (and possibly `llms-full.txt`)
-- [ ] Fix dead links in `teaching.md`
-- [ ] Verify `treatment-effects.com` and `economictricks.com` are live
-- [ ] Remove commented-out code (old bios in `index.md`, dead nav in `header.html`, commented research statement in `research.md`)
+- [x] Add `llms.txt`
+- [x] Fix dead links in `teaching.md` and `research.md`
+- [x] Verify `treatment-effects.com` and `economictricks.com` are live
+- [x] Remove commented-out code (old bios in `index.md`, dead nav in `header.html`, commented research statement in `research.md`)
+- [x] Small CSS updates: modern font stack, font-weight 400 for body
+- [x] Exclude non-site files from Jekyll build
+- [x] Remove baseball reference (project on hold)
 - [ ] Create a `/datasets/` page cataloging the 57 files in `/data/`
 - [ ] Clean up `README.md` (or replace with minimal pointer to `CLAUDE.md`)
-- [ ] Small CSS updates: modern font stack, font-weight 400 for body, focus states
+- [ ] Add CSS focus states for accessibility
 
 ## Phase 2: Audit and decisions (next few weeks)
 
 Research and decide on the target architecture before migrating anything.
 
+- [x] Check which external domains are live (`treatment-effects.com`, `economictricks.com`) — both live
+- [x] `RWorkshop.md` and `/econ103/` — leave as-is
 - [ ] Audit all course repos: which are still actively used vs. truly archived?
-- [ ] Check which external domains are live (`treatment-effects.com`, `economictricks.com`, `sqare.org`)
 - [ ] Decide: keep `econometrics.blog` on Hugo/Netlify, or migrate to Quarto?
 - [ ] Decide: keep `erm-book` on Bookdown, or migrate to Quarto book?
 - [ ] Decide: HTML CV page alongside the PDF, or just keep the PDF?
-- [ ] Decide: what to do with dormant blog (remove, archive, revive, redirect to econometrics.blog?)
-- [ ] Decide: what to do with `RWorkshop.md` and `/econ103/` archive content
+- [ ] Decide: what to do with dormant blog (leave, redirect to econometrics.blog, or revive?)
 - [ ] Decide: target URL structure for the Quarto site (directory-based for clean URLs)
 - [ ] Document the target architecture
 
