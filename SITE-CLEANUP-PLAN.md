@@ -104,6 +104,7 @@ Once Phase 2 decisions are made, do the migration in one shot.
 - [ ] Give `erm` a proper `_quarto.yml` project config
 - [ ] Consider consolidating or archiving old Penn course repos
 - [ ] Revisit `econometrics.blog` migration
+- [ ] Add per-paper `llms.txt` files (see https://paulgp.com/2026/03/10/llms-txt-for-academic-papers.html). Pilot with one paper, then expand. LLM drafts initial summary, author adds limitations/scope. Link from site-level `llms.txt`. File organization TBD.
 - [ ] Add dark mode support
 - [ ] Consider structured CV (JSON Resume or similar)
 
