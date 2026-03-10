@@ -31,6 +31,8 @@ Push to `master` — GitHub Pages builds and deploys automatically. The custom d
 
 **Static assets**: PDFs in `pdf/`, datasets in `data/`, images in `img/`.
 
+**llms.txt**: Served at `ditraglia.com/llms.txt` per the [llmstxt.org](https://llmstxt.org/) standard. Keep this in sync when updating research, teaching, or project content.
+
 ## Creating Blog Posts
 
 ```bash
