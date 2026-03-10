@@ -11,3 +11,8 @@ github_username:  fditraglia
 
 # Build settings
 markdown: kramdown
+exclude:
+  - SITE-CLEANUP-PLAN.md
+  - CLAUDE.md
+  - README.md
+  - Rakefile.rb

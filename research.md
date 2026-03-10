@@ -4,8 +4,6 @@ title: Research
 permalink: /research/
 ---
 
-<!-- Click [here](/pdf/DiTraglia-research.pdf) to download a copy of my most recent research statement.-->
-
 ## Publications
 
 - [Environmental Lead Risk in the 21st Century](https://rdcu.be/eIRSq) (with Mengli Chen, Ludovica Gazze, Reshmi Das, Jerome Nriagu, Yigal Erel, Edward Boyle, Caroline Taylor, and Dominik Weiss), *Nature Communications Earth and Environment*, 2025, 6:776 [[code](https://github.com/fditraglia/lead-review-maps)]
@@ -22,7 +20,7 @@ permalink: /research/
 
 ## Working Papers
 - [Structured Payment in Pawnshop Borrowing: Mandates vs. Choice](https://ditraglia.com/pdf/pawn-paper.pdf) (with Issac Meza, Joyce Sadka, Enrique Seira, and Craig McIntosh), *Revise and Re-submit, Review of Economic Studies*
-- [Bayesian Double Machine Learning for Causal Inference](https://laurayuliu.com/research/BDML_DL/BDML.pdf) (with Laura Liu) [[slides](../pdf/bdml-slides.pdf)]
+- [Bayesian Double Machine Learning for Causal Inference](https://laurayuliu.com/research/BDML_DL/BDML.pdf) (with Laura Liu) [[slides](/pdf/bdml-slides.pdf)]
 - Experimenting with Spillovers: A Guide for Practitioners (with Alejandro Sanchez-Becerra)
 - Using Efficient Estimands and Human Genetics to Study Marginal Treatment Effects (with Ashish Patel and Stephen Burgess)
 

@@ -1,0 +1,47 @@
+# Francis J. DiTraglia
+
+> Associate Professor of Economics at the University of Oxford. Applied econometrician specializing in causal inference, instrumental variables, measurement error, spillovers, and Bayesian inference.
+
+Francis DiTraglia is a Fellow and Tutor in Economics at Lady Margaret Hall, Oxford, and a visiting researcher at the Federal Reserve Bank of Chicago. His research develops statistical methods for untangling cause-and-effect and applies them to questions in economics and public policy. Applied work spans childhood lead exposure and pawn lending. He is co-founder of SQARE.org, maintainer of restatr.com, and blogs at econometrics.blog.
+
+## Publications
+
+- [Environmental Lead Risk in the 21st Century](https://rdcu.be/eIRSq): Mapping global environmental lead exposure risk using geochemical and epidemiological data (with Chen, Gazze, Das, Nriagu, Erel, Boyle, Taylor, Weiss). Nature Communications Earth and Environment, 2025.
+- [Selection of Invalid Instruments can Improve Estimation in Mendelian Randomization](https://doi.org/10.1214/23-AOAS1856): Showing that deliberately including some invalid genetic instruments can reduce bias in Mendelian randomization studies (with Patel, Burgess, Zuber). Annals of Applied Statistics, 2024.
+- [Hidden Hazards and Screening Policy: Predicting Undetected Lead Exposure in Illinois](https://doi.org/10.1016/j.jhealeco.2023.102783): Using machine learning to predict which children are most likely to have undetected lead poisoning (with Abbasi, Gazze, Pals). Journal of Health Economics, 2023. [Pre-print](https://ditraglia.com/pdf/lead-JHE.pdf)
+- [Identifying Causal Effects in Experiments with Spillovers and Non-compliance](https://doi.org/10.1016/j.jeconom.2023.01.008): Methods for estimating treatment effects when subjects interact and don't always comply with treatment assignment (with Garcia-Jimeno, O'Keeffe-O'Donovan, Sanchez). Journal of Econometrics, 2023. [Pre-print](https://ditraglia.com/pdf/spillovers-paper.pdf)
+- [A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models](https://doi.org/10.1080/07350015.2020.1753528): A Bayesian framework for combining researcher beliefs about identification with data evidence (with Garcia-Jimeno). Journal of Business and Economic Statistics, 2021. [Pre-print](https://ditraglia.com/pdf/DiTraglia-Garcia-Jimeno-2019.pdf)
+- [Identifying the Effect of a Mis-classified, Binary, Endogenous Regressor](https://www.sciencedirect.com/science/article/pii/S0304407619300181): Identification results for models with a binary treatment that is both endogenous and measured with error (with Garcia-Jimeno). Journal of Econometrics, 2019. [Pre-print](https://ditraglia.com/pdf/binary-regressor-final.pdf)
+- [A Generalized Focused Information Criterion for GMM](https://onlinelibrary.wiley.com/doi/10.1002/jae.2614): Extending focused model selection to panel data GMM estimators (with Chang). Journal of Applied Econometrics, 2018. [Pre-print](https://ditraglia.com/pdf/GFIC_paper.pdf)
+- [Using Invalid Instruments on Purpose: Focused Moment Selection and Averaging for GMM](https://www.sciencedirect.com/science/article/pii/S0304407616301518): A method for selecting between econometric models when some identifying assumptions may be wrong. Journal of Econometrics, 2016. [Pre-print](https://ditraglia.com/pdf/FMSC.pdf)
+- [Portfolio Selection: An Extreme Value Approach](https://www.sciencedirect.com/science/article/pii/S0378426612002592): Applying extreme value theory to portfolio optimization (with Gerlach). Journal of Banking and Finance, 2013. [Pre-print](https://ditraglia.com/pdf/EV_paper.pdf)
+- [Measuring Altruism in a Public Goods Experiment](http://link.springer.com/article/10.1007%2Fs10683-011-9274-8): Cross-cultural comparison of altruism using lab experiments (with Anderson, Gerlach). Experimental Economics, 2011.
+- [Yes, Wall Street, There is a January Effect](http://www.tandfonline.com/doi/abs/10.1080/15427560709337012): Laboratory evidence for the January effect in asset pricing (with Anderson, Gerlach). Journal of Behavioral Finance, 2007.
+
+## Working Papers
+
+- [Structured Payment in Pawnshop Borrowing: Mandates vs. Choice](https://ditraglia.com/pdf/pawn-paper.pdf): Experimental study of structured repayment in Mexico City pawnshops (with Meza, Sadka, Seira, McIntosh). R&R at Review of Economic Studies.
+- [Bayesian Double Machine Learning for Causal Inference](https://laurayuliu.com/research/BDML_DL/BDML.pdf): Combining Bayesian methods with double machine learning for treatment effect estimation (with Liu).
+- Experimenting with Spillovers: A Guide for Practitioners (with Sanchez-Becerra).
+- Using Efficient Estimands and Human Genetics to Study Marginal Treatment Effects (with Patel, Burgess).
+
+## Teaching
+
+- [Empirical Research Methods](https://ditraglia.com/erm): Graduate course on applied econometric methods
+- [Treatment Effects](https://treatment-effects.com): Graduate course on causal inference
+- [Limited Dependent Variables](https://economictricks.com): Graduate course
+- [Introduction to Probability and Statistics](https://ditraglia.com/prelims-prob-stats): Undergraduate tutorials
+- [Quantitative Economics](https://ditraglia.com/QE): Undergraduate tutorials
+- [Behavioral and Experimental Economics](https://ditraglia.com/BEE.html): Undergraduate tutorials
+
+## Projects
+
+- [econometrics.blog](https://econometrics.blog): Blog on econometrics, statistics, and R programming
+- [SQARE.org](https://sqare.org): Joint initiative with Martin Weidner to remake econometrics for the 21st century
+- [restatr.com](https://restatr.com): Open-source R implementations of essential Stata commands for applied econometrics
+
+## Optional
+
+- [CV (PDF)](https://ditraglia.com/pdf/DiTraglia-CV.pdf): Full curriculum vitae
+- [Empirical Research Methods textbook](https://empirical-methods.com): Companion book for the ERM course
+- [Archived Penn teaching materials (2012-2019)](https://ditraglia.com/teaching): Econ 103, Econ 224, Econ 722
