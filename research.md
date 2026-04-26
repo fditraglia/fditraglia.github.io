@@ -21,8 +21,8 @@ permalink: /research/
 ## Working Papers
 - [Structured Payment in Pawnshop Borrowing: Mandates vs. Choice](https://ditraglia.com/pdf/pawn-paper.pdf) (with Issac Meza, Joyce Sadka, Enrique Seira, and Craig McIntosh), *Revise and Re-submit, Review of Economic Studies*
 - [Bayesian Double Machine Learning for Causal Inference](https://laurayuliu.com/research/BDML_DL/BDML.pdf) (with Laura Liu) [[slides](/pdf/bdml-slides.pdf)]
-- Experimenting with Spillovers: A Guide for Practitioners (with Alejandro Sanchez-Becerra)
-- [Using Efficient Estimands and Human Genetics to Study Marginal Treatment Effects](https://arxiv.org/abs/2603.08871) (with Ashish Patel and Stephen Burgess) [[code](https://github.com/ash-res/efficient.mte/)]
+- Experimenting with Spillovers: A Guide for Practitioners (with Alejandro Sanchez-Becerra), *Invited Chapter, Oxford Handbook of Program Evaluation*
+- [Using Efficient Estimands and Human Genetics to Study Marginal Treatment Effects](https://arxiv.org/abs/2603.08871) (with Ashish Patel and Stephen Burgess) [[code](https://github.com/ash-res/efficient.mte/)], *Revise and Re-submit, Annals of Applied Statistics*
 
 ## In Progress
 - To Link or Not to Link? Estimating long-run Treatment Effects from Historical Data (with Camilo Garcia-Jimeno and Ezra Karger)
