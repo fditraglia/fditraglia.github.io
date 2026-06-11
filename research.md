@@ -25,6 +25,8 @@ permalink: /research/
 - [Using Efficient Estimands and Human Genetics to Study Marginal Treatment Effects](https://arxiv.org/abs/2603.08871) (with Ashish Patel and Stephen Burgess) [[code](https://github.com/ash-res/efficient.mte/)], *Revise and Re-submit, Annals of Applied Statistics*
 
 ## In Progress
+- Inference for the 21st Century (with Frank Schorfheide)
+- Bayesian Causal Inference in High Dimensions (with Laura Liu)
+- ECLIPS: the Elevated Childhood Lead Interagency Prevalence Study (with Ludovica Gazzè et al.)
 - To Link or Not to Link? Estimating long-run Treatment Effects from Historical Data (with Camilo Garcia-Jimeno and Ezra Karger)
-- Mapping Disparities in Childhood Lead Exposure in England (with Ludovica Gazze)
 - A History of Violence: Forced Displacement and De Facto Land Reform in Rural Colombia (with Camilo Garcia-Jimeno) 
