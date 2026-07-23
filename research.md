@@ -6,6 +6,7 @@ permalink: /research/
 
 ## Publications
 
+- [Structured Payment in Pawnshop Borrowing: Mandates vs. Choice](https://ditraglia.com/pdf/pawn-paper.pdf) (with Issac Meza, Joyce Sadka, Enrique Seira, and Craig McIntosh), *Conditionally Accepted, Review of Economic Studies*
 - [Environmental Lead Risk in the 21st Century](https://rdcu.be/eIRSq) (with Mengli Chen, Ludovica Gazze, Reshmi Das, Jerome Nriagu, Yigal Erel, Edward Boyle, Caroline Taylor, and Dominik Weiss), *Nature Communications Earth and Environment*, 2025, 6:776 [[code](https://github.com/fditraglia/lead-review-maps)]
 - [Selection of Invalid Instruments can Improve Estimation in Mendelian Randomization](https://doi.org/10.1214/23-AOAS1856) (with Ashish Patel, Stephen Burgess, and Verena Zuber), *Annals of Applied Statistics*, 2024, 18 (2), pp. 1729-1749 [[pre-print](https://arxiv.org/abs/2107.01513)]
 - [Hidden Hazards and Screening Policy: Predicting Undetected Lead Exposure in Illinois](https://doi.org/10.1016/j.jhealeco.2023.102783) (with Ali Abbasi, Ludovica Gazze, and Bridget Pals), *Journal of Health Economics*, 2023, 90 (102783) [[pre-print]](https://ditraglia.com/pdf/lead-JHE.pdf)
@@ -19,7 +20,6 @@ permalink: /research/
 - [Yes, Wall Street, There is a January Effect: Evidence from Laboratory Auctions](http://www.tandfonline.com/doi/abs/10.1080/15427560709337012) (with Lisa Anderson and Jeffrey Gerlach), *Journal of Behavioral Finance*, 2007, 8 (1), pp. 1-8
 
 ## Working Papers
-- [Structured Payment in Pawnshop Borrowing: Mandates vs. Choice](https://ditraglia.com/pdf/pawn-paper.pdf) (with Issac Meza, Joyce Sadka, Enrique Seira, and Craig McIntosh), *Revise and Re-submit, Review of Economic Studies*
 - [Bayesian Double Machine Learning for Causal Inference](https://laurayuliu.com/research/BDML_DL/BDML.pdf) (with Laura Liu) [[slides](/pdf/bdml-slides.pdf)]
 - Experimenting with Spillovers: A Guide for Practitioners (with Alejandro Sanchez-Becerra), *Invited Chapter, Oxford Handbook of Impact Evaluation*
 - [Using Efficient Estimands and Human Genetics to Study Marginal Treatment Effects](https://arxiv.org/abs/2603.08871) (with Ashish Patel and Stephen Burgess) [[code](https://github.com/ash-res/efficient.mte/)], *Revise and Re-submit, Annals of Applied Statistics*
