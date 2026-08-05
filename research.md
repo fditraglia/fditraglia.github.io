@@ -6,7 +6,7 @@ permalink: /research/
 
 ## Publications
 
-- [Structured Payment in Pawnshop Borrowing: Mandates vs. Choice](https://ditraglia.com/pdf/pawn-paper.pdf) (with Issac Meza, Joyce Sadka, Enrique Seira, and Craig McIntosh), *Conditionally Accepted, Review of Economic Studies*
+- [Structured Payment in Pawnshop Borrowing: Mandates vs. Choice](https://ditraglia.com/pdf/pawn-paper.pdf) (with Issac Meza, Joyce Sadka, Enrique Seira, and Craig McIntosh), *Review of Economic Studies*, Forthcoming.
 - [Environmental Lead Risk in the 21st Century](https://rdcu.be/eIRSq) (with Mengli Chen, Ludovica Gazze, Reshmi Das, Jerome Nriagu, Yigal Erel, Edward Boyle, Caroline Taylor, and Dominik Weiss), *Nature Communications Earth and Environment*, 2025, 6:776 [[code](https://github.com/fditraglia/lead-review-maps)]
 - [Selection of Invalid Instruments can Improve Estimation in Mendelian Randomization](https://doi.org/10.1214/23-AOAS1856) (with Ashish Patel, Stephen Burgess, and Verena Zuber), *Annals of Applied Statistics*, 2024, 18 (2), pp. 1729-1749 [[pre-print](https://arxiv.org/abs/2107.01513)]
 - [Hidden Hazards and Screening Policy: Predicting Undetected Lead Exposure in Illinois](https://doi.org/10.1016/j.jhealeco.2023.102783) (with Ali Abbasi, Ludovica Gazze, and Bridget Pals), *Journal of Health Economics*, 2023, 90 (102783) [[pre-print]](https://ditraglia.com/pdf/lead-JHE.pdf)
