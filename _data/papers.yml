@@ -391,6 +391,7 @@ in_progress:
     family: Rhodes
 - id: eclips
   title: 'ECLIPS: the Elevated Childhood Lead Interagency Prevalence Study'
+  url: https://leadsafefutures.org
   coauthors:
   - given: Ludovica
     family: Gazze
