@@ -8,6 +8,7 @@ url: "https://ditraglia.com" # the base hostname & protocol for your site
 description: "Francis J. DiTraglia - Associate Professor of Economics at the University of Oxford. Research in causal inference, instrumental variables, and applied econometrics."
 twitter_username: economictricks
 github_username:  fditraglia
+scholar_id: Os1Qlq0AAAAJ
 
 # Build settings
 markdown: kramdown
