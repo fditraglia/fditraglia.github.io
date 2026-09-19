@@ -1,0 +1,410 @@
+# Single record of Francis DiTraglia's papers.
+# research.html and the paper lists in llms.txt are generated from this file.
+# Edit entries here, never in those two files.
+#
+# AFTER ANY EDIT:  run `rake check` (validates this file), or `rake serve` to check and then
+# preview at http://localhost:4000/research/. Then commit and push to master. If the file is
+# invalid when pushed, GitHub Pages fails to build, emails you, and keeps serving the old site.
+# The CV in ../fditraglia-cv is separate and must be updated by hand to match.
+#
+# TO ADD A PAPER:  copy one of the templates below into the right section. Sections are
+# publications, working_papers, in_progress, and entries appear on the page in the order listed
+# here, so new publications go at the top of their section.
+#
+# TO PROMOTE A PAPER:  cut the whole entry and paste it into the new section.
+#   working paper -> forthcoming:  move to the top of publications; add journal and status: forthcoming.
+#   forthcoming -> published:      change status to published; add year, volume, and either
+#                                  issue + pages or article; add doi; point url at the DOI;
+#                                  replace the abstract with the published one if it changed.
+#
+# YAML PITFALLS:  put quotes around any title or summary containing a colon followed by a space.
+# Indent with spaces, never tabs. An abstract goes after `abstract: >-` as ONE long line indented
+# four spaces; plain text only, with no LaTeX. `rake check` catches most of these mistakes.
+#
+# TEMPLATE, published or forthcoming paper:
+#
+# - id: short-unique-slug
+#   title: 'Title: With a Colon, so Quoted'
+#   url: https://doi.org/...
+#   doi: 10.xxxx/xxxxx
+#   coauthors:                # published order, excluding Francis; use [] if sole-authored
+#   - given: First
+#     family: Last
+#   journal: Journal of Econometrics
+#   status: published         # or forthcoming, in which case omit year through pages
+#   year: 2027
+#   volume: 240
+#   issue: 1
+#   pages: 100–120            # en dash. For journals with article numbers, use `article: "105432"`
+#   links:                    # optional buttons shown after the citation
+#   - label: pre-print
+#     url: https://ditraglia.com/pdf/file.pdf
+#   - label: code
+#     url: https://github.com/fditraglia/repo
+#   summary: One line for llms.txt, with no final period
+#   abstract: >-
+#     The abstract as one long line.
+#   abstract_source: where the abstract was copied from
+#
+# TEMPLATE, working paper:  id, title, url, coauthors, links, summary, abstract, abstract_source.
+# TEMPLATE, work in progress:  id, title, coauthors.
+#
+# OTHER FIELDS:
+#   title_html    overrides title on the web page only, e.g. to italicize a phrase with <em>
+#   et_al: true   appends "et al." to the coauthor list
+#   venue_note    italic text shown in place of a journal; note is shown in parentheses after it
+#   todo          reminder for the maintainer; not displayed anywhere
+
+publications:
+- id: pawn
+  title: 'Structured Payment in Pawnshop Borrowing: Mandates vs. Choice'
+  url: https://arxiv.org/abs/2608.13775
+  coauthors:
+  - given: Craig
+    family: McIntosh
+  - given: Isaac
+    family: Meza
+  - given: Joyce
+    family: Sadka
+  - given: Enrique
+    family: Seira
+  journal: Review of Economic Studies
+  status: forthcoming
+  summary: Experimental study of structured repayment in Mexico City pawnshops
+  abstract: >-
+    Pawn loans offer borrowers a substantial degree of repayment flexibility in exchange for a harsh penalty in case of default: forfeit of collateral worth more than the loan amount along with any payments made toward recovery. Using a large RCT conducted in Mexico City, we document key stylized facts about pawn lending and explore the merits of replacing flexibility with structured repayment contracts in this important but understudied form of credit. Our experimental design includes a mandatory frequent-payments arm, a (status quo) flexible payments arm, and a choice between the two. This design point-identifies not only the average treatment effect, but also the effects of treatment on the treated and the untreated along with the average selection on gains, allowing a rigorous study of mandates versus choice. Although the average treatment effect of assigning borrowers to structured payments is a 19% decrease in their financial cost and a 17.5% decrease in the probability of default, only 11% of borrowers choose structured repayment contracts voluntarily. We show that structured repayment reduces financial costs for nearly all borrowers, including those who would not freely choose it, and find no evidence of selection on gains in cost savings.
+  abstract_source: arXiv:2608.13775v2
+- id: mte
+  title: Efficient Semiparametric Estimation of Marginal Treatment Effects with Genetic Instrumental Variables
+  url: https://ditraglia.com/pdf/MTE-genetic-IVs.pdf
+  coauthors:
+  - given: Ashish
+    family: Patel
+  - given: Stephen
+    family: Burgess
+  journal: Annals of Applied Statistics
+  status: forthcoming
+  links:
+  - label: code
+    url: https://github.com/ash-res/efficient.mte/
+  summary: >-
+    Using a genetic instrument and efficient influence functions to study how the effect of heavy drinking on blood pressure varies with the propensity to drink
+  abstract: >-
+    Alcohol misuse is a key target of public health strategies aimed at reducing cardiovascular risk. The effect of excessive alcohol consumption on blood pressure may vary systematically with individuals’ unobserved propensity to engage in heavy drinking, complicating causal inference with observational data. The marginal treatment effects framework uses an instrumental variable for treatment choice (excessive alcohol consumption) to study how selection into treatment is linked with the treatment effect. We explore the use of a genetic instrument within this framework, which is challenging because genetic compliers (individuals for whom a change in the instrument changes their treatment choice) are likely to be a small proportion of the overall sample. This can lead to greater sampling uncertainty in the tails of the propensity score distribution, i.e., the conditional probability of choosing treatment, and in turn poor estimation of causal estimands that measure heterogeneous treatment effects. We show that the use of efficient influence functions of target estimands improves estimation in terms of robustness to sampling uncertainty in nonparametrically estimated propensity scores. We find evidence of reverse selection on gains: individuals most prone to excessive alcohol consumption experience larger adverse effects on blood pressure.
+  abstract_source: accepted manuscript, pdf/MTE-genetic-IVs.pdf (identical to arXiv:2603.08871v1)
+  todo: Link to the final arXiv version (arXiv:2603.08871) once Ashish Patel has updated it.
+- id: lead-risk
+  title: Environmental Lead Risk in the 21st Century
+  url: https://rdcu.be/eIRSq
+  doi: 10.1038/s43247-025-02735-x
+  coauthors:
+  - given: Mengli
+    family: Chen
+  - given: Ludovica
+    family: Gazze
+  - given: Reshmi
+    family: Das
+  - given: Jerome
+    family: Nriagu
+  - given: Yigal
+    family: Erel
+  - given: Edward
+    family: Boyle
+  - given: Caroline
+    family: Taylor
+  - given: Dominik
+    family: Weiss
+  journal: Communications Earth & Environment
+  status: published
+  year: 2025
+  volume: 6
+  article: '776'
+  links:
+  - label: code
+    url: https://github.com/fditraglia/lead-review-maps
+  summary: Mapping global environmental lead exposure risk using geochemical and epidemiological data
+  abstract: >-
+    Lead has been central to technological development for centuries; however, its release into the environment and subsequent human exposure pose significant public health risks. The review presented here critically assesses the contemporary environmental lead risk as global lead production and use are rapidly increasing, largely driven by the rising demand for electrification. We show that environmental lead exposure persists today due to legacy contamination, ongoing coal usage, and insufficient protection of workforces during production, use, and recycling of lead-acid batteries and other lead-containing products, particularly in low- and middle- income countries. We estimate that contemporary childhood lead exposure alone leads to an annual global economic loss exceeding $3.4 trillion (2021 US dollars adjusted for purchasing power parity), with pronounced disparities between high- and low- and middle- income countries. To prevent a large-scale resurgence in lead exposure, we identify four critical areas for urgent policy intervention.
+  abstract_source: Crossref
+- id: mr-selection
+  title: Selecting Invalid Instruments to Improve Mendelian Randomization with Two-Sample Summary Data
+  url: https://doi.org/10.1214/23-AOAS1856
+  doi: 10.1214/23-AOAS1856
+  coauthors:
+  - given: Ashish
+    family: Patel
+  - given: Verena
+    family: Zuber
+  - given: Stephen
+    family: Burgess
+  journal: Annals of Applied Statistics
+  status: published
+  year: 2024
+  volume: 18
+  issue: 2
+  pages: 1729–1749
+  links:
+  - label: pre-print
+    url: https://arxiv.org/abs/2107.01513
+  summary: >-
+    Showing that deliberately including some invalid genetic instruments can reduce mean squared error in Mendelian randomization studies
+  abstract: >-
+    Mendelian randomization (MR) is a widely-used method to estimate the causal relationship between a risk factor and disease. A fundamental part of any MR analysis is to choose appropriate genetic variants as instrumental variables. Genome-wide association studies often reveal that hundreds of genetic variants may be robustly associated with a risk factor, but in some situations investigators may have greater confidence in the instrument validity of only a smaller subset of variants. Nevertheless, the use of additional instruments may be optimal from the perspective of mean squared error even if they are slightly invalid; a small bias in estimation may be a price worth paying for a larger reduction in variance. For this purpose, we consider a method for "focused" instrument selection whereby genetic variants are selected to minimise the estimated asymptotic mean squared error of causal effect estimates. In a setting of many weak and locally invalid instruments, we propose a novel strategy to construct confidence intervals for post-selection focused estimators that guards against the worst case loss in asymptotic coverage. In empirical applications to: (i) validate lipid drug targets; and (ii) investigate vitamin D effects on a wide range of outcomes, our findings suggest that the optimal selection of instruments does not involve only a small number of biologically-justified instruments, but also many potentially invalid instruments.
+  abstract_source: OpenAlex
+- id: hidden-hazards
+  title: 'Hidden Hazards and Screening Policy: Predicting Undetected Lead Exposure in Illinois'
+  url: https://doi.org/10.1016/j.jhealeco.2023.102783
+  doi: 10.1016/j.jhealeco.2023.102783
+  coauthors:
+  - given: Ali
+    family: Abbasi
+  - given: Ludovica
+    family: Gazze
+  - given: Bridget
+    family: Pals
+  journal: Journal of Health Economics
+  status: published
+  year: 2023
+  volume: 90
+  article: '102783'
+  links:
+  - label: pre-print
+    url: https://ditraglia.com/pdf/lead-JHE.pdf
+  summary: Using machine learning to predict which children are most likely to have undetected lead poisoning
+  abstract: >-
+    Lead exposure still threatens children's health despite policies aiming to identify lead exposure sources. Some US states require de jure universal screening while others target screening, but little research examines the relative benefits of these approaches. We link lead tests for children born in Illinois between 2010 and 2014 to geocoded birth records and potential exposure sources. We train a random forest regression model that predicts children's blood lead levels (BLLs) to estimate the geographic distribution of undetected lead poisoning. We use these estimates to compare de jure universal screening against targeted screening. Because no policy achieves perfect compliance, we analyze different incremental screening expansions. We estimate that 5,819 untested children had a BLL ≥5μg/dL, in addition to the 18,101 detected cases. 80% of these undetected cases should have been screened under the current policy. Model-based targeted screening can improve upon both the status quo and expanded universal screening.
+  abstract_source: OpenAlex
+- id: spillovers
+  title: Identifying Causal Effects in Experiments with Spillovers and Non-compliance
+  url: https://doi.org/10.1016/j.jeconom.2023.01.008
+  doi: 10.1016/j.jeconom.2023.01.008
+  coauthors:
+  - given: Camilo
+    family: García-Jimeno
+  - given: Rossa
+    family: O’Keeffe-O’Donovan
+  - given: Alejandro
+    family: Sánchez-Becerra
+  journal: Journal of Econometrics
+  status: published
+  year: 2023
+  volume: 235
+  issue: 2
+  pages: 1589–1624
+  links:
+  - label: pre-print
+    url: https://ditraglia.com/pdf/spillovers-paper.pdf
+  - label: slides
+    url: https://ditraglia.com/pdf/spillovers-slides.pdf
+  summary: Methods for estimating treatment effects when subjects interact and don't always comply with treatment assignment
+  abstract: >-
+    This paper shows how to use a randomized saturation experimental design to identify and estimate causal effects in the presence of spillovers—one person’s treatment may affect another’s outcome—and one-sided non-compliance—subjects can only be offered treatment, not compelled to take it up. Two distinct causal effects are of interest in this setting: direct effects quantify how a person’s own treatment changes her outcome, while indirect effects quantify how her peers’ treatments change her outcome. We consider the case in which spillovers occur within known groups, and take-up decisions are invariant to peers’ realized offers. In this setting we point identify the effects of treatment-on-the-treated, both direct and indirect, in a flexible random coefficients model that allows for heterogeneous treatment effects and endogenous selection into treatment. We go on to propose a feasible estimator that is consistent and asymptotically normal as the number and size of groups increases. We apply our estimator to data from a large-scale job placement services experiment, and find negative indirect treatment effects on the likelihood of employment for those willing to take up the program. These negative spillovers are offset by positive direct treatment effects from own take-up.
+  abstract_source: OpenAlex
+- id: beliefs
+  title: A Framework for Eliciting, Incorporating, and Disciplining Identification Beliefs in Linear Models
+  url: https://doi.org/10.1080/07350015.2020.1753528
+  doi: 10.1080/07350015.2020.1753528
+  coauthors:
+  - given: Camilo
+    family: García-Jimeno
+  journal: Journal of Business & Economic Statistics
+  status: published
+  year: 2021
+  volume: 39
+  issue: 4
+  pages: 1038–1053
+  links:
+  - label: pre-print
+    url: https://ditraglia.com/pdf/DiTraglia-Garcia-Jimeno-2019.pdf
+  summary: A Bayesian framework for combining researcher beliefs about identification with data evidence
+  abstract: >-
+    To estimate causal effects from observational data, an applied researcher must impose beliefs. The instrumental variables exclusion restriction, for example, represents the belief that the instrument has no direct effect on the outcome of interest. Yet beliefs about instrument validity do not exist in isolation. Applied researchers often discuss the likely direction of selection and the potential for measurement error in their articles but lack formal tools for incorporating this information into their analyses. Failing to use all relevant information not only leaves money on the table; it runs the risk of leading to a contradiction in which one holds mutually incompatible beliefs about the problem at hand. To address these issues, we first characterize the joint restrictions relating instrument invalidity, treatment endogeneity, and non-differential measurement error in a workhorse linear model, showing how beliefs over these three dimensions are mutually constrained by each other and the data. Using this information, we propose a Bayesian framework to help researchers elicit their beliefs, incorporate them into estimation, and ensure their mutual coherence. We conclude by illustrating our framework in a number of examples drawn from the empirical microeconomics literature.
+  abstract_source: OpenAlex
+- id: misclassified
+  title: Identifying the Effect of a Mis-classified, Binary, Endogenous Regressor
+  url: https://www.sciencedirect.com/science/article/pii/S0304407619300181
+  doi: 10.1016/j.jeconom.2019.01.007
+  coauthors:
+  - given: Camilo
+    family: García-Jimeno
+  journal: Journal of Econometrics
+  status: published
+  year: 2019
+  volume: 209
+  issue: 2
+  pages: 376–390
+  links:
+  - label: pre-print
+    url: https://ditraglia.com/pdf/binary-regressor-final.pdf
+  - label: NBER version
+    url: https://ditraglia.com/pdf/DiTraglia_Garcia-Jimeno_2017b.pdf
+  summary: Identification results for models with a binary treatment that is both endogenous and measured with error
+  abstract: >-
+    This paper studies identification of the effect of a mis-classified, binary, endogenous regressor when a discrete-valued instrumental variable is available. We begin by showing that the only existing point identification result for this model is incorrect. We go on to derive the sharp identified set under mean independence assumptions for the instrument and measurement error. The resulting bounds are novel and informative, but fail to point identify the effect of interest. This motivates us to consider alternative and slightly stronger assumptions: we show that adding second and third moment independence assumptions suffices to identify the model.
+  abstract_source: Semantic Scholar
+- id: gfic
+  title: A Generalized Focused Information Criterion for GMM
+  url: https://onlinelibrary.wiley.com/doi/10.1002/jae.2614
+  doi: 10.1002/jae.2614
+  coauthors:
+  - given: Minsu
+    family: Chang
+  journal: Journal of Applied Econometrics
+  status: published
+  year: 2018
+  volume: 33
+  issue: 3
+  pages: 378–397
+  links:
+  - label: pre-print
+    url: https://ditraglia.com/pdf/GFIC_paper.pdf
+  - label: code
+    url: https://github.com/fditraglia/gfic
+  summary: Extending focused model selection to panel data GMM estimators
+  abstract: >-
+    This paper proposes a criterion for simultaneous generalized method of moments model and moment selection: the generalized focused information criterion (GFIC). Rather than attempting to identify the “true” specification, the GFIC chooses from a set of potentially misspecified moment conditions and parameter restrictions to minimize the mean squared error (MSE) of a user‐specified target parameter. The intent of the GFIC is to formalize a situation common in applied practice. An applied researcher begins with a set of fairly weak “baseline” assumptions, assumed to be correct, and must decide whether to impose any of a number of stronger, more controversial “suspect” assumptions that yield parameter restrictions, additional moment conditions, or both. Provided that the baseline assumptions identify the model, we show how to construct an asymptotically unbiased estimator of the asymptotic MSE to select over these suspect assumptions: the GFIC. We go on to provide results for postselection inference and model averaging that can be applied both to the GFIC and various alternative selection criteria. To illustrate how our criterion can be used in practice, we specialize the GFIC to the problem of selecting over exogeneity assumptions and lag lengths in a dynamic panel model, and show that it performs well in simulations. We conclude by applying the GFIC to a dynamic panel data model for the price elasticity of cigarette demand.
+  abstract_source: Crossref
+- id: fmsc
+  title: 'Using Invalid Instruments on Purpose: Focused Moment Selection and Averaging for GMM'
+  url: https://www.sciencedirect.com/science/article/pii/S0304407616301518
+  doi: 10.1016/j.jeconom.2016.07.006
+  coauthors: []
+  journal: Journal of Econometrics
+  status: published
+  year: 2016
+  volume: 195
+  issue: 2
+  pages: 187–208
+  links:
+  - label: pre-print
+    url: https://ditraglia.com/pdf/FMSC.pdf
+  - label: appendix
+    url: https://ditraglia.com/pdf/FMSC_appendix.pdf
+  - label: code
+    url: https://github.com/fditraglia/fmsc
+  summary: A method for selecting between econometric models when some identifying assumptions may be wrong
+  abstract: >-
+    In finite samples, the use of a slightly endogenous but highly relevant instrument can reduce mean-squared error (MSE). Building on this observation, I propose a novel moment selection procedure for GMM—the Focused Moment Selection Criterion (FMSC)—in which moment conditions are chosen not based on their validity but on the MSE of their associated estimator of a user-specified target parameter. The FMSC mimics the situation faced by an applied researcher who begins with a set of relatively mild “baseline” assumptions and must decide whether to impose any of a collection of stronger but more controversial “suspect” assumptions. When the (correctly specified) baseline moment conditions identify the model, the FMSC provides an asymptotically unbiased estimator of asymptotic MSE, allowing us to select over the suspect moment conditions. I go on to show how the framework used to derive the FMSC can address the problem of inference post-moment selection. Treating post-selection estimators as a special case of moment-averaging, in which estimators based on different moment sets are given data-dependent weights, I propose simulation-based procedures for inference that can be applied to a variety of formal and informal moment-selection and averaging procedures. Both the FMSC and confidence interval procedures perform well in simulations. I conclude with an empirical example examining the effect of instrument selection on the estimated relationship between malaria and income per capita.
+  abstract_source: Semantic Scholar
+- id: extreme-value
+  title: 'Portfolio Selection: An Extreme Value Approach'
+  url: https://www.sciencedirect.com/science/article/pii/S0378426612002592
+  doi: 10.1016/j.jbankfin.2012.08.022
+  coauthors:
+  - given: Jeffrey
+    family: Gerlach
+  journal: Journal of Banking & Finance
+  status: published
+  year: 2013
+  volume: 37
+  issue: 2
+  pages: 305–323
+  links:
+  - label: pre-print
+    url: https://ditraglia.com/pdf/EV_paper.pdf
+  summary: Applying extreme value theory to portfolio optimization
+  abstract: >-
+    We show theoretically that lower tail dependence (χ), a measure of the probability that a portfolio will suffer large losses given that the market does, contains important information for risk-averse investors. We then estimate χ for a sample of DJIA stocks and show that it differs systematically from other risk measures including variance, semi-variance, skewness, kurtosis, beta, and coskewness. In out-of-sample tests, portfolios constructed to have low values of χ outperform the market index, the mean return of the stocks in our sample, and portfolios with high values of χ. Our results indicate that χ is conceptually important for risk-averse investors, differs substantially from other risk measures, and provides useful information for portfolio selection.
+  abstract_source: pre-print, pdf/EV_paper.pdf (version of June 18, 2012); not compared with the published abstract
+- id: altruism
+  title: 'Measuring Altruism in a Public Goods Experiment: A Comparison of U.S. and Czech Subjects'
+  url: https://link.springer.com/article/10.1007/s10683-011-9274-8
+  doi: 10.1007/s10683-011-9274-8
+  coauthors:
+  - given: Lisa
+    family: Anderson
+  - given: Jeffrey
+    family: Gerlach
+  journal: Experimental Economics
+  status: published
+  year: 2011
+  volume: 14
+  issue: 3
+  pages: 426–437
+  summary: Cross-cultural comparison of altruism using lab experiments
+  abstract: >-
+    This paper compares contributions to an experimental public good across the United States and Czech Republic, using a design that allows us to distinguish between altruism and decision error. Czech subjects contribute significantly more than American subjects, and further analysis reveals that this result cannot be attributed to the confounding effects of gender or decision error. Instead, preferences for altruism appear to differ across groups: Czechs are more altruistic than Americans and men are more altruistic than women.
+  abstract_source: Crossref
+- id: january
+  title: Yes, Wall Street, There is a January Effect! Evidence from Laboratory Auctions
+  url: https://www.tandfonline.com/doi/abs/10.1080/15427560709337012
+  doi: 10.1080/15427560709337012
+  coauthors:
+  - given: Lisa
+    family: Anderson
+  - given: Jeffrey
+    family: Gerlach
+  journal: Journal of Behavioral Finance
+  status: published
+  year: 2007
+  volume: 8
+  issue: 1
+  pages: 1–8
+  summary: Laboratory evidence for the January effect in asset pricing
+  abstract: >-
+    There is a large literature using financial market data on the causes of a “January effect,” which produces higher stock prices in January than in other months of the year. We present the first experimental study of this phenomenon in the context of two well-known auction experiments. After controlling for variables that could influence subject bids, such as differences in private values, cumulative earnings, and learning effects, the prices in the January markets were systematically higher than those in December, a difference that is economically large and statistically significant. The results provide support for the conjecture that psychological factors may contribute to the well-documented January effect in empirical stock market data.
+  abstract_source: OpenAlex
+working_papers:
+- id: bdml
+  title: Bayesian Double Machine Learning for Causal Inference
+  url: https://laurayuliu.com/research/BDML_DL/BDML.pdf
+  coauthors:
+  - given: Laura
+    family: Liu
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2508.12688
+  - label: slides
+    url: /pdf/bdml-slides.pdf
+  summary: Combining Bayesian methods with double machine learning for treatment effect estimation
+  abstract: >-
+    This paper proposes a simple, novel, and fully-Bayesian approach for causal inference in partially linear models with high-dimensional control variables. Off-the-shelf machine learning methods can introduce biases in the causal parameter known as regularization-induced confounding. To address this, we propose a Bayesian Double Machine Learning (BDML) method, which modifies a standard Bayesian multivariate regression model and recovers the causal effect of interest from the reduced-form covariance matrix. Our BDML is related to the burgeoning frequentist literature on DML while addressing its limitations in finite-sample inference. Moreover, the BDML is based on a fully generative probability model in the DML context, adhering to the likelihood principle. We show that in high dimensional setups the naive estimator implicitly assumes no selection on observables—unlike our BDML. The BDML exhibits lower asymptotic bias and achieves asymptotic normality and semiparametric efficiency as established by a Bernstein-von Mises theorem, thereby ensuring robustness to misspecification. In simulations, our BDML achieves lower RMSE, better frequentist coverage, and shorter confidence interval width than alternatives from the literature, both Bayesian and frequentist.
+  abstract_source: arXiv:2508.12688v1
+- id: spillovers-guide
+  title: 'Experimenting with Spillovers: A Guide for Practitioners'
+  coauthors:
+  - given: Alejandro
+    family: Sánchez-Becerra
+  venue_note: Invited Chapter, Oxford Handbook of Impact Evaluation
+  note: email me for a copy
+  summary: A practitioner’s guide to designing and analyzing randomized controlled trials in the presence of spillovers
+  abstract: >-
+    A fundamental assumption in the introductory textbook approach to randomized controlled trials is the absence of spillovers: that assigning a particular treatment to one participant has no causal effect on any other participant. In practice, however, spillovers between experimental participants are common in social science, arising through mechanisms such as displacement and contagion. This chapter presents a comprehensive practitioner’s guide to designing and analyzing randomized controlled trials in the presence of spillovers. We discuss four main approaches: (1) randomized saturation designs that decompose direct and spillover effects by varying treatment intensity across clusters; (2) cluster designs that exploit natural variation in program eligibility to estimate spillovers; (3) group formation experiments that study peer effects by randomly grouping participants; and (4) network targeting experiments that test strategies for leveraging spillovers to improve program effectiveness. For each approach, we detail the necessary assumptions and the meaning of the causal effects that can be recovered. We also provide practical implementation guidance and discuss a variety of real-world applications, ranging from labor market interventions to education and public health. The chapter concludes with a brief overview of extensions, including non-compliance, exposure mappings, and within-cluster network analysis.
+  abstract_source: abstract.tex in ~/experimenting-with-spillovers (last changed 2026-07-05)
+in_progress:
+- id: inference-21c
+  title: Inference for the 21st Century
+  coauthors:
+  - given: Frank
+    family: Schorfheide
+- id: bayes-high-dim
+  title: Bayesian Causal Inference in High Dimensions
+  coauthors:
+  - given: Laura
+    family: Liu
+- id: robustness
+  title: Evaluating Robustness at Scale
+  coauthors:
+  - given: Johanna
+    family: Einsiedler
+  - given: Elizabeth
+    family: Rhodes
+- id: eclips
+  title: 'ECLIPS: the Elevated Childhood Lead Interagency Prevalence Study'
+  coauthors:
+  - given: Ludovica
+    family: Gazze
+  et_al: true
+- id: linking
+  title: To Link or Not to Link? Estimating Long-run Treatment Effects from Historical Data
+  coauthors:
+  - given: Camilo
+    family: García-Jimeno
+  - given: Ezra
+    family: Karger
+- id: colombia
+  title: 'A History of Violence: Forced Displacement and de facto Land Reform in Rural Colombia'
+  title_html: 'A History of Violence: Forced Displacement and <em>de facto</em> Land Reform in Rural Colombia'
+  coauthors:
+  - given: Camilo
+    family: García-Jimeno

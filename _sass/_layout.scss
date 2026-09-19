@@ -253,3 +253,92 @@
         }
     }
 }
+
+
+
+/**
+ * Research page: collapsible abstracts
+ */
+.papers {
+    > li {
+        margin-bottom: $spacing-unit / 3;
+    }
+}
+
+// Small rounded buttons at the end of each entry: links (pre-print, code, ...) and the abstract toggle
+.pill {
+    display: inline-block;
+    margin-left: 0.3em;
+    padding: 0.05em 0.7em 0.1em;
+    border: 1px solid $grey-color-light;
+    border-radius: 999px;
+    font: inherit;
+    font-size: $small-font-size * 0.9;
+    line-height: 1.5;
+    white-space: nowrap;
+    vertical-align: 0.08em;
+    cursor: pointer;
+    transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.pill-link {
+    border-color: lighten($brand-color, 30%);
+    background: #fff;
+
+    &,
+    &:visited {
+        color: $brand-color;
+    }
+
+    &:hover,
+    &:focus-visible {
+        border-color: $brand-color;
+        background: $brand-color;
+        color: #fff;
+        text-decoration: none;
+        outline: none;
+    }
+}
+
+.abstract-toggle {
+    background: lighten($grey-color-light, 5%);
+    color: $grey-color-dark;
+
+    // chevron, drawn with borders so that it does not depend on the font
+    &::after {
+        content: "";
+        display: inline-block;
+        margin-left: 0.45em;
+        padding: 0.16em;
+        border: solid currentColor;
+        border-width: 0 1.5px 1.5px 0;
+        transform: translateY(-0.18em) rotate(45deg);
+        transition: transform 0.15s;
+    }
+
+    &:hover,
+    &:focus-visible {
+        border-color: $grey-color-dark;
+        outline: none;
+    }
+
+    &[aria-expanded="true"] {
+        border-color: $grey-color-dark;
+        background: $grey-color-dark;
+        color: #fff;
+
+        &::after {
+            transform: translateY(0.05em) rotate(-135deg);
+        }
+    }
+}
+
+.abstract-text {
+    > p {
+        margin: ($spacing-unit / 4) 0 ($spacing-unit / 2);
+        padding-left: $spacing-unit / 2;
+        border-left: 2px solid $grey-color-light;
+        color: $grey-color-dark;
+        font-size: $small-font-size;
+    }
+}

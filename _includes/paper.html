@@ -1,0 +1,35 @@
+{%- comment -%}
+  Renders one entry of _data/papers.yml as a list item. Usage: {% include paper.html paper=p %}
+{%- endcomment -%}
+{%- assign p = include.paper -%}
+{%- capture authors -%}
+  {%- for a in p.coauthors -%}
+    {%- if forloop.first == false -%}
+      {%- if forloop.length > 2 -%},{%- endif -%}
+      {%- if forloop.last %} and{% endif %}{{ " " }}
+    {%- endif -%}
+    {{ a.given }} {{ a.family }}
+  {%- endfor -%}
+  {%- if p.et_al %} et al.{% endif -%}
+{%- endcapture -%}
+<li id="{{ p.id }}">
+  {% if p.url %}<a href="{{ p.url }}">{% endif %}{% if p.title_html %}{{ p.title_html }}{% else %}{{ p.title | escape }}{% endif %}{% if p.url %}</a>{% endif %}
+  {%- if p.coauthors.size > 0 %} (with {{ authors | escape }}){% endif -%}
+  {%- if p.journal %}, <em>{{ p.journal | escape }}</em>{% endif -%}
+  {%- if p.venue_note %}, <em>{{ p.venue_note | escape }}</em>{% endif -%}
+  {%- if p.status == "forthcoming" %}, Forthcoming{% endif -%}
+  {%- if p.year %}, {{ p.year }}{% endif -%}
+  {%- if p.article %}, {{ p.volume }}:{{ p.article }}
+  {%- elsif p.volume %}, {{ p.volume }}{% if p.issue %} ({{ p.issue }}){% endif %}{% if p.pages %}, pp. {{ p.pages }}{% endif %}
+  {%- endif -%}
+  {%- if p.note %} ({{ p.note | escape }}){% endif -%}
+  {%- if p.links or p.abstract %}
+  <span class="paper-actions">
+    {%- for l in p.links %}<a class="pill pill-link" href="{{ l.url }}">{{ l.label | escape }}</a>{% endfor -%}
+    {%- if p.abstract %}<button type="button" class="pill abstract-toggle" aria-expanded="false" aria-controls="abstract-{{ p.id }}">Abstract</button>{% endif -%}
+  </span>
+  {%- endif %}
+  {%- if p.abstract %}
+  <div class="abstract-text" id="abstract-{{ p.id }}" hidden><p>{{ p.abstract | escape }}</p></div>
+  {%- endif %}
+</li>

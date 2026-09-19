@@ -1,3 +1,27 @@
+Maintaining the site
+----
+
+Push to `master` and GitHub Pages rebuilds [ditraglia.com](https://ditraglia.com) within a minute or two.
+
+**Papers.** Every paper is recorded once, in `_data/papers.yml`. The research page (`research.html`) and the paper lists in `llms.txt` are generated from that file, so edit papers there and nowhere else. The comment at the top of the file explains how to add a paper, how to move one from working paper to forthcoming to published, and the YAML mistakes to avoid. The look of each entry, including the "Abstract" button, is set in `_includes/paper.html` and at the end of `_sass/_layout.scss`.
+
+**Checking and previewing.**
+
+```bash
+rake check   # validate _data/papers.yml
+rake serve   # validate, then preview at http://localhost:4000
+rake setup   # first time on a new machine: installs Ruby 3.3 and the GitHub Pages gems
+```
+
+**CV.** The CV lives in a separate repository, `fditraglia-cv`, and is maintained by hand. When a paper changes, update the CV to match, rebuild it, and copy `DiTraglia-CV.pdf` into `pdf/` here.
+
+**Other pages** (`index.md`, `teaching.md`, `misc.md`) are ordinary Markdown. The rest of `llms.txt`, covering teaching and projects, is ordinary text and is kept in sync by hand.
+
+The remainder of this file is the original record, from 2014, of how the site was first set up on Ubuntu. It is kept for history and is out of date.
+
+Original setup notes (2014)
+----
+
 This is the git repository for my academic website and blog, built using [Jekyll](http://www.jekyllrb.com) and hosted on [GitHub Pages](https://pages.github.com/) with a custom domain name registered through [DreamHost](http://www.dreamhost.com).
 Although I've used git and GitHub before, I don't know any ruby and this is my first time working with Jekyll.
 This readme serves as a record of everything I did to get the site up and running.

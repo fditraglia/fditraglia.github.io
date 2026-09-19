@@ -1,0 +1,32 @@
+---
+layout: page
+title: Research
+permalink: /research/
+---
+{%- comment -%} Generated from _data/papers.yml; edit entries there. {%- endcomment %}
+
+<h2 id="publications">Publications</h2>
+<ul class="papers">
+{% for p in site.data.papers.publications %}{% include paper.html paper=p %}
+{% endfor %}</ul>
+
+<h2 id="working-papers">Working Papers</h2>
+<ul class="papers">
+{% for p in site.data.papers.working_papers %}{% include paper.html paper=p %}
+{% endfor %}</ul>
+
+<h2 id="in-progress">In Progress</h2>
+<ul class="papers">
+{% for p in site.data.papers.in_progress %}{% include paper.html paper=p %}
+{% endfor %}</ul>
+
+<noscript><style>.abstract-text[hidden] { display: block; } .abstract-toggle { display: none; }</style></noscript>
+<script>
+  document.querySelectorAll(".abstract-toggle").forEach(function (button) {
+    button.addEventListener("click", function () {
+      var text = document.getElementById(button.getAttribute("aria-controls"));
+      text.hidden = !text.hidden;
+      button.setAttribute("aria-expanded", String(!text.hidden));
+    });
+  });
+</script>

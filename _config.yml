@@ -16,3 +16,5 @@ exclude:
   - CLAUDE.md
   - README.md
   - Rakefile.rb
+  - Gemfile
+  - Gemfile.lock
