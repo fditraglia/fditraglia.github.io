@@ -175,6 +175,11 @@
     }
 }
 
+// Keep the home page text in its own column beside the photo, so it never wraps underneath
+.home-photo + .post-content {
+    overflow: hidden;
+}
+
 
 
 /**
@@ -262,6 +267,12 @@
 .papers {
     > li {
         margin-bottom: $spacing-unit / 3;
+
+        // entry reached through a link such as /research/#pawn
+        &:target {
+            background: #fffbe6;
+            box-shadow: 0 0 0 0.4em #fffbe6;
+        }
     }
 }
 

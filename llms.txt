@@ -6,7 +6,7 @@ permalink: /llms.txt
 
 > Associate Professor of Economics at the University of Oxford. Applied econometrician specializing in causal inference, instrumental variables, measurement error, spillovers, and Bayesian inference.
 
-Francis DiTraglia is a Fellow and Tutor in Economics at Lady Margaret Hall, Oxford, and a visiting researcher at the Federal Reserve Bank of Chicago. His research develops statistical methods for untangling cause-and-effect and applies them to questions in economics and public policy. Applied work spans childhood lead exposure and pawn lending. He is co-founder of SQARE.org, maintainer of restatr.com, and blogs at econometrics.blog.
+Francis DiTraglia is a Tutor and Fellow in Economics at Lady Margaret Hall, Oxford, and a visiting researcher at the Federal Reserve Bank of Chicago. His research develops statistical methods for untangling cause-and-effect and applies them to questions in economics and public policy. Applied work spans childhood lead exposure and pawn lending. He is co-founder of SQARE.org, maintainer of restatr.com, and blogs at econometrics.blog.
 
 {% comment %} The two paper lists below are generated from _data/papers.yml; edit papers there. Everything else in this file is ordinary text. {% endcomment -%}
 ## Publications
