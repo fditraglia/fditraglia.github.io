@@ -3,7 +3,7 @@ Maintaining the site
 
 Push to `master` and GitHub Pages rebuilds [ditraglia.com](https://ditraglia.com) within a minute or two.
 
-**Papers.** Every paper is recorded once, in `_data/papers.yml`. The research page (`research.html`) and the paper lists in `llms.txt` are generated from that file, so edit papers there and nowhere else. The comment at the top of the file explains how to add a paper, how to move one from working paper to forthcoming to published, and the YAML mistakes to avoid. The look of each entry, including the "Abstract" button, is set in `_includes/paper.html` and at the end of `_sass/_layout.scss`.
+**Papers.** There is no `research.md` any more; it was replaced in September 2026. Every paper is recorded once, in `_data/papers.yml`. The research page (`research.html`) and the paper lists in `llms.txt` are generated from that file, so edit papers there and nowhere else. The comment at the top of the file explains how to add a paper, how to move one from working paper to forthcoming to published, and the YAML mistakes to avoid. The look of each entry, including the "Abstract" button, is set in `_includes/paper.html` and at the end of `_sass/_layout.scss`.
 
 **Checking and previewing.**
 
