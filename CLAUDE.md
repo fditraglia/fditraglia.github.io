@@ -35,7 +35,7 @@ Push to `master` — GitHub Pages builds and deploys automatically. The custom d
 
 **Styling** lives in `css/main.scss` (variables + imports) pulling from `_sass/` partials. Key breakpoints: `$on-palm: 600px`, `$on-laptop: 800px`.
 
-**Static assets**: PDFs in `pdf/`, datasets in `data/`, images in `img/`.
+**Static assets**: PDFs in `pdf/`, datasets in `data/`, images in `img/`. Never delete or rename a file in `pdf/`: other sites, lecture notes, and outside pages link to these addresses even when no page in this repo does. To retire an old version, overwrite it in place. `pdf/treatment-effects.pdf` is a copy of the lecture notes served at treatment-effects.com; refresh it when those notes change.
 
 **llms.txt**: Served at `ditraglia.com/llms.txt` per the [llmstxt.org](https://llmstxt.org/) standard. The paper lists come from `_data/papers.yml`; keep the teaching and project sections in sync by hand.
 
