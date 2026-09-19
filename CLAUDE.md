@@ -13,6 +13,7 @@ rake setup   # one-time: brew install ruby@3.3, then bundle install
 rake check   # validate _data/papers.yml
 rake serve   # validate, then build and serve at http://localhost:4000
 rake build   # validate, then build into _site
+rake hooks   # one-time per machine: run `rake check` before every commit (hook lives in hooks/pre-commit)
 ```
 
 The rake tasks set `PATH="/opt/homebrew/opt/ruby@3.3/bin:$PATH"` and `BUNDLE_PATH="$HOME/.bundle-github-pages"` before calling `bundle exec jekyll`; set the same two variables to run Jekyll directly.

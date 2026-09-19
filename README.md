@@ -11,7 +11,10 @@ Push to `master` and GitHub Pages rebuilds [ditraglia.com](https://ditraglia.com
 rake check   # validate _data/papers.yml
 rake serve   # validate, then preview at http://localhost:4000
 rake setup   # first time on a new machine: installs Ruby 3.3 and the GitHub Pages gems
+rake hooks   # first time on a new machine: run `rake check` automatically before every commit
 ```
+
+Once `rake hooks` has been run, git refuses a commit when `rake check` fails and prints the reason. Git does not copy hooks when a repo is cloned, so run it once on each machine. To commit anyway, use `git commit --no-verify`.
 
 **CV.** The CV lives in a separate repository, `fditraglia-cv`, and is maintained by hand. When a paper changes, update the CV to match, rebuild it, and copy `DiTraglia-CV.pdf` into `pdf/` here.
 

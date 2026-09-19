@@ -18,4 +18,5 @@ exclude:
   - README.md
   - Rakefile.rb
   - Gemfile
+  - hooks
   - Gemfile.lock

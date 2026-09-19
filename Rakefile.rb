@@ -33,10 +33,16 @@ JEKYLL_ENV = {
   'BUNDLE_PATH' => File.join(Dir.home, '.bundle-github-pages')
 }
 
-desc 'one-time setup: install Ruby 3.3 and the GitHub Pages gems'
-task :setup do
+desc 'one-time setup: install Ruby 3.3 and the GitHub Pages gems, and enable the pre-commit check'
+task :setup => :hooks do
   sh 'brew install ruby@3.3'
   sh JEKYLL_ENV, 'bundle install'
+end
+
+desc 'enable the pre-commit hook in hooks/, which runs `rake check` before every commit'
+task :hooks do
+  sh 'git config core.hooksPath hooks'
+  puts 'Pre-commit check enabled for this copy of the repo.'
 end
 
 desc 'check _data/papers.yml for mistakes that would break or disfigure the site'
