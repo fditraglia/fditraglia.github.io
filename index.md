@@ -7,4 +7,6 @@ My research develops statistical methods for untangling cause and effect and app
 On the methodological side, my interests include causal inference, instrumental variables, measurement error, spillovers, and Bayesian inference.
 On the applied side, my recent and ongoing work spans a range of topics from [childhood lead exposure](/research/#lead-risk) to [pawn lending](/research/#pawn).
 
+I am beginning to explore research questions related to AI safety and am a resident member of the [London Initiative for Safe AI (LISA)](https://www.safeai.org.uk/).
+
 I am co-founder of [SQARE.org](https://sqare.org), maintainer of [restatr](https://restatr.com), and I blog about econometrics, statistics, and R programming at [econometrics.blog](https://www.econometrics.blog/).
